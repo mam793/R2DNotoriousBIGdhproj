@@ -1,0 +1,9 @@
+start = Ready_To_Die_1
+Ready_To_Die_1 = element Ready_To_Die_1 {Intro, Rapper, Track, Verse+, Feature*}
+Intro = element Intro {text}
+Rapper = element Rapper {text}
+Track = element Track {text}
+Verse = element Verse {Class, text}
+Class = element Class {text}
+Feature = element Feature {Artist}
+Artist = attribute Artist {xsd:ID}
