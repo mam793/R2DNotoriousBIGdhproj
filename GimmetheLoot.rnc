@@ -1,4 +1,0 @@
-start = Ready_To_Die_3
-Ready_To_Die_3 = element Ready_To_Die_3 {Verse+}
-Verse = element Verse {Class* | text}
-Class = attribute Class {text}
