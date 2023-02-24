@@ -1,0 +1,13 @@
+start = song
+song = element song {(intro | outro | chorus | verse | interlude | skit)+}
+intro = element intro {text}
+outro = element outro {text}
+skit = element skit {text}
+interlude = element interlude {text}
+chorus = element chorus {artist, text}
+verse = element verse {artist, text} 
+artist = attribute artist {text}
+
+
+
+
