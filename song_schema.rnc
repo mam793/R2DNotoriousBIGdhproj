@@ -1,11 +1,16 @@
 start = song
-song = element song {(intro | outro | chorus | verse | interlude | skit)+}
-intro = element intro {text}
-outro = element outro {text}
-skit = element skit {text}
-interlude = element interlude {text}
-chorus = element chorus {artist, text}
-verse = element verse {artist, text} 
+song = element song {intro*, (chorus* | skit* |interlude* | verse+), outro* }
+intro = element intro {artist, (adlib | theme | style)*}
+outro = element outro {artist,(adlib | theme | style)*}
+skit = element skit {artist, (adlib | theme | style)*}
+interlude = element interlude {artist, (adlib | theme | style)*}
+chorus = element chorus {artist, (adlib | theme | style)*}
+verse = element verse  {artist, (adlib | theme | style)*}
+adlib = element adlib {text}
+style = element style {type, text}
+type = attribute type {text}
+theme = element theme {topic, text}
+topic = attribute topic {text}
 artist = attribute artist {text}
 
 
