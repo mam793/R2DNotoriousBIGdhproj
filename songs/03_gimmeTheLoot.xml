@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist="Biggie">
+    <intro artist="biggie">
         Yeah, motherfuckers better know
         Huh, huh <adlib>I'm a bad, bad, bad</adlib>
         Lock your windows, close your doors
@@ -74,10 +74,10 @@
         Nigga, pass that
         Before you get your grave dug from the main thug
         Three fifty-seven slug</theme>
-        And my nigga Biggie got a <style type="slang">itchy one grip</style>
+        And my nigga Biggie got a <style type="collo">itchy one grip</style>
         One in the chamber, thirty-two in the clip
         Motherfuckers better strip, <adlib>Yeah, nigga, peel!</adlib>
-        Before you find out how <style type = "slang">blue steel</style> feel
+        Before you find out how <style type = "collo">blue steel</style> feel
         From the Beretta, puttin' all the holes in ya sweater
         <theme topic = "wealth">The money-getter, motherfuckers know the pedi'
         Rolex watches and colorful Swatches

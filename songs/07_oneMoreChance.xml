@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist = "">
+    <intro artist = "biggie">
         <theme topic = "sex">All you hoes calling here for my daddy, get off his dick
         <style type = "dialogue">Like that, mommy?
         *Beep*

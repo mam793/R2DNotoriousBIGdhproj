@@ -1,12 +1,15 @@
 # Methodology
 In the works at the moment
 
-## Topics
+## Theme
 - Sex
-- Wealth
+- Money
 - Drugs
 - Family
-- Relationship
+- Relationships
+- Violence
+- Home
+- Reflection
 
 ## Elements
 ### Structural Elements
@@ -28,7 +31,8 @@ In the works at the moment
 - Repetition
 - Allusion
   - Type, Person
-- Slang/Colloquial Terms
+- Slang/Colloquial Terms (collo)
 - Repetition
-- Reflection
-- onomatopoeia
+- Onomatopoeia
+- Dialogue
+- Hyperbole
