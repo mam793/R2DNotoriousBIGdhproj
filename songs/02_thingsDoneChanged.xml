@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <song>
     <chorus artist="Biggie">
         Back in the day 
@@ -118,19 +117,4 @@
         Things done changed on this side 
         Remember they used to thump, but now they blast, right?
     </chorus>
-
-    <outro artist="Biggie">
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right?
-    </outro>
 </song>

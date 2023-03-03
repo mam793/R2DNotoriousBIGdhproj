@@ -1,5 +1,5 @@
 start = song
-song = element song {intro*, (chorus | skit | interlude | verse)+, outro* }
+song = element song {intro?, (chorus | skit | interlude | verse)+, outro? }
 intro = element intro {artist, mixed{(adlib | theme | style)*}}
 outro = element outro {artist, mixed{(adlib | theme | style)*}}
 skit = element skit {artist, mixed{(adlib | theme | style)*}}
@@ -12,6 +12,4 @@ type = attribute type {text}
 theme = element theme {topic, mixed{( adlib | style )*}}
 topic = attribute topic {text}
 artist = attribute artist {text}
-
-
 
