@@ -1,93 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song>[Verse 1: The Notorious B.I.G. & Pop]
-    Who the fuck is this, pagin' me at 5:46 in the morning?
-    Crack of dawn and now I'm yawnin'
-    Wipe the cold out my eye
-    See who's this pagin' me and why
-    It's my nigga, Pop from the barbershop
-    Told me he was in the gambling spot and heard the intricate plot
-    Of niggas wanna stick me like flypaper, neighbor
-    Slow down, love, please chill, drop the caper
-    Remember them niggas from the hill up in Brownsville
-    That you rolled dice with, smoked blunts and got nice with?
-    Yeah, my nigga Fame up in Prospect
-    Nah, them my niggas, nah, love, wouldn't disrespect
-    I didn't say them
-    They schooled me to some niggas that you knew from back when
-    When you was clockin' minor figures
-    Now they heard you're blowin' up like nitro
-    And they wanna stick the knife through your windpipe slow
-    So, thank Fame for warnin' me, 'cause now I'm warnin' you
-    I got the MAC, nigga, tell me what you gonna do
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <verse artist = "biggie pop">
+        <theme topic = "relationship lifestyle">Who the fuck is this, pagin' me at 5:46 in the morning?
+        Crack of dawn and now I'm yawnin'
+        Wipe the cold out my eye
+        See who's this pagin' me and why
+        It's my nigga, Pop from the barbershop
+        Told me he was in the gambling spot and heard the intricate plot
+        <style type="simile">Of niggas wanna stick me like flypaper</style>, neighbor
+        Slow down, love, please chill, drop the caper
+        Remember them niggas from the hill up in Brownsville
+        That you rolled dice with, smoked blunts and got nice with?
+        Yeah, my nigga Fame up in Prospect
+        Nah, them my niggas, nah, love, wouldn't disrespect
+        I didn't say them
+        They schooled me to some niggas that you knew from back when
+        When you was clockin' minor figures
+        Now they heard <style type="simile">you're blowin' up like nitro</style>
+        And they wanna <style type="imagery">stick the knife through your windpipe slow</style>
+        So, thank Fame for warnin' me, 'cause now I'm warnin' you
+        I got the MAC, nigga, tell me what you gonna do</theme>
+    </verse>
     
+    <chorus artist = "biggie">
+        Damn, niggas wanna stick me for my paper
+        Damn, niggas wanna stick me for my paper
+        Damn, niggas wanna stick me for my paper
+        Damn, niggas wanna stick me for my paper
+    </chorus>
     
+    <verse artist = "biggie pop">
+        <style type = "repetition"><theme topic = "wealth">They heard about the Rolexes and the Lexus
+        With the Texas license plates out of state
+        They heard about the pounds you got down in Georgetown
+        And they heard you got half of Virginia locked down</theme>
+        They even heard about the crib</style>
+        You bought your moms out in Florida, the Fifth Corridor
+        Call the coroner!
+        There's gonna be a lot of slow singin' and flower-bringin'
+        If my burglar alarm starts ringin'
+        What ya think all the guns is for?
+        All-purpose war, got the Rottweilers by the door
+        And I feed 'em gunpowder so they can devour
+        The criminals tryin' to drop my decimals
+        Damn, niggas wanna stick me for my <style type = "slang">cream</style>
+        And it ain't a dream, things ain't always what it seem
+        <theme topic = "lifestyle">It's the ones that smoke blunts with ya, see your picture
+        Now they wanna grab they guns and come and get ya</theme>
+        <style type="thirdPerson">Bet ya Biggie won't slip</style>
+        <style type="imagery">I got the Calico with the black talons loaded in the clip
+        So I can rip through the ligaments</style>
+        Put the fuckers in a bad predicament
+        Where all the foul niggas went
+        <theme topic="lifestyle wealth"><style type = "slang">Touch my cheddar, feel my Beretta</style>
+        Buck what I'ma hit you with, you motherfuckers better duck</theme>
+        <style type="imagery">I bring pain, bloodstains on what remains
+        Of his jacket, he had a gun, he shoulda packed it
+        Cocked it, extra clips in my pocket
+        So I can reload and explode on your asshole</style>
+        I fuck around and get hardcore
+        C-4 to your door, no beef no more, nigga
+        Feel the rough, scandalous
+        The more weed smoke I puff, the more dangerous
+        I don't give a fuck about you or your weak crew
+        <style type = "thirdPerson">What you gonna do when Big Poppa come for you?</style>
+        I'm not runnin', nigga, I bust my gun and
+        Hold on, I hear somebody comin'
+    </verse>
     
-    [Chorus]
-    Damn, niggas wanna stick me for my paper
-    Damn, niggas wanna stick me for my paper
-    Damn, niggas wanna stick me for my paper
-    Damn, niggas wanna stick me for my paper
-    
-    [Verse 2: The Notorious B.I.G. & Pop]
-    They heard about the Rolexes and the Lexus
-    With the Texas license plates out of state
-    They heard about the pounds you got down in Georgetown
-    And they heard you got half of Virginia locked down
-    They even heard about the crib
-    You bought your moms out in Florida, the Fifth Corridor
-    Call the coroner!
-    There's gonna be a lot of slow singin' and flower-bringin'
-    If my burglar alarm starts ringin'
-    What ya think all the guns is for?
-    All-purpose war, got the Rottweilers by the door
-    And I feed 'em gunpowder so they can devour
-    The criminals tryin' to drop my decimals
-    Damn, niggas wanna stick me for my cream
-    And it ain't a dream, things ain't always what it seem
-    It's the ones that smoke blunts with ya, see your picture
-    Now they wanna grab they guns and come and get ya
-    Bet ya Biggie won't slip
-    I got the Calico with the black talons loaded in the clip
-    So I can rip through the ligaments
-    Put the fuckers in a bad predicament
-    Where all the foul niggas went
-    Touch my cheddar, feel my Beretta
-    Buck what I'ma hit you with, you motherfuckers better duck
-    I bring pain, bloodstains on what remains
-    Of his jacket, he had a gun, he shoulda packed it
-    Cocked it, extra clips in my pocket
-    So I can reload and explode on your asshole
-    I fuck around and get hardcore
-    C-4 to your door, no beef no more, nigga
-    Feel the rough, scandalous
-    The more weed smoke I puff, the more dangerous
-    I don't give a fuck about you or your weak crew
-    What you gonna do when Big Poppa come for you?
-    I'm not runnin', nigga, I bust my gun and
-    Hold on, I hear somebody comin'
-    
-    You might also like
-    Ready to Die
-    The Notorious B.I.G.
-    The What
-    The Notorious B.I.G.
-    Machine Gun Funk
-    The Notorious B.I.G.
-    
-    [Skit]
-    C'mon, motherfucker
-    Man, I'm comin' as fast as I can
-    Just g— bring your motherfuckin' ass on, come on
-    Are we gettin' close, huh?
-    It's right over here
-    You sure it's Biggie Smalls crib, man?
-    Yeah, I'm sure, motherfucker, come on
-    Man, fuck, this better be his motherfuckin' house
-    Fuck, right here
-    Tsk, this better be this motherfucker's house
-    Oh shit
-    What? What's wrong?
-    What's that red dot on your head, man?
-    What red dot?
-    Oh shit! You got a red dot on your head, too
-    Oh shit!</song>
+    <skit artist = "">
+        C'mon, motherfucker
+        Man, I'm comin' as fast as I can
+        Just g— bring your motherfuckin' ass on, come on
+        Are we gettin' close, huh?
+        It's right over here
+        You sure it's Biggie Smalls crib, man?
+        Yeah, I'm sure, motherfucker, come on
+        Man, fuck, this better be his motherfuckin' house
+        Fuck, right here
+        Tsk, this better be this motherfucker's house
+        Oh shit
+        What? What's wrong?
+        What's that red dot on your head, man?
+        What red dot?
+        Oh shit! You got a red dot on your head, too
+        Oh shit!
+    </skit>
+</song>

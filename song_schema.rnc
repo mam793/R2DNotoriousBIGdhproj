@@ -1,13 +1,17 @@
 start = song
-song = element song {(intro | outro | chorus | verse | interlude | skit)+}
-intro = element intro {text}
-outro = element outro {text}
-skit = element skit {text}
-interlude = element interlude {text}
-chorus = element chorus {artist, text}
-verse = element verse {artist, text} 
+song = element song {intro*, (chorus | skit | interlude | verse)+, outro* }
+intro = element intro {artist, mixed{(adlib | theme | style)*}}
+outro = element outro {artist, mixed{(adlib | theme | style)*}}
+skit = element skit {artist, mixed{(adlib | theme | style)*}}
+interlude = element interlude {artist, mixed{(adlib | theme | style)*}}
+chorus = element chorus {artist, mixed{(adlib | theme | style)*}}
+verse = element verse  {artist, mixed{(adlib | theme | style)*}}
+adlib = element adlib {text}
+style = element style {type, mixed{( adlib | theme )*}} 
+type = attribute type {text}
+theme = element theme {topic, mixed{( adlib | style )*}}
+topic = attribute topic {text}
 artist = attribute artist {text}
-
 
 
 

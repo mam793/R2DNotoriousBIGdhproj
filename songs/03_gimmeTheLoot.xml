@@ -1,144 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    [Intro: Notorious B.I.G.]
-    Yeah, motherfuckers better know
-    Huh, huh (I'm a bad, bad, bad)
-    Lock your windows, close your doors
-    Biggie Smalls
-    Huh, yeah
-    (I'm a bad, bad, bad)
-    
-    [Verse 1]
-    My man Inf left a TEC and a nine at my crib
-    Turned him self in, he had to do a bid
-    A one-to-three, he be home the end of '93
-    I'm ready to get this paper, G, you with me?
-    Motherfuckin' right, my pockets lookin' kinda tight
-    And I'm stressed
-    Yo, Biggie let me get the vest
-    No need for that, just grab the fuckin' gat
-    The first pocket that's fat, the TEC is to his back
-    Word is bond, I'ma smoke him, yo, don't fake no moves (What?)
-    Treat it like boxin', stick and move, stick and move
-    Nigga, you ain't got to explain shit
-    I've been robbin' motherfuckers since the slave ships
-    With the same clip and the same four-five
-    Two point blank, a motherfucker sure to die
-    That's my word, nigga even try to bogard
-    Have his mother singin', "It's so hard"
-    Yes, love, love your fuckin' attitude
-    Because the nigga play pussy
-    That's the nigga that's gettin' screwed
-    And bruised up from the pistol whippin'
-    Welts on the neck from the necklace strippin'
-    Then I'm dippin' up the block and I'm robbin' bitches, too
-    Up the herringbones and bamboos
-    I wouldn't give a fuck if you're tnangerp
-    Give me the baby rings and the #1 Mom pendant
-    I'm slammin' niggas like Shaquille, shit is real
-    When it's time to eat a meal I rob and steal
-    'Cause mom duke ain't givin' me shit
-    So for the bread and butter, I leave niggas in the gutter
-    Huh, word to mother, I'm dangerous
-    Crazier than a bag of fuckin' angel dust
-    When I bust my gat, motherfuckers take dirt naps
-    I'm all that and a dime sack, where the paper at?
-    
-    
-    [Interlude]
-    When he's stickin' you and takin' all of your money
-    
-    [Chorus]
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    (What's mines is mines and what's yours is mine)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    (What's mines is mines and what's yours is mine)
-    
-    [Verse 2]
-    Big up! Big up! It's a stick up! Stick up!
-    And I'm shootin' niggas quick if ya hiccup
-    Don't let me fill my clip up in ya back and headpiece
-    The opposite of peace, sendin' mom duke a wreath
-    You're talkin' to the robbery expert
-    Step into your wake with your blood on my shirt
-    Don't be a jerk and get smoked over bein' resistant
-    'Cause when I lick shots them shits is persistent
-    Goodness gracious, the papers
-    Where the cash at? Where the stash at?
-    Nigga, pass that
-    Before you get your grave dug from the main thug
-    Three fifty-seven slug
-    And my nigga Biggie got a itchy one grip
-    One in the chamber, thirty-two in the clip
-    Motherfuckers better strip, (Yeah, nigga, peel!)
-    Before you find out how blue steel feel
-    From the Beretta, puttin' all the holes in ya sweater
-    The money-getter, motherfuckers know the pedi'
-    Rolex watches and colorful Swatches
-    I'm diggin' in pockets, motherfuckers can't stop it
-    Man, niggas come through, I'm takin' high school rings too
-    Bitches get delgnarts for their earrings and bangles
-    And when I rock her and drop her, I'm taking her door knockers
-    And if she's resistant: blakka, blakka, blakka
-    So go get your man, bitch, he can get robbed, too
-    Tell him Biggie took it, what the fuck he gonna do?
-    Man I hope apologetic or I'm a have to set it
-    And if I set it, the cocksucker won't forget it
-    
-    You might also like
-    O Holy Night
-    Christmas Songs
-    Warning
-    The Notorious B.I.G.
-    Ready to Die
-    The Notorious B.I.G.
-    
-    [Interlude]
-    Hey bitch, hey bitch, gimme your money bitch (When he's stickin' you and takin' all your money)
-    
-    [Chorus]
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    (What's mines is mines and what's yours is mine)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    Gimme the loot, gimme the loot (I'm a bad, bad, bad)
-    (What's mines is mines and what's yours is mine)
-    
-    [Verse 3]
-    Man listen, all this walkin' is hurtin' my feet
-    Ooh, money looks sweet
-    Where at? In the Isuzu Jeep
-    Man, I throw him in the fiend you grab the fucking cream
-    And if he start to scream, bom-bom, have a nice dream
-    Hold up, he got a fucking bitch in the car
-    Fur coats and diamonds, she think she a superstar
-    Ooh, Biggie let me jack her, I'll kick her in the back
-    Hit her with the gat
-    Yo, chill, shorty, let me do that
-    Just get the fucking car keys and cruise up the block
-    The bitch act shocked getting shot on the spot
-    Oh shit, the cops
-    Be cool, fool
-    They ain't gonna roll up, all they want is fucking doughnuts
-    So why the fuck he keep looking?
-    I guess to get his life tooken
-    I just came home, ain't trying to see Central Booking
-    Oh shit, now he looking in my face
-    You better haul ass 'cause I ain't with no fucking chase
-    So lace up your boots, 'cause I'm about to shoot
-    A true motherfucker going out for the loot
-    
-    
-    [Outro]
-    Take that motherfuckers
+    <intro artist="Biggie">
+        Yeah, motherfuckers better know
+        Huh, huh <adlib>I'm a bad, bad, bad</adlib>
+        Lock your windows, close your doors
+        Biggie Smalls
+        Huh, yeah
+        <adlib>I'm a bad, bad, bad</adlib>
+    </intro>
+    <verse artist="biggie">
+        My man Inf left a TEC and a nine at my crib
+        Turned him self in, he had to do a bid
+        A one-to-three, he be home the end of '93
+        <theme topic="wealth">I'm ready to get this paper, G, you with me?
+        Motherfuckin' right, my pockets lookin' kinda tight
+        And I'm stressed</theme>
+        <theme topic = "lifestyle">Yo, Biggie let me get the vest
+        No need for that, just grab the fuckin' gat
+        The first pocket that's fat, the TEC is to his back
+        Word is bond, I'ma smoke him, yo, don't fake no moves <adlib>What?</adlib>
+        Treat it like boxin', stick and move, stick and move
+        Nigga, you ain't got to explain shit</theme>
+        <theme topic="wealth">I've been robbin' motherfuckers since the slave ships
+        With the same clip and the same four-five
+        Two point blank, a motherfucker sure to die</theme>
+        That's my word, nigga even try to bogard
+        Have his mother singin', "It's so hard"
+        Yes, love, love your fuckin' attitude
+        Because the nigga play pussy
+        That's the nigga that's gettin' screwed
+        And bruised up from the pistol whippin'
+        Welts on the neck from the necklace strippin'
+        <theme topic="wealth">Then I'm dippin' up the block and I'm robbin' bitches, too
+        Up the herringbones and bamboos
+        I wouldn't give a fuck if you're tnangerp
+        Give me the baby rings and the #1 Mom pendant</theme>
+        <style type="simile">I'm slammin' niggas like Shaquille</style>, shit is real
+        When it's time to eat a meal I rob and steal
+        'Cause mom duke ain't givin' me shit
+        <style type="doubleEntendre">So for the bread and butter, I leave niggas in the gutter</style>
+        Huh, word to mother, I'm dangerous
+        <style type="simile">Crazier than a bag of fuckin' angel dust</style>
+        When I bust my gat, <style type="metaphor">motherfuckers take dirt naps</style>
+        I'm all that and a dime sack, where the paper at?
+    </verse>
+    <interlude artist="biggie">
+        <theme topic="wealth">When he's stickin' you and takin' all of your money</theme>
+    </interlude>
+    <chorus artist = "biggie">
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        <adlib>What's mines is mines and what's yours is mine</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        <adlib>What's mines is mines and what's yours is mine</adlib>
+    </chorus>
+    <verse artist="biggie">
+        <style type="repetition">Big up! Big up! It's a stick up! Stick up!</style>
+        <theme topic = "lifestyle">And I'm shootin' niggas quick if ya hiccup
+        Don't let me fill my clip up in ya back and headpiece
+        The opposite of peace, sendin' mom duke a wreath
+        You're talkin' to the robbery expert
+        Step into your wake with your blood on my shirt
+        Don't be a jerk and get smoked over bein' resistant
+        'Cause when I lick shots them shits is persistent</theme>
+        <theme topic="wealth">Goodness gracious, the papers
+        Where the cash at? Where the stash at?
+        Nigga, pass that
+        Before you get your grave dug from the main thug
+        Three fifty-seven slug</theme>
+        And my nigga Biggie got a <style type="slang">itchy one grip</style>
+        One in the chamber, thirty-two in the clip
+        Motherfuckers better strip, <adlib>Yeah, nigga, peel!</adlib>
+        Before you find out how <style type = "slang">blue steel</style> feel
+        From the Beretta, puttin' all the holes in ya sweater
+        <theme topic = "wealth">The money-getter, motherfuckers know the pedi'
+        Rolex watches and colorful Swatches
+        I'm diggin' in pockets, motherfuckers can't stop it
+        Man, niggas come through, I'm takin' high school rings too
+        Bitches get delgnarts for their earrings and bangles
+        And when I rock her and drop her, I'm taking her door knockers
+        And if she's resistant: <style type = "onomatopoeia">blakka, blakka, blakka</style>
+        So go get your man, bitch, he can get robbed, too</theme>
+        Tell him <style type="thirdPerson">Biggie</style> took it, what the fuck he gonna do?
+        Man I hope apologetic or I'm a have to set it
+        And if I set it, the cocksucker won't forget it
+        
+        Hey bitch, hey bitch, gimme your money bitch <adlib>When he's stickin' you and takin' all your money</adlib>
+    </verse>
+    <chorus artist="biggie">
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        <adlib>What's mines is mines and what's yours is mine</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib>
+        <adlib>What's mines is mines and what's yours is mine</adlib>
+    </chorus>
+    <verse artist="biggie">
+        Man listen, all this walkin' is hurtin' my feet
+        <theme topic = "wealth">Ooh, money looks sweet</theme>
+        <theme topic = "lifestyle">Where at? In the Isuzu Jeep
+        Man, I throw him in the fiend you grab the fucking cream
+        And if he start to scream, bom-bom, have a nice dream
+        Hold up, he got a fucking bitch in the car</theme>
+        <theme topic = "wealth lifestyle">Fur coats and diamonds, she think she a superstar
+        Ooh, Biggie let me jack her, I'll kick her in the back
+        Hit her with the gat
+        Yo, chill, shorty, let me do that
+        Just get the fucking car keys and cruise up the block
+        The bitch act shocked getting shot on the spot
+        Oh shit, the cops
+        Be cool, fool
+        They ain't gonna roll up, all they want is fucking doughnuts
+        So why the fuck he keep looking?
+        I guess to get his life tooken
+        I just came home, ain't trying to see Central Booking
+        Oh shit, now he looking in my face
+        You better haul ass 'cause I ain't with no fucking chase
+        So lace up your boots, 'cause I'm about to shoot
+        A true motherfucker going out for the loot</theme>
+    </verse>
+    <outro artist="biggie">
+        Take that motherfuckers
+    </outro>
 </song>

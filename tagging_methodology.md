@@ -31,4 +31,4 @@ In the works at the moment
 - Slang/Colloquial Terms
 - Repetition
 - Reflection
-- 
+- onomatopoeia
