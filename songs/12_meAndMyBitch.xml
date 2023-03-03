@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     
     <intro artist="Biggie PuffDaddy Girl">Yo let— let— let me ask you a question, yo
@@ -12,13 +13,13 @@
     <verse artist="Biggie">When I met you, I admit, my first thoughts was to trick
     You look so good, huh, I'll suck on your daddy's dick
     I never felt that way in my life
-    It didn't take long before I made you my wife
+    <theme topic="relationships">It didn't take long before I made you my wife</theme>
     Got no rings and shit, just my main squeeze
     Comin' to the crib, even had a set of keys
     During the days you helped me bag up my nickels
     In the process, I admit, I tricked a little
-    But you was my bitch, the one who'd never snitch
-    Love me when I'm broke or when I'm filthy fuckin' rich
+    <theme topic="relationships">But you was my bitch, the one who'd never snitch
+    Love me when I'm broke or when I'm filthy fuckin' rich</theme>
     And I admit, when the time is right, the wine is right
     I treat you right, <theme topic="violence">you talk slick, I beat you right</theme>
     </verse>
@@ -45,7 +46,7 @@
     A real bitch is all I want, all I ever had
     With a bop just as strong as me
     Totin' guns just as long as me, the bitch belongs with me
-    Any plans with another bitch, my bitch'll spoil it
+   <theme topic="reflection relationships"> Any plans with another bitch, my bitch'll spoil it
     One day, she used my toothbrush to clean the toilet
     Throwin' my clothes out the windows, so when the wind blows
     I see my Polos and Timbos
@@ -54,7 +55,7 @@
     And if I deceive, she won't take it lightly
     She'll invite me, politely, to fight, G
     And then we lie together, cry together
-    I swear to God I hope we fuckin' die together</verse> 
+    I swear to God I hope we fuckin' die together</theme></verse> 
     
     <chorus artist="Biggie PuffDaddy Girl">Just me and my bitch, just me and my bitch, yeah
     <adlib>Nigga, nigga, if I ever</adlib>
@@ -74,7 +75,7 @@
     <adlib>Yo, don— don't play with my dick</adlib></chorus>
     
     
-    <verse artist="Biggie">She helped me plan out my robberies on my enemies
+    <verse artist="Biggie"><style type="anecdote">She helped me plan out my robberies on my enemies
     Didn't hesitate to squeeze to get my life out of danger
     One day, she put 911 on the pager
     Had to call back, whether it's minor or major
@@ -85,20 +86,20 @@
     Drove down the block, stashed the burner in the bushes
     Stepped to police with the shoves and the pushes
     It didn't take long before the tears start
-    I saw my bitch dead with the gunshot to the heart
+    <theme topic="violence">I saw my bitch dead with the gunshot to the heart</theme>
     And I know it was meant for me
     I guess the niggas felt they had to kill the closest one to me
     And when I find 'em your life is to an end
-    They killed my best friend, me and my bitch</verse>
+    They killed my best friend, me and my bitch</style></verse>
         
-    <chorus artist="Biggie">Just me and my bitch, me and my bitch, yeah
+    <chorus artist="Biggie"><style type="repitition">Just me and my bitch, me and my bitch, yeah
     Just me and my bitch, yeah, just me and my bitch, uh
     Just me and my bitch, me and my bitch, yeah
     Just me and my bitch, yeah, just me and my bitch, uh
     Just me and my bitch, just me and my bitch, yeah
     Just me and my bitch, just me and my bitch
     Just me and my bitch, me and my bitch, yeah
-    Just me and my bitch</chorus>
+    Just me and my bitch</style></chorus>
        
     <skit artist="Biggie PuffDaddy Girl">Let's get started then
     So when did you first start rappin'?

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <verse artist="Biggie"><theme topic="sex">I used to get feels on a bitch Now I throw shields on
             the dick to stop me from that HIV shit</theme>
-        <style type="simile" reference="general">And niggas know they soft like a Twinkie</style> filling Playing the
-        villain, prepare for this rap killing Biggie Smalls is the illest,<style> your style is
-            played out Like Arnold on that,</style><style type="allusion" reference="TV">"What you talking 'bout,
-            Willis?"</style> The thrill is gone, the Black Frank White Is here to excite and throw
+        <style type="simile">And niggas know they soft like a Twinkie</style> filling Playing the
+        villain, prepare for this rap killing Biggie Smalls is the illest,<style type="simile"> your style is
+            played out Like Arnold on that,</style><style type="allusion">"What you talking 'bout,
+            Willis?"</style> The thrill is gone, <style type="allusion">the Black Frank White Is here</style> to excite and throw
         dick to dykes Bitches I like 'em brainless, guns I like 'em stainless steel <style
             type="allusion">I want the fucking fortune like the Wheel</style>
-        <theme topic="violence">I squeeze gats 'til my clips is empty</theme> Don't tempt me, you
+        <theme topic="violence"><style type="collo">I squeeze gats 'til my clips is empty</style></theme> Don't tempt me, you
         don't want to fuck with the M-E...</verse>
 
     <verse artist="Method Man">...T-H-O-D Man, here I am I'll be damned if this ain't some shit Come
@@ -27,8 +28,8 @@
             niggas pack the clips</adlib> Keep on, bitch You might also like Warning The Notorious
         B.I.G. One More Chance The Notorious B.I.G. Fuck Me <adlib>Interlude</adlib> The Notorious
         B.I.G.</chorus>
-    <verse artist="Method Man"> Verse two, coming with that Olde E brew Meth-tical, 
-        <theme topic="violence"> putting niggas back in ICU</theme>I'm lifted, troop, you can bring
+    <verse artist="Method Man"> Verse two, coming with that Olde E brew Meth-tical, <theme
+            topic="violence"> putting niggas back in ICU</theme>I'm lifted, troop, you can bring
         your wack-ass crew I got connections, <theme topic="violence">I'll get that ass stuck like
             glue</theme> Huh, no question, I be coming down and shit Yo I gets rugged as a
         motherfucking carpet get And niggas love it, not in the physical form but in the mental I
@@ -38,11 +39,11 @@
 
     <verse artist="Biggie">Welcome to my center, <theme topic="sex">honeys feel it deep in they
             placenta</theme> Cold as the pole in the winter Far from the inventor, but I got this
-        rap shit sewed And when my MAC unloads I'm guaranteed another video Ready to die, why I act
+        rap shit sewed <style type="collo">And when my MAC unloads</style> I'm guaranteed another video Ready to die, why I act
         that way? Pop duke left mom duke, the faggot took the back way <theme topic="sex">So instead
-            of making hoes suck my dick up</theme> I used to do stick-ups, 'cause hoes is irritating
-        like the hiccups Excuse me, flows just grow through me Like trees to branches, cliffs to
-        avalanches It's the praying mantis, deep like the mind of Farrakhan A motherfucking rap
+            of making hoes suck my dick up</theme> I used to do stick-ups, <style type="simile">'cause hoes is irritating
+        like the hiccups</style> Excuse me, <style type="simile">flows just grow through me Like trees to branches,</style> cliffs to
+        avalanches It's the praying mantis, <style type="simile">deep like the mind of Farrakhan</style> A motherfucking rap
         phenomenon, plus <adlib>I got more Glocks and TECs than you</adlib> I make it hot,
             <adlib>niggas won't even stand next to you</adlib>
         <theme topic="violence">Nigga touch me you better bust me three times in the head Or
