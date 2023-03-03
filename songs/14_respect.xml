@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
-    [Intro: Diana King & The Notorious B.I.G.]
-    No big up our gun men, seen? (Big up, big up)
+    
+    <intro artist="Biggie DianaKing">No big up our gun men, seen? <adlib>Big up, big up</adlib>
     Cuh dis ah '94 when ah RAA fi kill people and kyaan dun
     Nuh waan pussy hole hold di kaanah
-    Watch this, lawd
+    Watch this, lawd</intro>
     
-    [Chorus: Diana King]
-    Me holla respect, to all the gun men dem
+    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
     Fire bun, fi all the informer dem
-    Informer lone keep informer friend
+    Informer lone keep informer friend</chorus>   
     
-    
-    [Verse 1: The Notorious B.I.G.]
-    1970 something, nigga I don't sweat the date
-    My moms is late so I had to plan my escape
+    <verse artist="Biggie">1970 something, nigga I don't sweat the date
+    <theme topic="mom">My moms is late so I had to plan my escape</theme>
     Out the skins, in this world of fly girls
-    Tanqueray and Hennessy until I call hurl
+    <theme topic="alcohol">Tanqueray and Hennessy until I call hurl</theme>
     Ten months in this gut, what the fuck?
     I wish moms would hurry up so I could get buck
     Wild juvenile ripping mics and shit
@@ -29,16 +26,14 @@
     Umbilical cord's wrapped around my neck
     I'm seeing my death and I ain't even took my first step
     I made it out, I'm bringing mad joy
-    The doctor looked and said, "He's going to be a bad boy"
-    
-    [Chorus: Diana King]
-    Me holla respect, to all the gun men dem
+    The doctor looked and said, "He's going to be a bad boy"</verse>
+      
+    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
     Fire bun, fi all the informer dem
-    Informer lone keep informer friend
+    Informer lone keep informer friend</chorus>   
     
-    [Verse 2: The Notorious B.I.G.]
-    Now I'm thirteen, smoking blunts, making cream
+    <verse artist="Biggie">Now I'm thirteen, smoking blunts, making cream
     On the drug scene, fuck a football team
     Risking ruptured spleens by the age of sixteen
     Hearing the coach scream ain't my lifetime dream
@@ -53,28 +48,18 @@
     C74-Mark 8 set me straight
     Not able to move behind the great steel gate
     Time to contemplate, damn, where did I fail?
-    All the money I stacked was all the money for bail
-    
-    You might also like
-    Machine Gun Funk
-    The Notorious B.I.G.
-    Who Shot Ya?
-    The Notorious B.I.G.
-    The What
-    The Notorious B.I.G.
-    
-    [Chorus: Diana King]
-    Me holla respect, to all the gun men dem
+    All the money I stacked was all the money for bail</verse>
+     
+    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
     Fire bun, fi all the informer dem
     Informer lone keep informer friend
     Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
     Fire bun, fi all the informer dem
-    Informer lone keep informer friend
-    
-    [Verse 3: The Notorious B.I.G.]
-    Ninety-four, now I explore new horizons
+    Informer lone keep informer friend</chorus>
+      
+    <verse artist="Biggie">Ninety-four, now I explore new horizons
     Mama smile when she see me, that's surprising
     Honeys is tantalizing, they freak all night
     Keep ducking cops on the creep all night
@@ -87,17 +72,14 @@
     If I'm dipping on The F with weed on my breath
     Original hustler with the muffler on the TEC
     Respect to the macks in the Ac's
-    To the freaks in the Jeeps, lick shots to my peeps
+    To the freaks in the Jeeps, lick shots to my peeps</verse>
     
-    
-    [Chorus: Diana King] X2
-    Me holla respect, to all the gun men dem
+    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
     Fire bun, fi all the informer dem
-    Informer lone keep informer friend
-    
-    [Post-Chorus: Diana King]
-    Now this is Diana King doing a Yankee thing
+    Informer lone keep informer friend</chorus>
+      
+    <verse artist="DianaKing">Now this is Diana King doing a Yankee thing
     In a Biggie Small's thing, do it, Ja
     Have mercy!
     The gunman in all de party
@@ -107,17 +89,15 @@
     The wul ah we in ah de party
     And everybody look irie
     Now di man them sexy, sexy, sexy
-    Do it
-    
-    [Outro: Diana King]
-    No mercy fuh nuh big up unnu self
+    Do it</verse>
+     
+    <outro artist="DianaKing">No mercy fuh nuh big up unnu self
     Cuh we nuh watch nuh this girl seen?
     The hardcore thing we ah deal with
     Oh yes, we are the best
-    No other guy can test
-    
-    [Skit: The Notorious B.I.G. & Faith Evans]
-    Shit, Mami, damn, why you actin like that, man?
+    No other guy can test</outro>
+       
+    <skit artist="Biggie FaithEvans">Shit, Mami, damn, why you actin like that, man?
     'Cause I don't be doin' this
     I'm sayin', you know it ain't nothin'
     It's just part of sex, ya know'm saying
@@ -129,5 +109,5 @@
     That's what I'm sayin', yeah
     You know I don't be doin' this though
     You know that
-    Whatever bitch!
+    Whatever bitch!</skit>
 </song>
