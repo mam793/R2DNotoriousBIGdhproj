@@ -1,8 +1,0 @@
-start = Ready_To_Die_2
-Ready_To_Die_2 = element Ready_To_Die_2 {Title, Rapper, Track, Verse+}
-Title = element Title {text}
-Rapper = attribute Rapper {xsd:ID}
-Track = element Track {text}
-Verse = element Verse {Class+ | text}
-Class = attribute Class{ text}
-
