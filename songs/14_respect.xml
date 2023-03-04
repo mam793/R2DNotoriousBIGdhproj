@@ -12,17 +12,17 @@
     Informer lone keep informer friend</chorus>   
     
     <verse artist="Biggie">1970 something, nigga I don't sweat the date
-    <theme topic="mom">My moms is late so I had to plan my escape</theme>
+    <theme topic="family">My moms is late so I had to plan my escape</theme>
     Out the skins, in this world of fly girls
-    <theme topic="alcohol">Tanqueray and Hennessy until I call hurl</theme>
+    <theme topic="drugs">Tanqueray and Hennessy until I call hurl</theme>
     Ten months in this gut, what the fuck?
     I wish moms would hurry up so I could get buck
     Wild juvenile ripping mics and shit
     New York, New York, ready for the likes of this
-    Then came the worst date, May 21st
+    <theme topic="family">Then came the worst date, May 21st
     2:19, that's when my mama water burst
     No spouse in the house so she rode for self
-    To the hospital, to see if she could get a little help
+    To the hospital, to see if she could get a little help</theme>
     Umbilical cord's wrapped around my neck
     I'm seeing my death and I ain't even took my first step
     I made it out, I'm bringing mad joy
@@ -33,22 +33,22 @@
     Fire bun, fi all the informer dem
     Informer lone keep informer friend</chorus>   
     
-    <verse artist="Biggie">Now I'm thirteen, smoking blunts, making cream
-    On the drug scene, fuck a football team
+    <verse artist="Biggie"><style type="anecdote">Now I'm thirteen, <theme topic="drugs">smoking blunts</theme>, making cream
+    <theme topic="drugs">On the drug scene, fuck a football team</theme>
     Risking ruptured spleens by the age of sixteen
     Hearing the coach scream ain't my lifetime dream
-    I mean, I want to blow up, stack my dough up
+    I mean, <theme topic="money">I want to blow up, <style type="collo">stack my dough up</style></theme>
     So school I didn't show up, it fucked my flow up
-    Mom said that I should grow up and check myself
-    Before I wreck myself, disrespect myself
+    <theme topic="family">Mom said that I should grow up and check myself
+    Before I wreck myself, disrespect myself</theme>
     Put the drugs on the shelf? Nah, couldn't see it
-    Scarface, King of New York, I want to be it
-    Rap was secondary, money was necessary
-    Until I got incarcerated, kinda scary
+    <style type="allusion">Scarface, King of New York,</style> I want to be it
+    <theme topic="reflection">Rap was secondary, money was necessary
+    Until I got incarcerated, kinda scary</theme>
     C74-Mark 8 set me straight
     Not able to move behind the great steel gate
     Time to contemplate, damn, where did I fail?
-    All the money I stacked was all the money for bail</verse>
+    All the money I stacked was all the money for bail</style></verse>
      
     <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
@@ -59,8 +59,8 @@
     Fire bun, fi all the informer dem
     Informer lone keep informer friend</chorus>
       
-    <verse artist="Biggie">Ninety-four, now I explore new horizons
-    Mama smile when she see me, that's surprising
+    <verse artist="Biggie"><style type="anecdote">Ninety-four, now I explore new horizons
+    <theme topic="family">Mama smile when she see me, that's surprising</theme>
     Honeys is tantalizing, they freak all night
     Keep ducking cops on the creep all night
     As I open my eyes and realizing I changed
@@ -68,11 +68,11 @@
     And to my niggas living street life
     Learn to treat life to the best, put stress to rest
     Still tote your vest man, niggas be tripping
-    In the streets without a gat? Nah, nigga you're slipping
+    <style type="collo">In the streets without a gat?</style> Nah, nigga you're slipping
     If I'm dipping on The F with weed on my breath
     Original hustler with the muffler on the TEC
     Respect to the macks in the Ac's
-    To the freaks in the Jeeps, lick shots to my peeps</verse>
+    To the freaks in the Jeeps, lick shots to my peeps</style></verse>
     
     <chorus artist="DianaKing">Me holla respect, to all the gun men dem
     Gun men alone, keep gun men friend
@@ -97,7 +97,8 @@
     Oh yes, we are the best
     No other guy can test</outro>
        
-    <skit artist="Biggie FaithEvans">Shit, Mami, damn, why you actin like that, man?
+    <skit artist="Biggie FaithEvans">
+        <style type="dialogue">Shit, Mami, damn, why you actin like that, man?
     'Cause I don't be doin' this
     I'm sayin', you know it ain't nothin'
     It's just part of sex, ya know'm saying
@@ -109,5 +110,5 @@
     That's what I'm sayin', yeah
     You know I don't be doin' this though
     You know that
-    Whatever bitch!</skit>
+    Whatever bitch!</style></skit>
 </song>
