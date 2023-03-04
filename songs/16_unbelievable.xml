@@ -1,122 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <song>
-    [Intro]
-    Biggie Smalls is the illest (Uh)
-    What? Uh
-    Biggie— Biggie— Biggie Smalls is the illest
-    Uh
-    Biggie Smalls, Biggie— Biggie— Biggie Smalls
-    Biggie— Biggie— Biggie Smalls is the illest
-    Uh, yeah
-    Biggie— Biggie— Biggie Smalls is the illest
-    
-    [Verse 1]
-    Live from Bedford-Stuyvesant, the livest one
-    Representing BK to the fullest
-    Gats, I pull it
-    Bastards ducking when B.I.G. be bucking
-    Chickenheads be clucking, in my back room fucking
-    It ain't nothing
-    They know B.I.G. be handling
-    With the MAC in the Ac' door paneling
-    Bandaging MC's, oxygen, they can't breathe
-    Mad tricks up the sleeve
-    Wear boxers so my dick can breathe
-    Breeze through in the Q
-    Forty-five by my side, lyrical high
-    And those that rushes my clutches get put on crutches
-    Get smoked like Dutches from the master
-    Hate to blast ya but I have to
-    You see I smoke a lot
-    Your life is played out like Kwame
-    And them fucking polka dots
-    Who rock the spot? Biggie
-    You know how the weed go, unbelievable
-    
-    
-    [Chorus]
-    It's unbelievable
-    Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    
-    [Verse 2]
-    B-I-G, G-I-E
-    A-K-A., B-I-G
-    Get it? Biggie
-    Also known as the bon appétit
-    Rappers can't sleep need sleeping
-    B.I.G. keep creeping
-    Bullets heat-seeking, casualties need treating
-    Dumb rappers need teaching
-    Lesson A: Don't fuck with B-I
-    That's that "Oh I, thought he was wack"
-    Oh, come, come now, why y'all so dumb now
-    Hunt me or be hunted
-    I got three hundred and fifty-seven ways
-    To simmer sauté, I'm the winner all day
-    Lights get dimmer down Biggie's hallway
-    My forte causes Caucasians to say
-    "He sounds demented"
-    Car weed scented, if I said it, I meant it
-    Bite my tongue for no one
-    Call me evil, or unbelievable
-    
-    You might also like
-    Machine Gun Funk
-    The Notorious B.I.G.
-    The What
-    The Notorious B.I.G.
-    Respect
-    The Notorious B.I.G.
-    
-    [Chorus]
-    It's unbelievable
-    Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    It's unbelievable
-    Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    
-    [Verse 3]
-    Buck shots out the sun roof of Lexus coupes
-    Leave no witnesses, what you think this is?
-    Ain't no amateurs here
-    I damage and tear, MC's fear me
-    They too near not to hear me
-    Clearly, I'm the triple beam dream
-    One thousand grams of uncut to the gut
-    It seems fucked up, the way I touched up the grill
-    Trying to play gorilla when you ain't no killer
-    The gat's by your liver, your upper lip quiver
-    Get ready to die, tell God I said hi
-    And throw down some ice for the nicest MC
-    Niggas know the steelo, unbelievable
-    
-    [Chorus]
-    It's unbelievable
-    Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    
-    
-    [Outro]
-    It's unbelievable
-    Biggie— Biggie— Biggie Smalls is the illest
-    'Believable
-    Biggie— Biggie— Biggie Smalls is the illest
-    'Believable
-    Biggie— Biggie— Biggie Smalls is the illest
-    Biggie Smalls— Biggie— Biggie— Biggie Smalls
-    Biggie— Biggie— Biggie Smalls is the illest
+  <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
+  <intro artist="Biggie">
+    <style type="repetition">Biggie Smalls is the illest <adlib>Uh</adlib> What? Uh Biggie— Biggie—
+      Biggie Smalls is the illest Uh Biggie Smalls, Biggie— Biggie— Biggie Smalls Biggie— Biggie—
+      Biggie Smalls is the illest Uh, yeah Biggie— Biggie— Biggie Smalls is the
+    illest</style></intro>
+  <verse artist="Biggie">
+    <theme topic="home">Live from Bedford-Stuyvesant</theme>, the livest one <theme topic="home"
+      >Representing BK to the fullest</theme> Gats, I pull it Bastards ducking when B.I.G. be
+    bucking Chickenheads be clucking, in my back room fucking It ain't nothing They know B.I.G. be
+    handling With the MAC in the Ac' door paneling Bandaging MC's, oxygen, they can't breathe Mad
+    tricks up the sleeve Wear boxers so my dick can breathe Breeze through in the Q Forty-five by my
+    side, lyrical high And those that rushes my clutches get put on crutches <theme topic="violence"
+      > Get smoked like Dutches from the master Hate to blast ya but I have to</theme>
+    <theme topic="violence">You see I smoke a lot</theme>
+    <style type="allusion">Your life is played out like Kwame</style> And them fucking polka dots
+    Who rock the spot? Biggie <theme topic="drugs"> You know how the weed go, unbelievable</theme>
+  </verse> [Chorus] <chorus artist="Biggie">
+    <style type="repetition">It's unbelievable Biggie Smalls is the illest It's unbelievable Biggie—
+      Biggie— Biggie Smalls is the illest It's unbelievable Biggie— Biggie— Biggie Smalls is the
+      illest It's unbelievable Biggie— Biggie— Biggie Smalls is the illest</style></chorus>
+  <verse artist="Biggie"> B-I-G, G-I-E A-K-A., B-I-G Get it? Biggie Also known as the bon appétit
+    Rappers can't sleep need sleeping B.I.G. keep creeping <theme topic="violence"> Bullets
+      heat-seeking, casualties need treating</theme> Dumb rappers need teaching Lesson A: Don't fuck
+    with B-I That's that "Oh I, thought he was wack" Oh, come, come now, why y'all so dumb now Hunt
+    me or be hunted I got three hundred and fifty-seven ways To simmer sauté, I'm the winner all day
+    Lights get dimmer down Biggie's hallway My forte causes Caucasians to say "He sounds demented"
+      <theme topic="drugs"> Car weed scented, if I said it, I meant it</theme> Bite my tongue for no
+    one Call me evil, or unbelievable </verse>
+  <chorus artist="Biggie">
+    <style type="repetition">It's unbelievable Biggie Smalls is the illest It's unbelievable Biggie—
+      Biggie— Biggie Smalls is the illest It's unbelievable Biggie Smalls is the illest It's
+      unbelievable Biggie— Biggie— Biggie Smalls is the illest</style>
+  </chorus>
+  <verse artist="Biggie">
+    <theme topic="violence"> Buck shots out the sun roof of Lexus coupes Leave no witnesses, what
+      you think this is? Ain't no amateurs here</theme> I damage and tear, MC's fear me They too
+    near not to hear me Clearly, I'm the triple beam dream One thousand grams of uncut to the gut It
+    seems fucked up, the way I touched up the grill Trying to play gorilla when you ain't no killer
+    The gat's by your liver, your upper lip quiver <theme topic="death">Get ready to die, tell God I
+      said hi</theme> And throw down some ice for the nicest MC Niggas know the steelo,
+    unbelievable</verse>
+  <chorus artist="Biggie">
+    <style type="repetition">It's unbelievable Biggie Smalls is the illest It's unbelievable Biggie—
+      Biggie— Biggie Smalls is the illest It's unbelievable Biggie— Biggie— Biggie Smalls is the
+      illest It's unbelievable Biggie— Biggie— Biggie Smalls is the illest</style>
+  </chorus>
+  <outro artist="Biggie">
+    <style type="repetition">It's unbelievable Biggie— Biggie— Biggie Smalls is the illest
+      'Believable Biggie— Biggie— Biggie Smalls is the illest 'Believable Biggie— Biggie— Biggie
+      Smalls is the illest Biggie Smalls— Biggie— Biggie— Biggie Smalls Biggie— Biggie— Biggie
+      Smalls is the illest</style>
+  </outro>
 </song>
