@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-<song>
-  <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>  
-   
-  <intro artist="Biggie"> No, fuck the bitches, fuck all the stank-ass hoes
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>  
+<song>   
+  <intro artist="Biggie">No, fuck the bitches, fuck all the stank-ass hoes
     All my niggas know
     <style type="allusion">Junior M.A.F.I.A. clique, Gucci Don,</style> you know how we play
     Fuckin' scandalous-ass bitches

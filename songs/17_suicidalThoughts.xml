@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <song>
-  <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
   <intro artist="Puff Daddy"> Hello? Aw shit, nigga! The fuck time is it, man? Oh, God damn Nigga,
     do you know what time it is? Aw shit, what the fuck's goin' on? You aight? Ah, nigga, what the

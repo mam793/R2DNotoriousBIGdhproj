@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <song>
- <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
  
   <intro artist="Puffy  Biggie">As we proceed to give you what you need <adlib>Uh</adlib>
     <style type="repetition">9-5, motherfuckers</style> Get live, motherfuckers As we proceed to

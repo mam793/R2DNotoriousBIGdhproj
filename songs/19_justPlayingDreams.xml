@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <song>
-  <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
   <verse artist="Biggie">
     <theme topic="sex">As I sit back relax, steam a blunt, sip a Becks Think about the sexy singers
@@ -17,14 +17,13 @@
 
 
 
-  <theme topic="sex">
-    <chorus artist="Biggie">
+  <chorus artist="Biggie">
+    <theme topic="sex">
       <style type="repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin')
         Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin') Dreams of fuckin' an
         R&amp;B bitch (I'm just playin', but I'm sayin') Dreams of fuckin' an R&amp;B bitch (I'm
-        just playin', I'm sayin')</style>
-    </chorus>
-  </theme>
+        just playin', I'm sayin')</style></theme>
+  </chorus>
 
 
   <verse artist="Biggie">

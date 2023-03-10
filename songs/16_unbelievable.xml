@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 
 <song>
-  <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
   <intro artist="Biggie">
     <style type="repetition">Biggie Smalls is the illest <adlib>Uh</adlib> What? Uh Biggie— Biggie—
       Biggie Smalls is the illest Uh Biggie Smalls, Biggie— Biggie— Biggie Smalls Biggie— Biggie—
@@ -19,7 +19,8 @@
     <theme topic="violence">You see I smoke a lot</theme>
     <style type="allusion">Your life is played out like Kwame</style> And them fucking polka dots
     Who rock the spot? Biggie <theme topic="drugs"> You know how the weed go, unbelievable</theme>
-  </verse> [Chorus] <chorus artist="Biggie">
+  </verse>
+  <chorus artist="Biggie">
     <style type="repetition">It's unbelievable Biggie Smalls is the illest It's unbelievable Biggie—
       Biggie— Biggie Smalls is the illest It's unbelievable Biggie— Biggie— Biggie Smalls is the
       illest It's unbelievable Biggie— Biggie— Biggie Smalls is the illest</style></chorus>
