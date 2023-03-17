@@ -1,15 +1,35 @@
 start = song
-song = element song {intro?, (chorus | skit | interlude | verse)+, outro? }
-intro = element intro {artist, mixed{(adlib | theme | style)*}}
-outro = element outro {artist, mixed{(adlib | theme | style)*}}
-skit = element skit {artist, mixed{(adlib | theme | style)*}}
-interlude = element interlude {artist, mixed{(adlib | theme | style)*}}
-chorus = element chorus {artist, mixed{(adlib | theme | style)*}}
-verse = element verse  {artist, mixed{(adlib | theme | style)*}}
-adlib = element adlib {text}
-style = element style {type, mixed{( adlib | theme )*}} 
-type = attribute type {text}
-theme = element theme {topic, mixed{( adlib | style )*}}
-topic = attribute topic {text}
-artist = attribute artist {text}
-
+song = element song { intro?, (chorus | skit | interlude | verse)+, outro? }
+# 
+# Named pattern for (mixed) content of song components
+#
+content = mixed { (adlib | theme | style)* }
+# 
+# Song components
+#
+intro = element intro { artist, content }
+outro = element outro { artist, content }
+skit = element skit { artist, content }
+interlude = element interlude { artist, content }
+chorus = element chorus { artist, content }
+verse = element verse { artist, content }
+# Inline elements
+# TODO: Should adlib also use the "content" pattern?
+#
+theme = element theme { topic, content }
+style = element style { type, content }
+adlib = element adlib { text }
+# 
+# 
+# Attributes
+#
+topic = attribute topic { text }
+artist = attribute artist { text }
+# Should this be an or-group of strings?
+type = attribute type { text }
+# 
+# 2023-03-10 djb
+# 
+# Extracted named pattern "content" used in all major song components
+# Rearranged/grouped schema components: major, minor, attributes
+#
