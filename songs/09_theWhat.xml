@@ -1,63 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="file:/Users/mayah/Desktop/R2DNotoriousBIGdhproj/song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <verse artist="Biggie"><theme topic="sex">I used to get feels on a bitch Now I throw shields on
-            the dick to stop me from that HIV shit</theme>
-        <style type="simile">And niggas know they soft like a Twinkie</style> filling Playing the
-        villain, prepare for this rap killing Biggie Smalls is the illest,<style type="simile"> your style is
-            played out Like Arnold on that,</style><style type="allusion">"What you talking 'bout,
-            Willis?"</style> The thrill is gone, <style type="allusion">the Black Frank White Is here</style> to excite and throw
-        dick to dykes Bitches I like 'em brainless, guns I like 'em stainless steel <style
-            type="allusion">I want the fucking fortune like the Wheel</style>
-        <theme topic="violence"><style type="collo">I squeeze gats 'til my clips is empty</style></theme> Don't tempt me, you
-        don't want to fuck with the M-E...</verse>
+    <verse artist="Biggie">
+        <line>I used to get feels on a bitch</line>
+        <line><theme topic="sex">Now I throw shields on the dick to stop me from that HIV shit</theme></line>
+        <line><style type="simile">And niggas know they soft like a Twinkie filling</style></line>
+        <line>Playing the villain, prepare for this rap killing</line>
+        <line>Biggie Smalls is the illest, your style is played out</line>
+        <line><style type="simile allusion">Like Arnold on that,"What you talking 'bout, Willis?"</style></line>
+        <line>The thrill is gone,<style type="allusion">the Black Frank White</style></line>
+        <line>Is here to excite and throw dick to dykes</line>
+        <line>Bitches I like 'em brainless, guns I like 'em stainless steel</line>
+        <line><style type=" simile allusion">I want the fucking fortune like the Wheel</style></line>
+        <line><style type="collo">I squeeze gats</style> 'til my clips is empty</line>
+        <line>Don't tempt me, you don't want to fuck with the M-E...</line>
+    </verse>
 
-    <verse artist="Method Man">...T-H-O-D Man, here I am I'll be damned if this ain't some shit Come
-        to spread the butter lyrics over hominy grit It's the low killer death trap, yes I'm a
-        jet-black ninja Coming where you rest at, surrender Step inside the ring, you's the number
-        one contender Looking cold-booty like your pussy in December Nigga, stop bitching, button up
-        your lip and From Method all you getting is a can of ass-whipping Hey, I'll be kicking you
-        son, you doing all the yapping Acting as if it can't happen Your frontin' got me mad enough
-        to touch something Yo, I'm from Shaolin Island and ain't afraid to bust something So what
-        you want nigga? You won't nigga I got a 6-shooter and a horse named Trigger It's real,
-            <theme topic="violence">'94 rugged-raw Kickin' down your goddamn door</theme> And it
-        goes a little something like this </verse>
+    <verse artist="Method Man">
+        <line>...T-H-O-D Man, here I am</line>
+        <line>I'll be damned if this ain't some shit</line>
+        <line>Come to spread the butter lyrics over hominy grit</line>
+        <line>It's the low killer death trap, yes I'm a jet-black ninja</line>
+        <line>Coming where you rest at, surrender</line>
+        <line>Step inside the ring, you's the number one contender</line>
+        <line>Looking cold-booty like your pussy in December</line>
+        <line>Nigga, stop bitching, button up your lip and</line>
+        <line>From Method all you getting is a can of ass-whipping</line>
+        <line>Hey, I'll be kicking you son, you doing all the yapping</line>
+        <line>Acting as if it can't happen</line>
+        <line>Your frontin' got me mad enough to touch something</line>
+        <line>Yo, I'm from Shaolin Island and ain't afraid to bust something</line>
+        <line>So what you want nigga? You won't nigga</line>
+        <line>I got a 6-shooter and a horse named Trigger</line>
+        <line>It's real,'94 rugged-raw</line>
+        <line>Kickin' down your goddamn door</line>
+        <line>And it goes a little something like this</line>
+    </verse>
 
-    <chorus artist="Method Man Biggie">Fuck the world, don't ask me for shit Everything you get you
-        gotta work hard for it <adlib>Honeys shake your hips</adlib> You don't stop <adlib>And
-            niggas pack the clips</adlib> Keep on, bitch You might also like Warning The Notorious
-        B.I.G. One More Chance The Notorious B.I.G. Fuck Me <adlib>Interlude</adlib> The Notorious
-        B.I.G.</chorus>
-    <verse artist="Method Man"> Verse two, coming with that Olde E brew Meth-tical, <theme
-            topic="violence"> putting niggas back in ICU</theme>I'm lifted, troop, you can bring
-        your wack-ass crew I got connections, <theme topic="violence">I'll get that ass stuck like
-            glue</theme> Huh, no question, I be coming down and shit Yo I gets rugged as a
-        motherfucking carpet get And niggas love it, not in the physical form but in the mental I
-        spark and they cells get warm I'm not a gentleman, I'm a Method Man Baby accept it, utmost
-        respect it, and <adlib>Assume the position</adlib> Stop look and listen I spit on your grave
-        then I grab my Charles Dickens, bitch</verse>
+    <chorus artist="Method Man Biggie">
+        <line>Fuck the world, don't ask me for shit</line>
+        <line>Everything you get you gotta work hard for it</line>
+        <line><adlib>Honeys shake your hips</adlib> You don't stop</line>
+        <line><adlib>And niggas pack the clips</adlib> Keep on, bitch</line>
+    </chorus>
 
-    <verse artist="Biggie">Welcome to my center, <theme topic="sex">honeys feel it deep in they
-            placenta</theme> Cold as the pole in the winter Far from the inventor, but I got this
-        rap shit sewed <style type="collo">And when my MAC unloads</style> I'm guaranteed another video Ready to die, why I act
-        that way? Pop duke left mom duke, the faggot took the back way <theme topic="sex">So instead
-            of making hoes suck my dick up</theme> I used to do stick-ups, <style type="simile">'cause hoes is irritating
-        like the hiccups</style> Excuse me, <style type="simile">flows just grow through me Like trees to branches,</style> cliffs to
-        avalanches It's the praying mantis, <style type="simile">deep like the mind of Farrakhan</style> A motherfucking rap
-        phenomenon, plus <adlib>I got more Glocks and TECs than you</adlib> I make it hot,
-            <adlib>niggas won't even stand next to you</adlib>
-        <theme topic="violence">Nigga touch me you better bust me three times in the head Or
-            motherfucker's dead, you thought so</theme></verse>
+    <verse artist="Method Man">
+        <line>Verse two, coming with that Olde E brew</line>
+        <line> Meth-tical, <theme topic="violence"> putting niggas back in ICU</theme></line>
+        <line>I'm lifted, troop, you can bring your wack-ass crew</line>
+        <line>I got connections, <theme topic="violence"><style type="simile">I'll get that ass stuck like glue</style></theme></line>
+        <line>Huh, no question, I be coming down and shit</line>
+        <line>Yo I gets rugged as a motherfucking carpet get</line>
+        <line>And niggas love it, not in the physical form but in the mental</line>
+        <line>I spark and they cells get warm</line>
+        <line>I'm not a gentleman, I'm a Method Man</line>
+        <line>Baby accept it, utmost respect it, and</line>
+        <line><adlib>Assume the position</adlib> Stop look and listen</line>
+        <line>I spit on your grave then I grab my Charles Dickens, bitch</line>
+    </verse>
 
-    <chorus artist="Biggie">Fuck the world, don't ask me for shit And everything you get you gotta
-        work hard for it <adlib>Honeys shake your hips</adlib> You don't stop <adlib>And niggas pack
-            the clips</adlib> Keep on, bitch Fuck the world, don't ask me for shit Everything you
-        get you gotta work hard for it <adlib>Honeys shake your hips</adlib> You don't stop
-            <adlib>And niggas pack the clips</adlib> Keep on, bitch</chorus>
+    <verse artist="Biggie">
+        <line>Welcome to my center, <theme topic="sex">honeys feel it deep in they placenta</theme></line>
+        <line>Cold as the pole in the winter</line>
+        <line>Far from the inventor, but I got this rap shit sewed</line>
+        <line><style type="collo">And when my MAC unloads</style></line>
+        <line>I'm guaranteed another video</line>
+        <line>Ready to die, why I act that way?</line>
+        <line><theme topic="family">Pop duke left mom duke,</theme> the faggot took the back way</line>
+        <line><theme topic="sex">So instead of making hoes suck my dick up</theme></line>
+        <line>I used to do stick-ups, <style type="simile">'cause hoes is irritating like the hiccups</style></line>
+        <line>Excuse me, flows just grow through me</line>
+        <line>Like trees to branches, cliffs to avalanches</line>
+        <line>It's the praying mantis, <style type="simile allusion">deep like the mind of Farrakhan</style></line>
+        <line>A motherfucking rap phenomenon, plus</line>
+        <line><adlib>I got more Glocks and TECs than you</adlib></line>
+        <line>I make it hot, <adlib>niggas won't even stand next to you</adlib></line>
+        <line><theme topic="violence">Nigga touch me you better bust me three times in the head</theme></line>
+        <line>Or motherfucker's dead, you thought so</line>
+    </verse>
 
-    <outro artist="Method Man Biggie">Junior M.A.F.I.A. clique in full effect <adlib>Yeah, what the
-            fuck you want, nigga?</adlib> Ah, yeah, hell yeah <adlib>Biggie Smalls and
-            Meth-tical</adlib> Bedford–Stuyvesant the livest one <adlib>9-4 coming at you
-            raw</adlib> My borough is thorough <adlib>Shaolin Island, yeah</adlib> Recognize
-            <adlib>Yeah</adlib></outro>
+    <chorus artist="Biggie">
+        <line>Fuck the world, don't ask me for shit</line>
+        <line>And everything you get you gotta work hard for it</line>
+        <line><adlib>Honeys shake your hips</adlib> You don't stop</line>
+        <line><adlib>And niggas pack the clips</adlib> Keep on, bitch</line>
+        <line>Fuck the world, don't ask me for shit</line>
+        <line>Everything you get you gotta work hard for it</line>
+        <line><adlib>Honeys shake your hips</adlib> You don't stop</line>
+        <line><adlib>And niggas pack the clips</adlib> Keep on, bitch</line>
+    </chorus>
+
+    <outro artist="Method Man Biggie">
+        <line>Junior M.A.F.I.A. clique in full effect <adlib>Yeah, what the fuck you want, nigga?</adlib></line>
+        <line>Ah, yeah, hell yeah <adlib>Biggie Smalls and Meth-tical</adlib></line>
+        <line>Bedford–Stuyvesant the livest one <adlib>9-4 coming at you raw</adlib></line>
+        <line>My borough is thorough <adlib>Shaolin Island, yeah</adlib></line>
+        <line>Recognize<adlib>Yeah</adlib></line>
+    </outro>
 </song>

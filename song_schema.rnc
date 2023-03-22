@@ -7,12 +7,13 @@ content = mixed { (adlib | theme | style)* }
 # 
 # Song components
 #
-intro = element intro { artist, content }
-outro = element outro { artist, content }
-skit = element skit { artist, content }
-interlude = element interlude { artist, content }
-chorus = element chorus { artist, content }
-verse = element verse { artist, content }
+intro = element intro { artist, line+}
+outro = element outro { artist, line+}
+skit = element skit { artist, line+}
+interlude = element interlude { artist, line+}
+chorus = element chorus { artist, line+}
+verse = element verse { artist, line+}
+line= element line {content}
 # Inline elements
 # TODO: Should adlib also use the "content" pattern?
 #

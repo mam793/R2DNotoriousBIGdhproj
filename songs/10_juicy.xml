@@ -2,46 +2,72 @@
 
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist="Biggie"><adlib>"Fuck all you hoes!" Get a grip, motherfucker!</adlib> Yeah, this
-        album is dedicated <style type="anecdote">To all the teachers that told me I'd never amount
-            to nothin' To all the people that lived above the buildings that I was hustlin' in front
-            of Called the police on me when I was just tryin' to make some money to feed my
-            daughter</style>
-        <adlib>it's all good</adlib> And all the niggas in the struggle You know what I'm sayin'?
-        It's all good, baby baby</intro>
+    <intro artist="Biggie">
+        <line><adlib>"Fuck all you hoes!" Get a grip, motherfucker!</adlib></line>
+        <line>Yeah, this album is dedicated</line>
+        <line><style type="anecdote">To all the teachers that told me I'd never amount to nothin'</line>
+        <line>To all the people that lived above the buildings that I was hustlin' in front of</line>
+        <line>Called the police on me when I was just tryin' to make some money to feed my daughter</style><adlib>it's all good</adlib></line>
+        <line>And all the niggas in the struggle You know what I'm sayin'? It's all good, baby baby</line>
+    </intro>
 
 
-    <verse artist="Biggie">It was all a dream, <style type="allusion">I used to read Word Up!
-            magazine Salt-n-Pepa and Heavy D up in the limousine Hangin' pictures on my wall Every
-            Saturday Rap Attack, Mr. Magic, Marley Marl</style> I let my tape rock 'til my tape
-        popped <theme topic="drugs">Smokin' weed in Bambú</theme>, sippin' on Private Stock Way
-        back, when I had the red and black lumberjack With the hat to match Remember Rappin' Duke?
-        Duh-ha, duh-ha You never thought that hip-hop would take it this far Now I'm in the
-        limelight 'cause I rhyme tight Time to get paid, <style type="simile allusion">blow up like the World
-            Trade</style> Born sinner, the opposite of a winner Remember when I used to eat sardines
-        for dinner <style type="allusion">Peace to Ron G, Brucie B, Kid Capri Funkmaster Flex,
-            Lovebug Starski</style> I'm blowin' up like you thought I would Call the crib, same
-        number, same hood, it's all good And if you don't know, now you know, nigga</verse>
+    <verse artist="Biggie">
+        <line>It was all a dream, I used to read Word Up! magazine</line>
+        <line>Salt-n-Pepa and Heavy D up in the limousine</line>
+        <line>Hangin' pictures on my wall</line>
+        <line>Every Saturday Rap Attack, Mr. Magic, Marley Marl</line>
+        <line>I let my tape rock 'til my tape popped</line>
+        <line><theme topic="drugs">Smokin' weed in Bambú</theme>, sippin' on Private Stock</line>
+        <line>Way back, when I had the red and black lumberjack</line>
+        <line>With the hat to match</line>
+        <line>Remember Rappin' Duke? Duh-ha, duh-ha</line>
+        <line>You never thought that hip-hop would take it this far</line>
+        <line>Now I'm in the limelight 'cause I rhyme tight</line>
+        <line>Time to get paid, <style type="simile allusion">blow up like the World Trade</style></line>
+        <line>Born sinner, the opposite of a winner</line>
+        <line>Remember when I used to eat sardines for dinner</line> 
+        <line><style type="allusion">Peace to Ron G, Brucie B, Kid Capri</style></line>
+        <line>Funkmaster Flex, Lovebug Starski</line>
+        <line>I'm blowin' up like you thought I would</line>
+        <line>Call the crib, same number, same hood, it's all good</line>
+        <line>And if you don't know, now you know, nigga</line>
+    </verse>
 
 
-    <chorus artist="Total PuffDaddy">You know very well <adlib>Yeah</adlib> Who you are
-            <adlib>Money, hoes and clothes</adlib> Don't let 'em hold you down <adlib>Bankrolls,
-            yeah, haha</adlib> Reach for the stars <adlib>It's all good</adlib> You had a goal
-            <adlib>C'mon</adlib> But not that many <adlib>It's all good</adlib> 'Cause you're the
-        only one I'll give you good and plenty <adlib>Check it</adlib></chorus>
+    <chorus artist="Total PuffDaddy">
+        <line>You know very well <adlib>Yeah</adlib></line>
+        <line>Who you are <adlib>Money, hoes and clothes</adlib></line>
+        <line>Don't let 'em hold you down <adlib>Bankrolls, yeah, haha</adlib></line>
+        <line>Reach for the stars <adlib>It's all good</adlib></line>
+        <line>You had a goal <adlib>C'mon</adlib></line>
+        <line>But not that many <adlib>It's all good</adlib></line>
+        <line>'Cause you're the only one</line>
+        <line>I'll give you good and plenty <adlib>Check it</adlib></line>
+    </chorus>
 
 
-    <verse artist="Biggie">I made the change from a common thief To up close and personal with Robin
-        Leach And I'm far from cheap, <style type="collo">I smoke skunk with my peeps</style> all
-        day <theme topic="home">Spread love, it's the Brooklyn way</theme>
-        <theme topic="drugs">The Moët and Alizé keep me pissy,</theme> girls used to diss me Now
-        they write letters 'cause they miss me I never thought it could happen, this rapping stuff I
-        was too used to <style type="collo">packing gats</style> and stuff Now honeys play me close
-        like butter play toast From the Mississippi down to the East Coast Condos in Queens, indo
-        for weeks Sold out seats to hear Biggie Smalls speak Living life without fear Puttin' five
-        karats in my baby girl ear Lunches, brunches, interviews by the pool Considered a fool
-        'cause I dropped out of high school Stereotypes of a black male misunderstood And it's still
-        all good And if you don't know, now you know, nigga</verse>
+    <verse artist="Biggie">
+        I made the change from a common thief
+        To up close and personal with Robin Leach
+        And I'm far from cheap, <theme topic="drugs"><style type="collo">I smoke skunk with my peeps</style></theme> all day
+        <theme topic="home">Spread love, it's the Brooklyn way</theme>
+        <theme topic="drugs">The Moët and Alizé keep me pissy,</theme> girls used to diss me
+        Now they write letters 'cause they miss me
+        I never thought it could happen, this rapping stuff
+        I was too used to <style type="collo">packing gats</style> and stuff
+        Now honeys play me close like butter play toast
+        From the Mississippi down to the East Coast
+        Condos in Queens, indo for weeks
+        Sold out seats to hear Biggie Smalls speak
+        Living life without fear
+        Puttin' five karats in my baby girl ear
+        Lunches, brunches, interviews by the pool
+        Considered a fool 'cause I dropped out of high school
+        Stereotypes of a black male misunderstood
+        And it's still all good
+        And if you don't know, now you know, nigga
+    </verse>
 
 
     <chorus artist="Total PuffDaddy">You know very well <adlib>C'mon</adlib> Who you are
@@ -64,8 +90,10 @@
         now you know, nigga</verse>
 
 
-    <chorus artist="Biggie PuffDaddy">You know very well <adlib>Money</adlib> Who you are
-            <adlib>Hoes and clothes</adlib> Don't let 'em hold you down <adlib>Bankrolls</adlib> And
+    <chorus artist="Biggie PuffDaddy">
+        You know very well <adlib>Money</adlib>
+        Who you are <adlib>Hoes and clothes</adlib>
+        Don't let 'em hold you down <adlib>Bankrolls</adlib> And
         if you don't know, now you know, nigga Reach for the stars <adlib>That's right</adlib> You
         had a goal <adlib>It's all good</adlib> But not that many <adlib>All good</adlib> 'Cause
         you're the only one <adlib>East coast, represent</adlib> I'll give you good and plenty
