@@ -2,82 +2,117 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 
-    <intro artist="Biggie PuffDaddy">Uh, uh, check it out <adlib>Yeah</adlib>, uh Junior M.A.F.I.A.,
-        uh <adlib>He-he</adlib> Uh <adlib>I like this</adlib> yeah, yeah Nine-fo' <adlib>Keep
-            bangin'</adlib></intro>
+    <intro artist="Biggie PuffDaddy">
+        <line>Uh, uh, check it out <adlib>Yeah</adlib>, uh </line>
+        <line>Junior M.A.F.I.A., uh <adlib>He-he</adlib></line>
+        <line>Uh <adlib>I like this</adlib> yeah, yeah</line>
+        <line>Nine-fo' <adlib>Keep bangin'</adlib></line>
+    </intro>
 
 
-    <verse artist="Biggie PuffDaddy">To all the ladies in the place with style and grace Allow me to
-        lace these lyrical douches in your bushes <adlib>Uh</adlib> Who rock grooves and make moves
-        with all the mamis? <theme topic="drugs">The back of the club, sippin' Moët is where you'll
-            find me</theme>
-        <adlib>What?</adlib> The back of the club, mackin' hoes, my crew's behind me
-            <adlib>Uh</adlib>
-        <style type="collo">Mad question askin'</style>, blunt passin' Music blastin', but I just
-        can't quit Because one of these honeys Biggie got to creep with <adlib>That's right</adlib>
-        Sleep with, keep the ep a secret, why not? <adlib>Uh</adlib> Why blow up my spot 'cause we
-        both got hot? Now check it: I got more mack than Craig, and in the bed Believe me, sweetie,
-        I got enough to feed the needy <adlib>Come on</adlib>
-        <theme topic="money">No need to be greedy, I got mad friends with Benzes C-notes by the
-            layers, true fuckin' players</theme>
-        <adlib>Uh</adlib> Jump in the Rover and come over, tell your friends jump in the GS3 I got
-        the chronic by the tree cuz <adlib>Let's go</adlib></verse>
-
-
-
-    <chorus artist="Biggie PuffDaddy">I love it when you call me Big Poppa Throw your hands in the
-        air if you's a true player I love it when you call me Big Poppa To the honeys gettin' money,
-        playin' niggas like dummies I love it when you call me Big Poppa You got a gun up in your
-        waist, please don't shoot up the place <adlib>Why?</adlib> 'Cause I see some ladies tonight
-        that should be havin' my baby <adlib>Uh), baby (Uh</adlib></chorus>
-
-
-    <verse artist="Biggie PuffDaddy">Straight up, honey, really I'm askin' Most of these niggas
-        think they be mackin', but they be actin' Who they attractin' with that line
-            <adlib>What?</adlib>, "What's your name? What's your sign?" Soon as he buy that wine, I
-        just creep up from behind <adlib>That's right</adlib> And ask you what your interests are,
-        who you be with Things that make you smile, what numbers to dial You gon' be here for a
-        while? I'm gon' go call my crew, you go call your crew We can rendezvous at the bar around 2
-            <adlib>Come on</adlib> Plans to leave, throw the keys to Little Cease
-            <adlib>Uh-huh</adlib> Pull the truck up front, and <theme topic="drugs">roll up the next
-            blunt</theme> So we can steam on the way to the telly, go fill my belly <adlib>G</adlib>
-        A T-bone steak, cheese eggs and Welch's grape Conversate for a few, ‘cause in a few we gon'
-        do What we came to do, ain't that right, boo? <adlib>True</adlib> Forget the telly—we just
-        go to the crib And watch a movie in the jacuzzi, <theme topic="drugs sex">smoke Ls while you
-            do me</theme></verse>
-
-
-    <chorus artist="Biggie PuffDaddy">I love it when you call me Big Poppa Throw your hands in the
-        air if you's a true player <adlib>Come on, yeah</adlib> I love it when you call me Big Poppa
-        To the honeys gettin' money, playin' niggas like dummies <adlib>Uh</adlib> I love it when
-        you call me Big Poppa You got a gun up in your waist, please don't shoot up the place
-            <adlib>Why?</adlib> 'Cause I see some ladies tonight that should be havin' my baby, baby
-            <adlib>Uh</adlib></chorus>
-
-
-    <verse artist="Biggie PuffDaddy"><adlib>How you livin', Biggie Smalls?</adlib> In mansion and
-        Benzes Givin' ends to my friends, and it feels stupendous Tremendous cream: fuck a dollar
-        and a dream <adlib>Heh</adlib> Still tote gats, strapped with infrared beams <adlib>That's
-            right) (What?</adlib> Choppin' Os <adlib>Uh-huh</adlib>, smokin' la in Optimos Money,
-        hoes and clothes: all a nigga knows <adlib>All a nigga knows</adlib> A foolish pleasure?
-        Whatever I had to find the buried treasure <adlib>For what?</adlib>, so grams I had to
-        measure However, livin' better now, Coogi sweater now Drop top BMs, I'm the man,
-        girlfriend</verse>
-
-
-    <interlude artist="PuffDaddy">Yeah, honey, check it Tell your friends to get with my friends And
-        we can be friends Shit, we can do this every weekend <adlib>That's right</adlib>, alright?
-        Is that aight wit' you? Yeah, keep bangin'</interlude>
+    <verse artist="Biggie PuffDaddy">
+        <line>To all the ladies in the place with style and grace</line>
+        <line>Allow me to lace these lyrical douches in your bushes <adlib>Uh</adlib></line>
+        <line>Who rock grooves and make moves with all the mamis?</line> 
+        <line><theme topic="drugs">The back of the club, sippin' Moët is where you'll find me</theme><adlib>What?</adlib></line>
+        <line>The back of the club, mackin' hoes, my crew's behind me <adlib>Uh</adlib></line>
+        <line><style type="collo">Mad question askin'</style>, blunt passin'</line>
+        <line>Music blastin', but I just can't quit</line>
+        <line>Because one of these honeys Biggie got to creep with <adlib>That's right</adlib></line>
+        <line>Sleep with, keep the ep a secret, why not? <adlib>Uh</adlib></line>
+        <line>Why blow up my spot 'cause we both got hot?</line>
+        <line>Now check it: I got more mack than Craig, and in the bed</line>
+        <line>Believe me, sweetie, I got enough to feed the needy <adlib>Come on</adlib></line>
+        <line>No need to be greedy, I got mad friends with Benzes</line> 
+        <line>C-notes by the layers, true fuckin' players <adlib>Uh</adlib></line>
+        <line>Jump in the Rover and come over, tell your friends jump in the GS3</line>
+        <line>I got the chronic by the tree cuz <adlib>Let's go</adlib></line>
+    </verse>
 
 
 
-    <chorus artist="Biggie PuffDaddy">I love it when you call me Big Poppa Throw your hands in the
-        air if you's a true player I love it when you call me Big Poppa To the honeys gettin' money,
-        playin' niggas like dummies <adlib>Uh</adlib> I love it when you call me Big Poppa You got a
-        gun up in your waist, please don't shoot up the place <adlib>Why?</adlib> 'Cause I see some
-        ladies tonight that should be havin' my baby, baby <adlib>Uh</adlib></chorus>
+    <chorus artist="Biggie PuffDaddy">
+        <line>I love it when you call me Big Poppa</line>
+        <line>Throw your hands in the air if you's a true player</line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>To the honeys gettin' money, playin' niggas like dummies</line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>You got a gun up in your waist, please don't shoot up the place <adlib>Why?</adlib></line>
+        <line>'Cause I see some ladies tonight that should be havin' my baby <adlib>Uh</adlib>, baby <adlib>Uh</adlib></line>
+    </chorus>
 
 
-    <outro artist="Biggie">Check it out Nine-fo' shit for that ass, uh Puff Daddy, Biggie Smalls,
-        Junior M.A.F.I.A. Represent, baby, baby, uh</outro>
+    <verse artist="Biggie PuffDaddy">
+        <line>Straight up, honey, really I'm askin'</line>
+        <line>Most of these niggas think they be mackin', but they be actin'</line>
+        <line>Who they attractin' with that line <adlib>What?</adlib>,"What's your name? What's your sign?"</line>
+        <line>Soon as he buy that wine, I just creep up from behind <adlib>That's right</adlib></line>
+        <line>And ask you what your interests are, who you be with</line>
+        <line>Things that make you smile, what numbers to dial</line>
+        <line>You gon' be here for a while? I'm gon' go call my crew, you go call your crew</line>
+        <line>We can rendezvous at the bar around 2 <adlib>Come on</adlib></line>
+        <line>Plans to leave, throw the keys to Little Cease <adlib>Uh-huh</adlib></line>
+        <line>Pull the truck up front, and <theme topic="drugs">roll up the next blunt</theme></line>
+        <line>So we can steam on the way to the telly, go fill my belly <adlib>G</adlib></line>
+        <line>A T-bone steak, cheese eggs and Welch's grape</line>
+        <line>Conversate for a few, ‘cause in a few we gon' do</line>
+        <line>What we came to do, ain't that right, boo? <adlib>True</adlib></line>
+        <line>Forget the telly—we just go to the crib</line>
+        <line>And watch a movie in the jacuzzi, <theme topic="drugs sex">smoke Ls while you do me</theme></line>
+    </verse>
+
+
+    <chorus artist="Biggie PuffDaddy">
+        <line>I love it when you call me Big Poppa</line>
+        <line>Throw your hands in the air if you's a true player <adlib>Come on, yeah</adlib></line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>To the honeys gettin' money, playin' niggas like dummies <adlib>Uh</adlib></line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>You got a gun up in your waist, please don't shoot up the place <adlib>Why?</adlib></line>
+        <line>'Cause I see some ladies tonight that should be havin' my baby, baby <adlib>Uh</adlib></line>
+    </chorus>
+
+
+    <verse artist="Biggie PuffDaddy">
+        <line><adlib>How you livin', Biggie Smalls?</adlib> In mansion and Benzes</line>
+        <line>Givin' ends to my friends, and it feels stupendous</line>
+        <line>Tremendous cream: fuck a dollar and a dream <adlib>Heh</adlib></line>
+        <line>Still tote gats, strapped with infrared beams <adlib>That's right</adlib> <adlib>What?</adlib></line>
+        <line>Choppin' Os <adlib>Uh-huh</adlib>, smokin' la in Optimos</line>
+        <line>Money, hoes and clothes: all a nigga knows <adlib>All a nigga knows</adlib></line>
+        <line>A foolish pleasure? Whatever</line>
+        <line>I had to find the buried treasure<adlib>For what?</adlib>, so grams I had to measure</line>
+        <line>However, livin' better now, Coogi sweater now</line>
+        <line>Drop top BMs, I'm the man, girlfriend</line>
+    </verse>
+
+
+    <interlude artist="PuffDaddy">
+        <line>Yeah, honey, check it</line>
+        <line>Tell your friends to get with my friends</line>
+        <line>And we can be friends</line>
+        <line>Shit, we can do this every weekend <adlib>That's right</adlib>, alright?</line>
+        <line>Is that aight wit' you?</line>
+        <line>Yeah, keep bangin'</line>
+    </interlude>
+
+
+
+    <chorus artist="Biggie PuffDaddy">
+        <line>I love it when you call me Big Poppa</line>
+        <line>Throw your hands in the air if you's a true player</line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>To the honeys gettin' money, playin' niggas like dummies <adlib>Uh</adlib></line>
+        <line>I love it when you call me Big Poppa</line>
+        <line>You got a gun up in your waist, please don't shoot up the place <adlib>Why?</adlib></line>
+        <line>'Cause I see some ladies tonight that should be havin' my baby, baby <adlib>Uh</adlib></line>
+    </chorus>
+
+
+    <outro artist="Biggie">
+        <line>Check it out</line>
+        <line>Nine-fo' shit for that ass, uh</line>
+        <line>Puff Daddy, Biggie Smalls, Junior M.A.F.I.A.</line>
+        <line>Represent, baby, baby, uh</line>
+    </outro>
 </song>
