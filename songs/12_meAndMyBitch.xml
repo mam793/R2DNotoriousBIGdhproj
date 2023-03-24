@@ -2,111 +2,126 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     
-    <intro artist="Biggie PuffDaddy Girl">Yo let— let— let me ask you a question, yo
-    Yo, would you kill for me?
-    Hmm, yeah
-    Uh, the act of making love— <adlib>Haa</adlib>
-    What took you so long to answer motherfucker?
-    I don't know
-    The fuck wrong with you, bitch?</intro>
+    <intro artist="Biggie PuffDaddy Girl">
+        <line>Yo let— let— let me ask you a question, yo</line>
+        <line>Yo, <theme topic="violence">would you kill for me?</theme></line>
+        <line>Hmm, yeah</line>
+        <line>Uh, the act of making love— <adlib>Haa</adlib></line>
+        <line>What took you so long to answer motherfucker?</line>
+        <line>I don't know</line>
+        <line>The fuck wrong with you, bitch?</line>
+    </intro>
     
-    <verse artist="Biggie">When I met you, I admit, my first thoughts was to trick
-    You look so good, huh, I'll suck on your daddy's dick
-    I never felt that way in my life
-    <theme topic="relationships">It didn't take long before I made you my wife</theme>
-    Got no rings and shit, just my main squeeze
-    Comin' to the crib, even had a set of keys
-    During the days you helped me bag up my nickels
-    In the process, I admit, I tricked a little
-    <theme topic="relationships">But you was my bitch, the one who'd never snitch
-    Love me when I'm broke or when I'm filthy fuckin' rich</theme>
-    And I admit, when the time is right, the wine is right
-    I treat you right, <theme topic="violence">you talk slick, I beat you right</theme>
+    <verse artist="Biggie">
+        <line>When I met you, I admit, my first thoughts was to trick</line>
+        <line>You look so good, huh, I'll suck on your daddy's dick</line>
+        <line><theme topic="reflection">I never felt that way in my life</theme></line>
+        <line><theme topic="relationships">It didn't take long before I made you my wife</theme></line>
+        <line>Got no rings and shit, just my main squeeze</line>
+        <line>Comin' to the crib, even had a set of keys</line>
+        <line>During the days you helped me bag up my nickels</line>
+        <line>In the process, I admit, I tricked a little</line>
+        <line>But you was my bitch, the one who'd never snitch</line>
+        <line><theme topic="money">Love me when I'm broke or when I'm filthy fuckin' rich</theme></line>
+        <line>And I admit, when the time is right, the wine is right</line>
+        <line>I treat you right, <theme topic="violence">you talk slick, I beat you right</theme></line>
     </verse>
     
-    <chorus artist="Biggie PuffDaddy Girl">Just me and my bitch, me and my bitch
-    <adlib>But you know you love that ass, don't you?</adlib>
-    Just me and my bitch, yeah, just me and my bitch
-    <adlib>Yeah, no question, no question</adlib>
-    Just me and my bitch, yeah, just me and my bitch, yeah
-    <adlib>Yo, let me ask you another question</adlib>
-    Just me and my bitch, just me and my bitch, yeah
-    <adlib>What?</adlib>
-    Just me and my bitch, yeah, just me and my bitch, yeah
-    <adlib>You been fuckin' 'round on me?</adlib>
-    Just me and my bitch, just me and my bitch
-    <adlib>Why would I do that?</adlib>
-    Just me and my bitch, me and my bitch, yeah
-    <adlib>Yo, don't lie to me, motherfucker</adlib>
-    Just me and my bitch</chorus>
+    <chorus artist="Biggie PuffDaddy Girl">
+        <line>Just me and my bitch, me and my bitch</line>
+        <line><adlib>But you know you love that ass, don't you?</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch</line>
+        <line><adlib>Yeah, no question, no question</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch, yeah</line>
+        <line><adlib>Yo, let me ask you another question</adlib></line>
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line><adlib>What?</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch, yeah</line>
+        <line><adlib>You been fuckin' 'round on me?</adlib></line>
+        <line>Just me and my bitch, just me and my bitch</line>
+        <line><adlib>Why would I do that?</adlib></line>
+        <line>Just me and my bitch, me and my bitch, yeah</line>
+        <line><adlib>Yo, don't lie to me, motherfucker</adlib></line>
+        <line>Just me and my bitch</line>
+    </chorus>
       
-    <verse artist="Biggie">Moonlight strolls with the hoes, oh, no, that's not my steelo
-    I wanna bitch that like to play ceelo and craps
-    Packin' gats in a Coach bag, steamin' dime bags
-    A real bitch is all I want, all I ever had
-    With a bop just as strong as me
-    Totin' guns just as long as me, the bitch belongs with me
-   <theme topic="reflection relationships"> Any plans with another bitch, my bitch'll spoil it
-    One day, she used my toothbrush to clean the toilet
-    Throwin' my clothes out the windows, so when the wind blows
-    I see my Polos and Timbos
-    Hide my car keys so I can't leave
-    A real slick bitch, keep a trick up her sleeve
-    And if I deceive, she won't take it lightly
-    She'll invite me, politely, to fight, G
-    And then we lie together, cry together
-    I swear to God I hope we fuckin' die together</theme></verse> 
+    <verse artist="Biggie">
+        <line>Moonlight strolls with the hoes, oh, no, that's not my steelo</line>
+        <line>I wanna bitch that like to play ceelo and craps</line>
+        <line><style type="collo">Packin' gats in a Coach bag,</style><theme topic="drugs"><style type="collo">steamin' dime bags</style></theme></line>
+        <line>A real bitch is all I want, all I ever had</line>
+        <line>With a bop just as strong as me</line>
+        <line>Totin' guns just as long as me, the bitch belongs with me</line>
+        <line>Any plans with another bitch, my bitch'll spoil it</line>
+        <line>One day, she used my toothbrush to clean the toilet</line>
+        <line>Throwin' my clothes out the windows, so when the wind blows</line>
+        <line>I see my Polos and Timbos</line>
+        <line>Hide my car keys so I can't leave</line>
+        <line>A real slick bitch, keep a trick up her sleeve</line>
+        <line>And if I deceive, she won't take it lightly</line>
+        <line>She'll invite me, politely, to fight, G</line>
+        <line>And then we lie together, cry together</line>
+        <line>I swear to God I hope we fuckin' die together</line>
+    </verse> 
     
-    <chorus artist="Biggie PuffDaddy Girl">Just me and my bitch, just me and my bitch, yeah
-    <adlib>Nigga, nigga, if I ever</adlib>
-    Just me and my bitch, yeah, just me and my bitch
-    <adlib>Catch your ass fuckin' around</adlib>
-    Just me and my bitch, just me and my bitch, yeah
-    <adlib>I'll cut your motherfuckin' dick off</adlib>
-    Just me and my bitch, yeah, just me and my bitch
-    <adlib>Haha</adlib>
-    Just me and my bitch, just me and my bitch, yeah
-    <adlib>Stop playin'</adlib>
-    Just me and my bitch, yeah, just me and my bitch
-    <adlib>I ain't pl— ain't— ain't no jokes, ain't no jokes</adlib>
-    Just me and my bitch, just me and my bitch, yeah
-    <adlib>Ain't no jokes</adlib>
-    Just me and my bitch, yeah, just me and my bitch
-    <adlib>Yo, don— don't play with my dick</adlib></chorus>
+    <chorus artist="Biggie PuffDaddy Girl">
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line><adlib>Nigga, nigga, if I ever</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch</line>
+        <line><adlib>Catch your ass fuckin' around</adlib></line>
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line><adlib>I'll cut your motherfuckin' dick off</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch</line>
+        <line><adlib>Haha</adlib></line>
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line><adlib>Stop playin'</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch</line>
+        <line><adlib>I ain't pl— ain't— ain't no jokes, ain't no jokes</adlib></line>
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line><adlib>Ain't no jokes</adlib></line>
+        <line>Just me and my bitch, yeah, just me and my bitch</line>
+        <line><adlib>Yo, don— don't play with my dick</adlib></line>
+    </chorus>
     
     
-    <verse artist="Biggie"><style type="anecdote">She helped me plan out my robberies on my enemies
-    Didn't hesitate to squeeze to get my life out of danger
-    One day, she put 911 on the pager
-    Had to call back, whether it's minor or major
-    No response, the phone just rung
-    Grab my vest, grab my gun, to find out the problem
-    When I pulled up, police was on the scene
-    Had to make the U-turn, make sure my shit was clean
-    Drove down the block, stashed the burner in the bushes
-    Stepped to police with the shoves and the pushes
-    It didn't take long before the tears start
-    <theme topic="violence">I saw my bitch dead with the gunshot to the heart</theme>
-    And I know it was meant for me
-    I guess the niggas felt they had to kill the closest one to me
-    And when I find 'em your life is to an end
-    They killed my best friend, me and my bitch</style></verse>
+    <verse artist="Biggie">
+        <line>She helped me plan out my robberies on my enemies</line>
+        <line><theme topic="violence"><style type="collo">Didn't hesitate to squeeze</style> to get my life out of danger</theme></line>
+        <line>One day, she put 911 on the pager</line>
+        <line>Had to call back, whether it's minor or major</line>
+        <line>No response, the phone just rung</line>
+        <line>Grab my vest, grab my gun, to find out the problem</line>
+        <line>When I pulled up, police was on the scene</line>
+        <line>Had to make the U-turn, make sure my shit was clean</line>
+        <line>Drove down the block, stashed the burner in the bushes</line>
+        <line>Stepped to police with the shoves and the pushes</line>
+        <line>It didn't take long before the tears start</line>
+        <line><theme topic="violence">I saw my bitch dead with the gunshot to the heart</theme></line>
+        <line>And I know it was meant for me</line>
+        <line>I guess the niggas felt they had to kill the closest one to me</line>
+        <line>And when I find 'em your life is to an end</line>
+        <line>They killed my best friend, me and my bitch</line>
+    </verse>
         
-    <chorus artist="Biggie"><style type="repitition">Just me and my bitch, me and my bitch, yeah
-    Just me and my bitch, yeah, just me and my bitch, uh
-    Just me and my bitch, me and my bitch, yeah
-    Just me and my bitch, yeah, just me and my bitch, uh
-    Just me and my bitch, just me and my bitch, yeah
-    Just me and my bitch, just me and my bitch
-    Just me and my bitch, me and my bitch, yeah
-    Just me and my bitch</style></chorus>
+    <chorus artist="Biggie">
+        <line>Just me and my bitch, me and my bitch, yeah</line>
+        <line>Just me and my bitch, yeah, just me and my bitch, uh</line>
+        <line>Just me and my bitch, me and my bitch, yeah</line>
+        <line>Just me and my bitch, yeah, just me and my bitch, uh</line>
+        <line>Just me and my bitch, just me and my bitch, yeah</line>
+        <line>Just me and my bitch, just me and my bitch</line>
+        <line>Just me and my bitch, me and my bitch, yeah</line>
+        <line>Just me and my bitch</line>
+    </chorus>
        
-    <skit artist="Biggie PuffDaddy Girl">Let's get started then
-    So when did you first start rappin'?
-    Um, I was like about 18 years old. Yeah, about 18
-    So how did you first get started? Who influenced you?
-    Ain't nobody really influenced me, you know what I'm saying?
-    I was just tired of being on the streets, you know what I'm saying? Had to get up off that, you know
-    I see. So where you from?
-    Brooklyn</skit>
+    <skit artist="Biggie PuffDaddy Girl">
+        <line>Let's get started then</line>
+        <line>So when did you first start rappin'?</line>
+        <line>Um, I was like about 18 years old. Yeah, about 18</line>
+        <line>So how did you first get started? Who influenced you?</line>
+        <line>Ain't nobody really influenced me, you know what I'm saying?</line>
+        <line>I was just tired of being on the streets, you know what I'm saying? Had to get up off that, you know</line>
+        <line>I see. So where you from?</line>
+        <line>Brooklyn</line>
+    </skit>
 </song>

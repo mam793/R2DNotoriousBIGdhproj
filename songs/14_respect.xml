@@ -1,114 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     
-    <intro artist="Biggie DianaKing">No big up our gun men, seen? <adlib>Big up, big up</adlib>
-    Cuh dis ah '94 when ah RAA fi kill people and kyaan dun
-    Nuh waan pussy hole hold di kaanah
-    Watch this, lawd</intro>
+    <intro artist="Biggie DianaKing">
+        <line>No big up our gun men, seen? <adlib>Big up, big up</adlib></line>
+        <line>Cuh dis ah '94 when ah RAA fi kill people and kyaan dun</line>
+        <line>Nuh waan pussy hole hold di kaanah</line>
+        <line>Watch this, lawd</line>
+    </intro>
     
-    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
-    Gun men alone, keep gun men friend
-    Fire bun, fi all the informer dem
-    Informer lone keep informer friend</chorus>   
+    <chorus artist="DianaKing">
+        <line>Me holla respect, to all the gun men dem</line>
+        <line>Gun men alone, keep gun men friend</line>
+        <line>Fire bun, fi all the informer dem</line>
+        <line>Informer lone keep informer friend</line>
+    </chorus>   
     
-    <verse artist="Biggie">1970 something, nigga I don't sweat the date
-    <theme topic="family">My moms is late so I had to plan my escape</theme>
-    Out the skins, in this world of fly girls
-    <theme topic="drugs">Tanqueray and Hennessy until I call hurl</theme>
-    Ten months in this gut, what the fuck?
-    I wish moms would hurry up so I could get buck
-    Wild juvenile ripping mics and shit
-    New York, New York, ready for the likes of this
-    <theme topic="family">Then came the worst date, May 21st
-    2:19, that's when my mama water burst
-    No spouse in the house so she rode for self
-    To the hospital, to see if she could get a little help</theme>
-    Umbilical cord's wrapped around my neck
-    I'm seeing my death and I ain't even took my first step
-    I made it out, I'm bringing mad joy
-    The doctor looked and said, "He's going to be a bad boy"</verse>
+    <verse artist="Biggie">
+        <line>1970 something, nigga I don't sweat the date</line>
+        <line><theme topic="family">My moms is late so I had to plan my escape</theme></line>
+        <line>Out the skins, in this world of fly girls</line>
+        <line><theme topic="drugs">Tanqueray and Hennessy until I call hurl</theme></line>
+        <line>Ten months in this gut, what the fuck?</line>
+        <line>I wish moms would hurry up so I could get buck</line>
+        <line>Wild juvenile ripping mics and shit</line>
+        <line>New York, New York, ready for the likes of this</line>
+        <line>Then came the worst date, May 21st</line>
+        <line>2:19, that's when my mama water burst</line>
+        <line>No spouse in the house so she rode for self</line>
+        <line>To the hospital, to see if she could get a little help</line>
+        <line>Umbilical cord's wrapped around my neck</line>
+        <line>I'm seeing my death and I ain't even took my first step</line>
+        <line>I made it out, I'm bringing mad joy</line>
+        <line>The doctor looked and said, "He's going to be a bad boy"</line>
+    </verse>
       
-    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
-    Gun men alone, keep gun men friend
-    Fire bun, fi all the informer dem
-    Informer lone keep informer friend</chorus>   
+    <chorus artist="DianaKing">
+        <line>Me holla respect, to all the gun men dem</line>
+        <line>Gun men alone, keep gun men friend</line>
+        <line>Fire bun, fi all the informer dem</line>
+        <line>Informer lone keep informer friend</line>
+    </chorus>   
     
-    <verse artist="Biggie"><style type="anecdote">Now I'm thirteen, <theme topic="drugs">smoking blunts</theme>, making cream
-    <theme topic="drugs">On the drug scene, fuck a football team</theme>
-    Risking ruptured spleens by the age of sixteen
-    Hearing the coach scream ain't my lifetime dream
-    I mean, <theme topic="money">I want to blow up, <style type="collo">stack my dough up</style></theme>
-    So school I didn't show up, it fucked my flow up
-    <theme topic="family">Mom said that I should grow up and check myself
-    Before I wreck myself, disrespect myself</theme>
-    Put the drugs on the shelf? Nah, couldn't see it
-    <style type="allusion">Scarface, King of New York,</style> I want to be it
-    <theme topic="reflection">Rap was secondary, money was necessary
-    Until I got incarcerated, kinda scary</theme>
-    C74-Mark 8 set me straight
-    Not able to move behind the great steel gate
-    Time to contemplate, damn, where did I fail?
-    All the money I stacked was all the money for bail</style></verse>
+    <verse artist="Biggie">
+        <line>Now I'm thirteen, <theme topic="drugs">smoking blunts</theme>, making cream</line>
+        <line><theme topic="drugs">On the drug scene, fuck a football team</theme></line>
+        <line>Risking ruptured spleens by the age of sixteen</line>
+        <line>Hearing the coach scream ain't my lifetime dream</line>
+        <line>I mean, <theme topic="money">I want to blow up, <style type="collo">stack my dough up</style></theme></line>
+        <line>So school I didn't show up, it fucked my flow up</line>
+        <line><theme topic="family">Mom said that I should grow up and check myself</theme></line>
+        <line>Before I wreck myself, disrespect myself</line>
+        <line>Put the drugs on the shelf? Nah, couldn't see it</line>
+        <line><style type="allusion">Scarface, King of New York,</style> I want to be it</line>
+        <line><theme topic="reflection money">Rap was secondary, money was necessary</theme></line>
+        <line>Until I got incarcerated, kinda scary</line>
+        <line>C74-Mark 8 set me straight</line>
+        <line>Not able to move behind the great steel gate</line>
+        <line>Time to contemplate, damn, where did I fail?</line>
+        <line>All the money I stacked was all the money for bail</line>
+    </verse>
      
-    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
-    Gun men alone, keep gun men friend
-    Fire bun, fi all the informer dem
-    Informer lone keep informer friend
-    Me holla respect, to all the gun men dem
-    Gun men alone, keep gun men friend
-    Fire bun, fi all the informer dem
-    Informer lone keep informer friend</chorus>
+    <chorus artist="DianaKing">
+        <line>Me holla respect, to all the gun men dem</line>
+        <line>Gun men alone, keep gun men friend</line>
+        <line>Fire bun, fi all the informer dem</line>
+        <line>Informer lone keep informer friend</line>
+        <line>Me holla respect, to all the gun men dem</line>
+        <line>Gun men alone, keep gun men friend</line>
+        <line>Fire bun, fi all the informer dem</line>
+        <line>Informer lone keep informer friend</line>
+    </chorus>
       
-    <verse artist="Biggie"><style type="anecdote">Ninety-four, now I explore new horizons
-    <theme topic="family">Mama smile when she see me, that's surprising</theme>
-    Honeys is tantalizing, they freak all night
-    Keep ducking cops on the creep all night
-    As I open my eyes and realizing I changed
-    Not the same deranged child stuck up in the game
-    And to my niggas living street life
-    Learn to treat life to the best, put stress to rest
-    Still tote your vest man, niggas be tripping
-    <style type="collo">In the streets without a gat?</style> Nah, nigga you're slipping
-    If I'm dipping on The F with weed on my breath
-    Original hustler with the muffler on the TEC
-    Respect to the macks in the Ac's
-    To the freaks in the Jeeps, lick shots to my peeps</style></verse>
+    <verse artist="Biggie">
+        <line>Ninety-four, now I explore new horizons</line>
+        <line><theme topic="family">Mama smile when she see me, that's surprising</theme></line>
+        <line>Honeys is tantalizing, they freak all night</line>
+        <line>Keep ducking cops on the creep all night</line>
+        <line>As I open my eyes and realizing I changed</line>
+        <line>Not the same deranged child stuck up in the game</line>
+        <line>And to my niggas living street life</line>
+        <line>Learn to treat life to the best, put stress to rest</line>
+        <line>Still tote your vest man, niggas be tripping</line>
+        <line><style type="collo">In the streets without a gat?</style> Nah, nigga you're slipping</line>
+        <line>If I'm dipping on The F with weed on my breath</line>
+        <line>Original hustler with the muffler on the TEC</line>
+        <line>Respect to the macks in the Ac's</line>
+        <line>To the freaks in the Jeeps, lick shots to my peeps</line>
+    </verse>
     
-    <chorus artist="DianaKing">Me holla respect, to all the gun men dem
-    Gun men alone, keep gun men friend
-    Fire bun, fi all the informer dem
-    Informer lone keep informer friend</chorus>
+    <chorus artist="DianaKing">
+        <line>Me holla respect, to all the gun men dem</line>
+        <line>Gun men alone, keep gun men friend</line>
+        <line>Fire bun, fi all the informer dem</line>
+        <line>Informer lone keep informer friend</line>
+    </chorus>
       
-    <verse artist="DianaKing">Now this is Diana King doing a Yankee thing
-    In a Biggie Small's thing, do it, Ja
-    Have mercy!
-    The gunman in all de party
-    And everybody feel irie
-    And everybody just follow me, follow me, follow me
-    Have mercy
-    The wul ah we in ah de party
-    And everybody look irie
-    Now di man them sexy, sexy, sexy
-    Do it</verse>
+    <verse artist="DianaKing">
+        <line>Now this is Diana King doing a Yankee thing</line>
+        <line>In a Biggie Small's thing, do it, Ja</line>
+        <line>Have mercy!</line>
+        <line>The gunman in all de party</line>
+        <line>And everybody feel irie</line>
+        <line>And everybody just follow me, follow me, follow me</line>
+        <line>Have mercy</line>
+        <line>The wul ah we in ah de party</line>
+        <line>And everybody look irie</line>
+        <line>Now di man them sexy, sexy, sexy</line>
+        <line>Do it</line>
+    </verse>
      
-    <outro artist="DianaKing">No mercy fuh nuh big up unnu self
-    Cuh we nuh watch nuh this girl seen?
-    The hardcore thing we ah deal with
-    Oh yes, we are the best
-    No other guy can test</outro>
+    <outro artist="DianaKing">
+        <line>No mercy fuh nuh big up unnu self</line>
+        <line>Cuh we nuh watch nuh this girl seen?</line>
+        <line>The hardcore thing we ah deal with</line>
+        <line>Oh yes, we are the best</line>
+        <line>No other guy can test</line>
+    </outro>
        
     <skit artist="Biggie FaithEvans">
-        <style type="dialogue">Shit, Mami, damn, why you actin like that, man?
-    'Cause I don't be doin' this
-    I'm sayin', you know it ain't nothin'
-    It's just part of sex, ya know'm saying
-    But you know I don't do this
-    I don't even know how to do this
-    I'm just sayin', jus— just a little peck Mami, for daddy
-    Just a little peck
-    Like that?
-    That's what I'm sayin', yeah
-    You know I don't be doin' this though
-    You know that
-    Whatever bitch!</style></skit>
+        <line>Shit, Mami, damn, why you actin like that, man?</line>
+        <line>'Cause I don't be doin' this</line>
+        <line>I'm sayin', you know it ain't nothin'</line>
+        <line>It's just part of sex, ya know'm saying</line>
+        <line>But you know I don't do this</line>
+        <line>I don't even know how to do this</line>
+        <line>I'm just sayin', jus— just a little peck Mami, for daddy</line>
+        <line>Just a little peck</line>
+        <line>Like that?</line>
+        <line>That's what I'm sayin', yeah</line>
+        <line>You know I don't be doin' this though</line>
+        <line>You know that</line>
+        <line>Whatever bitch!</line>
+    </skit>
 </song>
