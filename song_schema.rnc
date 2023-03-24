@@ -1,29 +1,37 @@
 start = song
-song = element song { intro?, (chorus | skit | interlude | verse)+, outro? }
+song = element song { intro?, (chorus | skit | interlude | verse)+, outro?, skit?}
 # 
 # Named pattern for (mixed) content of song components
 #
-content = mixed { (adlib | theme | style)* }
+content = mixed { (adlib | sex | violence | money | drugs| family| relationships | home | reflection| style)* }
 # 
 # Song components
 #
-intro = element intro { artist, line+}
-outro = element outro { artist, line+}
-skit = element skit { artist, line+}
-interlude = element interlude { artist, line+}
-chorus = element chorus { artist, line+}
-verse = element verse { artist, line+}
+intro = element intro { artist, theme, line+}
+outro = element outro { artist, theme, line+}
+skit = element skit { artist, theme, line+}
+interlude = element interlude { artist, theme, line+}
+chorus = element chorus { artist, theme, line+}
+verse = element verse { artist, theme, line+}
 line= element line {content}
 # Inline elements
 # TODO: Should adlib also use the "content" pattern?
 #
-theme = element theme { topic, content }
+sex = element sex {content}
+violence = element violence {content}
+money = element money {content}
+drugs = element drugs {content}
+family = element family {content}
+relationships = element relationships {content}
+home = element home {content}
+reflection = element reflection {content}
 style = element style { type, content }
 adlib = element adlib { text }
 # 
 # 
 # Attributes
 #
+theme = attribute theme { text }
 topic = attribute topic { text }
 artist = attribute artist { text }
 # Should this be an or-group of strings?

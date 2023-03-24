@@ -20,7 +20,7 @@
         <line>Got no rings and shit, just my main squeeze</line>
         <line>Comin' to the crib, even had a set of keys</line>
         <line>During the days you helped me bag up my nickels</line>
-        <line>In the process, I admit, I tricked a little</line>
+        <line><theme topic="reflection">In the process, I admit, I tricked a little</theme></line>
         <line>But you was my bitch, the one who'd never snitch</line>
         <line><theme topic="money">Love me when I'm broke or when I'm filthy fuckin' rich</theme></line>
         <line>And I admit, when the time is right, the wine is right</line>
@@ -46,10 +46,10 @@
     </chorus>
       
     <verse artist="Biggie">
-        <line>Moonlight strolls with the hoes, oh, no, that's not my steelo</line>
+        <line>Moonlight strolls with the hoes, <style type="collo">oh, no, that's not my steelo</style></line>
         <line>I wanna bitch that like to play ceelo and craps</line>
         <line><style type="collo">Packin' gats in a Coach bag,</style><theme topic="drugs"><style type="collo">steamin' dime bags</style></theme></line>
-        <line>A real bitch is all I want, all I ever had</line>
+        <line><theme topic="relationships">A real bitch is all I want, all I ever had</theme></line>
         <line>With a bop just as strong as me</line>
         <line>Totin' guns just as long as me, the bitch belongs with me</line>
         <line>Any plans with another bitch, my bitch'll spoil it</line>

@@ -2,31 +2,31 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     
-    <intro artist="Biggie DianaKing">
+    <intro artist="Biggie DianaKing" theme="none">
         <line>No big up our gun men, seen? <adlib>Big up, big up</adlib></line>
         <line>Cuh dis ah '94 when ah RAA fi kill people and kyaan dun</line>
         <line>Nuh waan pussy hole hold di kaanah</line>
         <line>Watch this, lawd</line>
     </intro>
     
-    <chorus artist="DianaKing">
+    <chorus artist="DianaKing" theme="none">
         <line>Me holla respect, to all the gun men dem</line>
         <line>Gun men alone, keep gun men friend</line>
         <line>Fire bun, fi all the informer dem</line>
         <line>Informer lone keep informer friend</line>
     </chorus>   
     
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="reflection">
         <line>1970 something, nigga I don't sweat the date</line>
         <line><theme topic="family">My moms is late so I had to plan my escape</theme></line>
         <line>Out the skins, in this world of fly girls</line>
         <line><theme topic="drugs">Tanqueray and Hennessy until I call hurl</theme></line>
         <line>Ten months in this gut, what the fuck?</line>
-        <line>I wish moms would hurry up so I could get buck</line>
+        <line><theme topic="family">I wish moms would hurry up so I could get buck</theme></line>
         <line>Wild juvenile ripping mics and shit</line>
-        <line>New York, New York, ready for the likes of this</line>
+        <line><theme topic="home">New York, New York, ready for the likes of this</theme></line>
         <line>Then came the worst date, May 21st</line>
-        <line>2:19, that's when my mama water burst</line>
+        <line><theme topic="family">2:19, that's when my mama water burst</theme></line>
         <line>No spouse in the house so she rode for self</line>
         <line>To the hospital, to see if she could get a little help</line>
         <line>Umbilical cord's wrapped around my neck</line>
@@ -35,14 +35,14 @@
         <line>The doctor looked and said, "He's going to be a bad boy"</line>
     </verse>
       
-    <chorus artist="DianaKing">
+    <chorus artist="DianaKing" theme="none">
         <line>Me holla respect, to all the gun men dem</line>
         <line>Gun men alone, keep gun men friend</line>
         <line>Fire bun, fi all the informer dem</line>
         <line>Informer lone keep informer friend</line>
     </chorus>   
     
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="reflection">
         <line>Now I'm thirteen, <theme topic="drugs">smoking blunts</theme>, making cream</line>
         <line><theme topic="drugs">On the drug scene, fuck a football team</theme></line>
         <line>Risking ruptured spleens by the age of sixteen</line>
@@ -77,8 +77,8 @@
         <line><theme topic="family">Mama smile when she see me, that's surprising</theme></line>
         <line>Honeys is tantalizing, they freak all night</line>
         <line>Keep ducking cops on the creep all night</line>
-        <line>As I open my eyes and realizing I changed</line>
-        <line>Not the same deranged child stuck up in the game</line>
+        <line><theme topic="reflection">As I open my eyes and realizing I changed</theme></line>
+        <line><theme topic="reflection">Not the same deranged child stuck up in the game</theme></line>
         <line>And to my niggas living street life</line>
         <line>Learn to treat life to the best, put stress to rest</line>
         <line>Still tote your vest man, niggas be tripping</line>

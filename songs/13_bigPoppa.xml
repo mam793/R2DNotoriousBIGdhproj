@@ -15,8 +15,8 @@
         <line>Allow me to lace these lyrical douches in your bushes <adlib>Uh</adlib></line>
         <line>Who rock grooves and make moves with all the mamis?</line> 
         <line><theme topic="drugs">The back of the club, sippin' Moët is where you'll find me</theme><adlib>What?</adlib></line>
-        <line>The back of the club, mackin' hoes, my crew's behind me <adlib>Uh</adlib></line>
-        <line><style type="collo">Mad question askin'</style>, blunt passin'</line>
+        <line>The back of the club, <style type="collo">mackin' hoes</style>, my crew's behind me <adlib>Uh</adlib></line>
+        <line><style type="collo">Mad question askin'</style>, <theme topic="drugs">blunt passin'</theme></line>
         <line>Music blastin', but I just can't quit</line>
         <line>Because one of these honeys Biggie got to creep with <adlib>That's right</adlib></line>
         <line>Sleep with, keep the ep a secret, why not? <adlib>Uh</adlib></line>
@@ -24,12 +24,10 @@
         <line>Now check it: I got more mack than Craig, and in the bed</line>
         <line>Believe me, sweetie, I got enough to feed the needy <adlib>Come on</adlib></line>
         <line>No need to be greedy, I got mad friends with Benzes</line> 
-        <line>C-notes by the layers, true fuckin' players <adlib>Uh</adlib></line>
+        <line><theme topic="money">C-notes by the layers</theme>, true fuckin' players <adlib>Uh</adlib></line>
         <line>Jump in the Rover and come over, tell your friends jump in the GS3</line>
         <line>I got the chronic by the tree cuz <adlib>Let's go</adlib></line>
     </verse>
-
-
 
     <chorus artist="Biggie PuffDaddy">
         <line>I love it when you call me Big Poppa</line>
@@ -41,10 +39,9 @@
         <line>'Cause I see some ladies tonight that should be havin' my baby <adlib>Uh</adlib>, baby <adlib>Uh</adlib></line>
     </chorus>
 
-
     <verse artist="Biggie PuffDaddy">
         <line>Straight up, honey, really I'm askin'</line>
-        <line>Most of these niggas think they be mackin', but they be actin'</line>
+        <line><style type="collo">Most of these niggas think they be mackin'</style>, but they be actin'</line>
         <line>Who they attractin' with that line <adlib>What?</adlib>,"What's your name? What's your sign?"</line>
         <line>Soon as he buy that wine, I just creep up from behind <adlib>That's right</adlib></line>
         <line>And ask you what your interests are, who you be with</line>
@@ -53,14 +50,13 @@
         <line>We can rendezvous at the bar around 2 <adlib>Come on</adlib></line>
         <line>Plans to leave, throw the keys to Little Cease <adlib>Uh-huh</adlib></line>
         <line>Pull the truck up front, and <theme topic="drugs">roll up the next blunt</theme></line>
-        <line>So we can steam on the way to the telly, go fill my belly <adlib>G</adlib></line>
+        <line><theme topic="drugs">So we can <style type="collo">steam on the way to the telly</style></theme>, go fill my belly <adlib>G</adlib></line>
         <line>A T-bone steak, cheese eggs and Welch's grape</line>
         <line>Conversate for a few, ‘cause in a few we gon' do</line>
         <line>What we came to do, ain't that right, boo? <adlib>True</adlib></line>
         <line>Forget the telly—we just go to the crib</line>
-        <line>And watch a movie in the jacuzzi, <theme topic="drugs sex">smoke Ls while you do me</theme></line>
+        <line>And watch a movie in the jacuzzi, <theme topic="drugs sex"><style type="collo">smoke Ls</style> while you do me</theme></line>
     </verse>
-
 
     <chorus artist="Biggie PuffDaddy">
         <line>I love it when you call me Big Poppa</line>
@@ -71,7 +67,6 @@
         <line>You got a gun up in your waist, please don't shoot up the place <adlib>Why?</adlib></line>
         <line>'Cause I see some ladies tonight that should be havin' my baby, baby <adlib>Uh</adlib></line>
     </chorus>
-
 
     <verse artist="Biggie PuffDaddy">
         <line><adlib>How you livin', Biggie Smalls?</adlib> In mansion and Benzes</line>
@@ -86,7 +81,6 @@
         <line>Drop top BMs, I'm the man, girlfriend</line>
     </verse>
 
-
     <interlude artist="PuffDaddy">
         <line>Yeah, honey, check it</line>
         <line>Tell your friends to get with my friends</line>
@@ -95,8 +89,6 @@
         <line>Is that aight wit' you?</line>
         <line>Yeah, keep bangin'</line>
     </interlude>
-
-
 
     <chorus artist="Biggie PuffDaddy">
         <line>I love it when you call me Big Poppa</line>
@@ -107,7 +99,6 @@
         <line>You got a gun up in your waist, please don't shoot up the place <adlib>Why?</adlib></line>
         <line>'Cause I see some ladies tonight that should be havin' my baby, baby <adlib>Uh</adlib></line>
     </chorus>
-
 
     <outro artist="Biggie">
         <line>Check it out</line>
