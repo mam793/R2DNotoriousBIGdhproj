@@ -2,112 +2,111 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <intro artist = "biggie">
-        <theme topic = "sex">All you hoes calling here for my daddy, get off his dick
-        <style type = "dialogue">Like that, mommy?
-        *Beep*
-        Hi, daddy, how you doing? This is Tyiest
-        I was thinking about you last night, mm
-        You actin' like you can't call me no more 'cause you busy and all of that
-        But you trying to tell me it wasn't good?</style></theme>
-        *Beep*
-        That shit is real fucked up what you did
-        <theme topic = "sex">I hooked you up with my girl and shit
-        You fucked her every time you see her
-        You don't even say shit to her, you know what I'm saying?
-        And all that bitch do is call me all day talking about you</theme>
-        <style type = "dialogue">"Why the fuck B.I.G. don't want me?"
-        *Beep*
-        Yo, B.I.G., this is Quita
-        Kenya told me she saw you and Shanie at the mall and I know you ain't fucking her
-        You fucked with me last night
-        That's my best friend and we don't get down like that
-        *Beep*
-        Yeah, motherfucker, this is Stephanie
-        I was waiting outside for your ass for like a fucking hour
-        I don't know what's going on, motherfuckers trying to rob me
-        You be disappearing and shit, I'm waiting in the cold
-        What the fuck is going on?
-        When you get in give me a fucking call, alright?</style>
+        <line><theme topic = "sex">All you hoes calling here for my daddy, get off his dick</theme></line>
+        <!-- dialoge style and same theme throughout-->
+        <line>Like that, mommy? *Beep*</line>
+        <line>Hi, daddy, how you doing? This is Tyiest</line>
+        <line>I was thinking about you last night, mm</line>
+        <line>You actin' like you can't call me no more 'cause you busy and all of that</line>
+        <line>But you trying to tell me it wasn't good?*Beep*</line>
+        <line>That shit is real fucked up what you did</line>
+        <line>I hooked you up with my girl and shit</line>
+        <line>You fucked her every time you see her</line>
+        <line>You don't even say shit to her, you know what I'm saying?</line>
+        <line>And all that bitch do is call me all day talking about you</line>
+        <line>"Why the fuck B.I.G. don't want me?" *Beep*</line>
+        <line>Yo, B.I.G., this is Quita</line>
+        <line>Kenya told me she saw you and Shanie at the mall and I know you ain't fucking her</line>
+        <line>You fucked with me last night</line>
+        <line>That's my best friend and we don't get down like that *Beep*</line>
+        <line>Yeah, motherfucker, this is Stephanie</line>
+        <line>I was waiting outside for your ass for like a fucking hour</line>
+        <line>I don't know what's going on, motherfuckers trying to rob me</line>
+        <line>You be disappearing and shit, I'm waiting in the cold</line>
+        <line>What the fuck is going on?</line>
+        <line>When you get in give me a fucking call, alright?</line>
     </intro>
     
     <verse artist = "biggie">
-        <theme topic="sex relationship">When it comes to sex, I'm similar to the <style type = "allusion">Thrilla in Manila</style>
-        Honeys call me "Bigga the Condom Filler"
-        Whether it's stiff tongue or stiff dick
-        Biggie squeeze it to make shit fit, now check this shit
-        I got the pack of Rough Riders in the back of the Pathfinder
-        You know the epilogue by James Todd Smith
-        I get swift with the lyrical gift
-        Hit you with a dick, make your kidney shift
-        <style type="allusion">Here we go, here we go, but I'm not Domino</style>
-        I got the funk flow to make your drawers drop slow
-        So recognize the dick size in these Karl Kani jeans
-        I wear thirteens, know what I mean?
-        I'll fuck around and hit you with the Hennessy dick
-        Mess around and go blind, don't get to see shit (See shit)
-        The next batter, here to <style type = "metaphor">shatter your bladder</style>
-        It doesn't matter, skinny or fat or light-skinned or black
-        Baby, I drop these Boricua mamis screaming <style type="onomatopoeia">¡Ay papi!</style>
-        I love it when they call me Big Poppa
-        I only smoke blunts if they rolled proper
-        Look, I gotcha caught up with the drunk flow
-        Fuck tae kwon do, I tote a four-four
-        For niggas getting mad 'cause they bitch chose me
-        A big black motherfucker with G, you see
-        All I do is separate the game from the truth
-        Big bang boots from the Bronx to Bolivia
-        Getting physical like Olivia Newt
-        Tricks suck my clique dick all day with no trivia
-        So give me a ho, a bankroll and a bag of weed
-        I'm guaranteed to fuck her 'til her nose bleed
-        Even if your new man's a certified mack
-        You'll get that H-Town in ya, you want that old thing back</theme>
+        <!-- same theme throughout -->
+        <line>When it comes to sex, I'm similar to the <style type = "allusion">Thrilla in Manila</style></line>
+        <line>Honeys call me "Bigga the Condom Filler"</line>
+        <line>Whether it's stiff tongue or stiff dick</line>
+        <line>Biggie squeeze it to make shit fit, now check this shit</line>
+        <line>I got the pack of Rough Riders in the back of the Pathfinder</line>
+        <line>You know the epilogue by James Todd Smith</line>
+        <line>I get swift with the lyrical gift</line>
+        <line>Hit you with a dick, make your kidney shift</line>
+        <line><style type="allusion">Here we go, here we go, but I'm not Domino</style></line>
+        <line>I got the funk flow to make your drawers drop slow</line>
+        <line>So recognize the dick size in these Karl Kani jeans</line>
+        <line>I wear thirteens, know what I mean?</line>
+        <line>I'll fuck around and hit you with the Hennessy dick</line>
+        <line>Mess around and go blind, don't get to see shit (See shit)</line>
+        <line>The next batter, here to <style type = "metaphor">shatter your bladder</style></line>
+        <line>It doesn't matter, skinny or fat or light-skinned or black</line>
+        <line>Baby, I drop these Boricua mamis screaming <style type="exclamation">¡Ay papi!</style></line>
+        <line>I love it when they call me Big Poppa</line>
+        <line>I only smoke blunts if they rolled proper</line>
+        <line>Look, I gotcha caught up with the drunk flow</line>
+        <line>Fuck tae kwon do, I tote a four-four</line>
+        <line>For niggas getting mad 'cause they bitch chose me</line>
+        <line>A big black motherfucker with G, you see</line>
+        <line>All I do is separate the game from the truth</line>
+        <line>Big bang boots from the Bronx to Bolivia</line>
+        <line><style type = "simile allusion">Getting physical like Olivia Newt</style></line>
+        <line>Tricks suck my clique dick all day with no trivia</line>
+        <line>So give me a ho, a bankroll and a bag of weed</line>
+        <line><style type = "hyperbole">I'm guaranteed to fuck her 'til her nose bleed</style></line>
+        <line>Even if your new man's a certified mack</line>
+       <line> You'll get that H-Town in ya, you want that old thing back</line>
     </verse>
     
     <chorus artist = "total biggie">
-        Oh, Biggie, give me one more chance
-        I got that good dick, girl, you didn't know?
-        Oh, Biggie, give me one more chance
-        I got that good dick, girl, you didn't know?
-        Oh, Biggie, give me one more chance
-        I got that good dick, girl, you didn't know?
-        Oh, Biggie, give me one more chance
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>I got that good dick, girl, you didn't know?</line>
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>I got that good dick, girl, you didn't know?</line>
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>I got that good dick, girl, you didn't know?</line>
+        <line>Oh, Biggie, give me one more chance</line>
     </chorus>
     
     <verse artist = "biggie">
-        <theme topic="sex">Is my mind playing tricks, like <style type="allusion">Scarface and Bushwick
-        Willie D</style>, having nightmares of girls killing me?
-        She mad because what we had didn't last
-        I'm glad because her cousin let me hit the ass
-        Fuck the past, let's dwell on the 500SL, the E&amp;J and ginger ale
-        The way my pockets swell to the rims with Benjamins
-        Another honey's in the crib? Please, send her in
-        <style type="hyperbole">I fuck non-stop, lick my lips a lot
-        Used to lick the clits a lot</style>, but licking clits had to stop
-        'Cause y'all don't know how to act when the tongue go down below
-        Peep the funk flow
-        <style type="hyperbole">Really, though, I got the cleanest, meanest penis</style>
-        You never seen this stroke of genius
-        <style type="imagery">So take off your Timb boots and your body suit
-        I mean the spandex and hit my man next</style>
-        Sex get rougher when it come to the nut buster
-        Pussy crusher, black nasty motherfucker
-        I don't chase 'em, I replace 'em
-        And if I'm caressing 'em I'm undressing 'em
-        Fuck what you heard, who's the best in New York?
-        <style type="allusion">Fulfilling fantasies without that nigga Mr. Roarke
-        Or Tattoo</style>, <style type = "doubleEntendre">I got you wrapped around my dick</style>
-        And when I nut I got to split
-        Shit, backshots is my position
-        I got you wishing for an intermission, fuck the kissin'
-        Lickin' down to your belly button, I ain't frontin'
-        They don't call me big for nuttin' all of a sudden</theme>
+        <!-- same theme throughout -->
+        <line>s my mind playing tricks, like <style type="allusion">Scarface and Bushwick</style></line>
+        <line><style type = "allusion">Willie D</style>, having nightmares of girls killing me?</line>
+        <line>She mad because what we had didn't last</line>
+        <line>I'm glad because her cousin let me hit the ass</line>
+        <line>Fuck the past, let's dwell on the 500SL, the E&amp;J and ginger ale</line>
+        <line>The way my pockets swell to the rims with Benjamins</line>
+        <line>Another honey's in the crib? Please, send her in</line>
+        <line><style type="hyperbole">I fuck non-stop</style>, lick my lips a lot</line>
+        <line>Used to lick the clits a lot, but licking clits had to stop</line>
+        <line>'Cause y'all don't know how to act when the tongue go down below</line>
+        <line>Peep the funk flow</line>
+        <line><style type="hyperbole">Really, though, I got the cleanest, meanest penis</style></line>
+        <line>You never seen this stroke of genius</line>
+        <line><style type="imagery">So take off your Timb boots and your body suit</style></line>
+        <line>I mean the spandex and hit my man next</line>
+        <line>Sex get rougher when it come to the nut buster</line>
+        <line>Pussy crusher, black nasty motherfucker</line>
+        <line>I don't chase 'em, I replace 'em</line>
+        <line>And if I'm caressing 'em I'm undressing 'em</line>
+        <line>Fuck what you heard, who's the best in New York?</line>
+        <line><style type="allusion">Fulfilling fantasies without that nigga Mr. Roarke</style></line>
+        <line>Or <style type = "allusion">Tattoo</style>, <style type = "doubleEntendre">I got you wrapped around my dick</style></line>
+        <line>And when I nut I got to split</line>
+        <line>Shit, backshots is my position</line>
+        <line>I got you wishing for an intermission, fuck the kissin'</line>
+        <line>Lickin' down to your belly button, I ain't frontin'</line>
+        <line>They don't call me big for nuttin' all of a sudden</line>
     </verse>
     
     <chorus artist = "total">
-        Oh, Biggie, give me one more chance
-        Oh, Biggie, give me one more chance
-        Oh, Biggie, give me one more chance
-        Oh, Biggie, give me one more chance
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>Oh, Biggie, give me one more chance</line>
+        <line>Oh, Biggie, give me one more chance</line>
     </chorus>
 </song>

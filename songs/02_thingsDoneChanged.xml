@@ -2,119 +2,120 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <chorus artist="biggie">
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? <adlib>Uh</adlib> 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side <adlib>Yeah</adlib> 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side <adlib>Yeah</adlib> 
-        Remember they used to thump, but now they blast, right?
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right? <adlib>Uh</adlib></line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side <adlib>Yeah</adlib></line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side <adlib>Yeah</adlib></line> 
+        <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 
     <verse artist="biggie">
-        Remember back in the days when niggas had waves 
-        Cazal shades and corn braids? 
-        <theme topic = "wealth">Pitching pennies, honeys had the high-top jellies</theme> 
-        Shooting skelly, motherfuckers was all friendly 
-        Lounging at the barbecues, drinking brews 
-        With the neighborhood crews hanging on the avenues 
-        Turn your pages to 1993 
-        <theme topic = "lifestyle"><style type="collo">Niggas is getting smoked, G, believe me 
-        Talk slick, you get your neck slit quick</style> 
-        'Cause real street niggas ain't having that shit 
-        Totin' TECs for rep</theme> 
-        <theme topic = "drugs">Smoking blunts in the project hallways</theme> 
-        Shooting dice all day 
-        <theme topic="lifestyle"><style type="repetition">Waitin' for niggas to step up on some fightin' shit 
-        We get hype and shit and start lightin' shit </style>
-        So step away with your fistfight ways 
-        Motherfucker, this ain't back in the days </theme>
-        But you don't hear me though
+        <line>Remember back in the days when niggas had waves</line> 
+        <line>Cazal shades and corn braids?</line> 
+        <line><theme topic = "wealth">Pitching pennies, honeys had the high-top jellies</theme></line> 
+        <line>Shooting skelly, motherfuckers was all friendly</line> 
+        <line>Lounging at the barbecues, drinking brews</line> 
+        <line>With the neighborhood crews hanging on the avenues</line> 
+        <line>Turn your pages to 1993</line> 
+        <line><theme topic = "violence"><style type="collo">Niggas is getting smoked, G, believe me</style></theme></line> 
+        <line><theme topic = "violence">Talk slick, you get your neck slit quick</theme></line> 
+        <line>'Cause real street niggas ain't having that shit</line> 
+        <line><theme topic="violence">Totin' TECs for rep</theme></line> 
+        <line><theme topic = "drugs">Smoking blunts in the project hallways</theme></line> 
+        <line>Shooting dice all day</line> 
+        <line><theme topic="violence">Waitin' for niggas to step up on some fightin' shit</theme></line> 
+        <line><theme topic="violence">We get hype and shit and start lightin' shit</theme></line>
+        <line>So step away with your fistfight ways</line> 
+        <line>Motherfucker, this ain't back in the days</line>
+        <line>But you don't hear me though</line>
     </verse>
 
     <chorus artist="biggie">
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right?
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line>
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 
     <verse artist="biggie">
-        No more coco-levio one, two, three 
-        One, two, three, all it is to me is a mystery
-        I hear you motherfuckers talk about it 
-        <theme topic = "">But I stay seeing bodies with the motherfuckin' chalk around it 
-        And I'm down with the shit, too 
-        For the stupid motherfuckers want to try to use Kung-Fu 
-        Instead of a MAC-10, he tried scrappin' 
-        Slugs in his back and that's what the fuck happens 
-        When you sleep on the street 
-        Little motherfuckers with heat wanna leave a nigga six feet deep 
-        And we coming to the wake 
-        To make sure the crying and commotion ain't a motherfucking fake </theme>
-        <theme topic = "relationship">Back in the days our parents used to take care of us
-        Look at 'em now, they even fuckin' scared of us</theme> 
-        Calling the city for help because they can't maintain 
-        Damn, shit done changed</verse>
-
-    <chorus artist="biggie">
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right?
-    </chorus>
-
-    <verse artist="biggie">
-        If I wasn't in the rap game 
-        <theme topic = "drugs wealth">I'd probably have a ki, knee-deep in the crack game 
-        <style type="alliteration">Because the streets is a short stop</style> 
-        Either you're slingin' crack rock or you got a wicked jump shot</theme> 
-        <theme topic="wealth">Shit, it's hard being young from the slums 
-        Eatin' five cent gums, not knowing where your meal's coming from 
-        And now the shit's getting crazier and major 
-        Kids younger than me, they got the <style type="collo">Sky brand pagers</style> 
-        Goin' out of town, blowing up </theme>
-        Six months later, all the dead bodies showing up 
-        It make me wanna grab <style type="collo">the nine and the shotty </style>
-        But I gotta go identify the body 
-        Damn, what happened to the summertime cookouts? 
-        Every time I turn around, a nigga gettin' took out 
-        <theme topic = "relationship">Shit, my mama got cancer in her breast 
-        Don't ask me why I'm motherfucking stressed</theme>, things done changed
+        <line>No more coco-levio one, two, three</line> 
+        <line>One, two, three, all it is to me is a mystery</line>
+        <line>I hear you motherfuckers talk about it</line> 
+        <line><theme topic = "violence">But I stay seeing bodies with the motherfuckin' chalk around it</theme></line> 
+        <line>And I'm down with the shit, too</line> 
+        <line><theme topic="violence">For the stupid motherfuckers want to try to use Kung-Fu</theme></line> 
+        <line><theme topic="violence">Instead of a MAC-10, he tried scrappin'</theme></line> 
+        <line><theme topic="violence">Slugs in his back and that's what the fuck happens</theme></line> 
+        <line>When you sleep on the street</line> 
+        <line><theme topic="violence">Little motherfuckers with heat wanna leave a nigga six feet deep</theme></line> 
+        <line>And we coming to the wake</line> 
+        <line>To make sure the crying and commotion ain't a motherfucking fake</line>
+        <line><theme topic = "relationship">Back in the days our parents used to take care of us</theme></line>
+        <line>Look at 'em now, they even fuckin' scared of us</line> 
+        <line>Calling the city for help because they can't maintain</line> 
+        <line>Damn, shit done changed</line>
     </verse>
 
     <chorus artist="biggie">
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right? 
-        Back in the day 
-        Things done changed on this side 
-        Remember they used to thump, but now they blast, right?
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line>
+    </chorus>
+
+    <verse artist="biggie">
+        <line>If I wasn't in the rap game</line> 
+        <line><theme topic = "drugs wealth">I'd probably have a ki, knee-deep in the crack game</theme></line> 
+        <line><style type="alliteration">Because the streets is a short stop</style></line> 
+        <line><theme topic = "drugs wealth">Either you're slingin' crack rock or you got a wicked jump shot</theme></line> 
+        <line><theme topic="wealth">Shit, it's hard being young from the slums</theme></line> 
+        <line><theme topic = "wealth">Eatin' five cent gums, not knowing where your meal's coming from</theme></line> 
+        <line>And now the shit's getting crazier and major</line> 
+        <line>Kids younger than me, they got the <style type="collo">Sky brand pagers</style></line> 
+        <line>Goin' out of town, blowing up</line>
+        <line>Six months later, all the dead bodies showing up</line> 
+        <line>It make me wanna grab <style type="collo">the nine and the shotty </style></line>
+        <line>But I gotta go identify the body</line> 
+        <line>Damn, what happened to the summertime cookouts?</line> 
+        <line>Every time I turn around, a nigga gettin' took out</line> 
+        <line><theme topic = "relationship">Shit, my mama got cancer in her breast</theme></line> 
+        <line>Don't ask me why I'm motherfucking stressed, things done changed</line>
+    </verse>
+
+    <chorus artist="biggie">
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line>
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line> 
+        <line>Back in the day</line> 
+        <line>Things done changed on this side</line> 
+        <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 </song>

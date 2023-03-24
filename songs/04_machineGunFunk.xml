@@ -2,95 +2,95 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <intro artist="biggie">
-        Yeah
+        <line>Yeah</line>
     </intro>
     <verse artist="biggie">
-        So you wanna be hardcore?
-        With your hat to the back
-        Talkin' about the gats in ya raps
-        But I can't feel that hardcore appeal that you're screamin'
-        <style type="allusion">Maybe I'm dreamin'
-        This ain't Christopher Williams</style>
-        Still some MC's gotta feel one, caps I gotta peel some
-        To let niggas know that if you fuck with big-and-heavy
-        <style type="simile">I get up in that ass like a wedgie</style>
-        Says who? Says me, the lyrical
-        <style type="thirdPerson">Niggas sayin', "Biggie off the street, it's a miracle!"</style>
-        Left the drugs alone, took the thugs along with me
-        Just for niggas actin' shifty
-        Sticks and stones break bones, but the gat'll kill ya quicker
-        <theme topic="drugs">Especially when I'm drunk off the liquor
-        Smokin' funk by the boxes, packin' Glocks-es</theme>
-        <style type="simile">It's natural to eat you niggas like chocolates</style>
-        The funk, baby
+        <line>So you wanna be hardcore?</line>
+        <line>With your hat to the back</line>
+        <line>Talkin' about the gats in ya raps</line>
+        <line>But I can't feel that hardcore appeal that you're screamin'</line>
+        <line>Maybe I'm dreamin'</line>
+        <line><style type="allusion">This ain't Christopher Williams</style></line>
+        <line>Still some MC's gotta feel one, caps I gotta peel some</line>
+        <line>To let niggas know that if you fuck with big-and-heavy</line>
+        <line><style type="simile">I get up in that ass like a wedgie</style></line>
+        <line>Says who? Says me, the lyrical</line>
+        <line><style type="thirdPerson">Niggas sayin', "Biggie off the street, it's a miracle!"</style></line>
+        <line>Left the drugs alone, took the thugs along with me</line>
+        <line>Just for niggas actin' shifty</line>
+        <line><theme topic = "violence">Sticks and stones break bones, but the gat'll kill ya quicker</theme></line>
+        <line><theme topic="drugs">Especially when I'm drunk off the liquor</theme></line>
+        <line><theme topic = "drugs violence">Smokin' funk by the boxes, packin' Glocks-es</theme></line>
+        <line><style type="simile">It's natural to eat you niggas like chocolates</style></line>
+        <line>The funk, baby</line>
     </verse>
     <chorus artist="biggie">
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
     </chorus>
     <verse artist="biggie">
-        <theme topic= "sex">All I want is bitches, big-booty bitches</theme>
-        <theme topic="wealth">Used to sell crack so I could stack my riches
-        Now I pack gats to stop all the snitches
-        From stayin' in my business, what is this?
-        Relentless approach to know if I'm broke or not</theme>
-        <theme topic="lifestyle">Just 'cause I joke and smoke a lot
-        Don't mean I don't tote the Glock
-        Sixteen shots for my niggas in the pen
-        Until we motherfuckin' meet again, huh
-        I'm doin' rhymes now, fuck the crimes now
-        Come on the Ave, I'm real hard to find now
-        'Cause I'm knee-deep in the beats</theme>
-        In the Land Cruiser Jeep with the MAC-10 by the seats
-        For the jackers, the jealous-ass crackers in the <adlib>blue suits</adlib>
-        I'll make you prove that it's bulletproof
-        Hold your head 'cause when you hit the bricks
-        <theme topic = "sex drugs">I got gin, mad blunts, and bitches suckin' dick</theme>
-        The funk, baby
+        <line><theme topic= "sex">All I want is bitches, big-booty bitches</theme></line>
+        <line><theme topic="wealth">Used to sell crack so I could stack my riches</theme></line>
+        <line><theme topic = "violence">Now I pack gats to stop all the snitches</theme></line>
+        <line>From stayin' in my business, what is this?</line>
+        <line>Relentless approach to know if I'm broke or not</line>
+        <line>Just 'cause I joke and smoke a lot</line>
+        <line><theme topic= "violence">Don't mean I don't tote the Glock</theme></line>
+        <line><theme topic = "violence">Sixteen shots for my niggas in the pen</theme></line>
+        <line>Until we motherfuckin' meet again, huh</line>
+        <line>I'm doin' rhymes now, fuck the crimes now</line>
+        <line>Come on the Ave, I'm real hard to find now</line>
+        <line>'Cause I'm knee-deep in the beats</line>
+        <line>In the Land Cruiser Jeep with the MAC-10 by the seats</line>
+        <line>For the jackers, the jealous-ass crackers in the <adlib>blue suits</adlib></line>
+        <line><theme topic = "violence">I'll make you prove that it's bulletproof</theme></line>
+        <line>Hold your head 'cause when you hit the bricks</line>
+        <line><theme topic = "sex drugs">I got gin, mad blunts, and bitches suckin' dick</theme></line>
+        <line>The funk, baby</line>
     </verse>
     <chorus artist = "biggie">
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk" <adlib>Uh</adlib>
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"<adlib>Uh</adlib></line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
     </chorus>
     <verse artist = "biggie">
-        <theme topic="lifestyle sex">So I guess you know the story, the rap-side, crack-side
-        How I smoke funk, smack bitches on the backside</theme>
-        Bed-Stuy, the place where my head rests
-        Fifty-shot clip if a nigga want test
-        The rocket launcher, <style type="thirdPerson">Biggie stomped ya</style>
-        <style type="simile">High as a motherfuckin' helicopter</style>
-        That's why I pack a Nina, fuck a misdemeanor
-        <style type="allusion simile">Beatin' motherfuckers like Ike beat Tina</style>
-        "What's love got to do..."
-        When I'm rippin' all through your whole crew?
-        <style type="simile">Strapped like Bamboo but I don't sling guns</style>
-        <theme topic = "drugs lifestyle">I got bags of funk and it's sellin' by the tons
-        Niggas wanna know how I live the mack life
-        Makin' money, <style type="simile">smokin' mics like crack pipes</style>
-        It's type, simple and plain, to maintain
-        I add a little funk to the brain</theme>
-        The funk, baby
+        <line>So I guess you know the story, the rap-side, crack-side</line>
+        <line>How I smoke funk, smack bitches on the backside</line>
+        <line>Bed-Stuy, the place where my head rests</line>
+        <line><theme topic="violence">Fifty-shot clip if a nigga want test</theme></line>
+        <line>The rocket launcher, <style type="thirdPerson">Biggie stomped ya</style></line>
+        <line><style type="simile">High as a motherfuckin' helicopter</style></line>
+        <line>That's why I pack a <style type="collo">Nina</style>, fuck a misdemeanor</line>
+        <line><style type="allusion simile">Beatin' motherfuckers like Ike beat Tina</style></line>
+        <line><style type = "allusion">"What's love got to do..."</style></line>
+        <line>When I'm rippin' all through your whole crew?</line>
+        <line><style type="simile">Strapped like Bamboo but I don't sling guns</style></line>
+        <line><theme topic = "drugs lifestyle">I got bags of funk and it's sellin' by the tons</theme></line>
+        <line>Niggas wanna know how I live the mack life</line>
+        <line>Makin' money, <style type="simile">smokin' mics like crack pipes</style></line>
+        <line>It's type, simple and plain, to maintain</line>
+        <line>I add a little funk to the brain</line>
+        <line>The funk, baby</line>
     </verse>
     <chorus artist="biggie">
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
-        "I live for the funk, I'll die for the funk"
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
+        <line>"I live for the funk, I'll die for the funk"</line>
     </chorus>
 </song>

@@ -2,89 +2,90 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <verse artist = "biggie pop">
-        <theme topic = "relationship lifestyle">Who the fuck is this, pagin' me at 5:46 in the morning?
-        Crack of dawn and now I'm yawnin'
-        Wipe the cold out my eye
-        See who's this pagin' me and why
-        It's my nigga, Pop from the barbershop
-        Told me he was in the gambling spot and heard the intricate plot
-        <style type="simile">Of niggas wanna stick me like flypaper</style>, neighbor
-        Slow down, love, please chill, drop the caper
-        Remember them niggas from the hill up in Brownsville
-        That you rolled dice with, smoked blunts and got nice with?
-        Yeah, my nigga Fame up in Prospect
-        Nah, them my niggas, nah, love, wouldn't disrespect
-        I didn't say them
-        They schooled me to some niggas that you knew from back when
-        When you was clockin' minor figures
-        Now they heard <style type="simile">you're blowin' up like nitro</style>
-        And they wanna <style type="imagery">stick the knife through your windpipe slow</style>
-        So, thank Fame for warnin' me, 'cause now I'm warnin' you
-        I got the MAC, nigga, tell me what you gonna do</theme>
+        <line>Who the fuck is this, pagin' me at 5:46 in the morning?</line>
+        <line>Crack of dawn and now I'm yawnin'</line>
+        <line>Wipe the cold out my eye</line>
+        <line>See who's this pagin' me and why</line>
+        <line>It's my nigga, Pop from the barbershop</line>
+        <line>Told me he was in the gambling spot and heard the intricate plot</line>
+        <line><style type="simile">Of niggas wanna stick me like flypaper</style>, neighbor</line>
+        <line>Slow down, love, please chill, drop the caper</line>
+        <line>Remember them niggas from the hill up in Brownsville</line>
+        <line>That you rolled dice with, smoked blunts and got nice with?</line>
+        <line>Yeah, my nigga Fame up in Prospect</line>
+        <line>Nah, them my niggas, nah, love, wouldn't disrespect</line>
+        <line>I didn't say them</line>
+        <line>They schooled me to some niggas that you knew from back when</line>
+        <line>When you was clockin' minor figures</line>
+        <line>Now they heard <style type="simile">you're blowin' up like nitro</style></line>
+        <line><theme topic = "violence">And they wanna <style type="imagery">stick the knife through your windpipe slow</style></theme></line>
+        <line>So, thank Fame for warnin' me, 'cause now I'm warnin' you</line>
+        <line>I got the MAC, nigga, tell me what you gonna do</line>
     </verse>
     
     <chorus artist = "biggie">
-        Damn, niggas wanna stick me for my paper
-        Damn, niggas wanna stick me for my paper
-        Damn, niggas wanna stick me for my paper
-        Damn, niggas wanna stick me for my paper
+        <line>Damn, niggas wanna stick me for my paper</line>
+        <line>Damn, niggas wanna stick me for my paper</line>
+        <line>Damn, niggas wanna stick me for my paper</line>
+        <line>Damn, niggas wanna stick me for my paper</line>
     </chorus>
     
+    <!-- repetition in the first few lines -->
     <verse artist = "biggie pop">
-        <style type = "repetition"><theme topic = "wealth">They heard about the Rolexes and the Lexus
-        With the Texas license plates out of state
-        They heard about the pounds you got down in Georgetown
-        And they heard you got half of Virginia locked down</theme>
-        They even heard about the crib</style>
-        You bought your moms out in Florida, the Fifth Corridor
-        Call the coroner!
-        There's gonna be a lot of slow singin' and flower-bringin'
-        If my burglar alarm starts ringin'
-        What ya think all the guns is for?
-        All-purpose war, got the Rottweilers by the door
-        And I feed 'em gunpowder so they can devour
-        The criminals tryin' to drop my decimals
-        Damn, niggas wanna stick me for my <style type = "collo">cream</style>
-        And it ain't a dream, things ain't always what it seem
-        <theme topic = "lifestyle">It's the ones that smoke blunts with ya, see your picture
-        Now they wanna grab they guns and come and get ya</theme>
-        <style type="thirdPerson">Bet ya Biggie won't slip</style>
-        <style type="imagery">I got the Calico with the black talons loaded in the clip
-        So I can rip through the ligaments</style>
-        Put the fuckers in a bad predicament
-        Where all the foul niggas went
-        <theme topic="lifestyle wealth"><style type = "collo">Touch my cheddar, feel my Beretta</style>
-        Buck what I'ma hit you with, you motherfuckers better duck</theme>
-        <style type="imagery">I bring pain, bloodstains on what remains
-        Of his jacket, he had a gun, he shoulda packed it
-        Cocked it, extra clips in my pocket
-        So I can reload and explode on your asshole</style>
-        I fuck around and get hardcore
-        C-4 to your door, no beef no more, nigga
-        Feel the rough, scandalous
-        The more weed smoke I puff, the more dangerous
-        I don't give a fuck about you or your weak crew
-        <style type = "thirdPerson">What you gonna do when Big Poppa come for you?</style>
-        I'm not runnin', nigga, I bust my gun and
-        Hold on, I hear somebody comin'
+        <line><theme topic = "wealth">They heard about the Rolexes and the Lexus</theme></line>
+        <line>With the Texas license plates out of state</line>
+        <line><theme topic = "wealth">They heard about the pounds you got down in Georgetown</theme></line>
+        <line><theme topic = "wealth">And they heard you got half of Virginia locked down</theme></line>
+        <line>They even heard about the crib</line>
+        <line>You bought your moms out in Florida, the Fifth Corridor</line>
+        <line>Call the coroner!</line>
+        <line>There's gonna be a lot of slow singin' and flower-bringin'</line>
+        <line>If my burglar alarm starts ringin'</line>
+        <line>What ya think all the guns is for?</line>
+        <line>All-purpose war, got the Rottweilers by the door</line>
+        <line>And I feed 'em gunpowder so they can devour</line>
+        <line>The criminals tryin' to drop my decimals</line>
+        <line>Damn, niggas wanna stick me for my <style type = "collo">cream</style></line>
+        <line>And it ain't a dream, things ain't always what it seem</line>
+        <line><theme topic = "relationship">It's the ones that smoke blunts with ya, see your picture</theme></line>
+        <line><theme topic = "relationship">Now they wanna grab they guns and come and get ya</theme></line>
+        <line><style type="thirdPerson">Bet ya Biggie won't slip</style></line>
+        <line><style type="imagery">I got the Calico with the black talons loaded in the clip</style></line>
+        <line>So I can rip through the ligaments</line>
+        <line>Put the fuckers in a bad predicament</line>
+        <line>Where all the foul niggas went</line>
+        <line><theme topic="violence"><style type = "collo">Touch my cheddar, feel my Beretta</style></theme></line>
+        <line>Buck what I'ma hit you with, you motherfuckers better duck</line>
+        <line><style type="imagery">I bring pain, bloodstains on what remains</style></line>
+        <line>Of his jacket, he had a gun, he shoulda packed it</line>
+        <line>Cocked it, extra clips in my pocket</line>
+        <line>So I can reload and explode on your asshole</line>
+        <line>I fuck around and get hardcore</line>
+        <line>C-4 to your door, no beef no more, nigga</line>
+        <line>Feel the rough, scandalous</line>
+        <line>The more weed smoke I puff, the more dangerous</line>
+        <line>I don't give a fuck about you or your weak crew</line>
+        <line><style type = "thirdPerson">What you gonna do when Big Poppa come for you?</style></line>
+        <line>I'm not runnin', nigga, I bust my gun and</line>
+        <line>Hold on, I hear somebody comin'</line>
     </verse>
     
-    <skit artist = "">
-        C'mon, motherfucker
-        Man, I'm comin' as fast as I can
-        Just g— bring your motherfuckin' ass on, come on
-        Are we gettin' close, huh?
-        It's right over here
-        You sure it's Biggie Smalls crib, man?
-        Yeah, I'm sure, motherfucker, come on
-        Man, fuck, this better be his motherfuckin' house
-        Fuck, right here
-        Tsk, this better be this motherfucker's house
-        Oh shit
-        What? What's wrong?
-        What's that red dot on your head, man?
-        What red dot?
-        Oh shit! You got a red dot on your head, too
-        Oh shit!
+    <skit artist = "unknown">
+        <line>C'mon, motherfucker</line>
+        <line>Man, I'm comin' as fast as I can</line>
+        <line>Just g— bring your motherfuckin' ass on, come on</line>
+        <line>Are we gettin' close, huh?</line>
+        <line>It's right over here</line>
+        <line>You sure it's Biggie Smalls crib, man?</line>
+        <line>Yeah, I'm sure, motherfucker, come on</line>
+        <line>Man, fuck, this better be his motherfuckin' house</line>
+        <line>Fuck, right here</line>
+        <line>Tsk, this better be this motherfucker's house</line>
+        <line>Oh shit</line>
+        <line>What? What's wrong?</line>
+        <line>What's that red dot on your head, man?</line>
+        <line>What red dot?</line>
+        <line>Oh shit! You got a red dot on your head, too</line>
+        <line>Oh shit!</line>
     </skit>
 </song>
