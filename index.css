@@ -1,0 +1,27 @@
+body {
+    background-color: #3e3d3e;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-family: didot;
+    font-size: 50px;
+    color: #ba2828;
+}
+h2 {
+    font-family: arial, black;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+img {
+    height: 350px;
+    width: 400px;
+    opacity: 0.8;
+}
+ol {
+    list-style-position: inside;
+    font-family: arial, black;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: #ba2828
+}

@@ -6,5 +6,6 @@
     </meta>
     <projectTree name="big.xpr">
         <folder path="."/>
+        <file name="../../Downloads/index.xhtml"/>
     </projectTree>
 </project>
