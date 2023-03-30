@@ -1,100 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>  
-<song>   
-  <intro artist="Biggie">No, fuck the bitches, fuck all the stank-ass hoes
-    All my niggas know
-    <style type="allusion">Junior M.A.F.I.A. clique, Gucci Don,</style> you know how we play
-    Fuckin' scandalous-ass bitches
-   <theme topic="sex"> You know how it go, Gooch
-    I meet a bitch, fuck a bitch
-    Next thing you know, you fuckin' a bitch
-    You just pass around shit, pass the shit like a cold and shit
-    Fuck 'em</theme>
-  </intro>
-    
-    
- 
-   <verse artist= "Biggie  Lil' Kim">
-    Now when I'm fucking off gin I'm invincible
-    Don't love no ho, that's my principle
-    'Cause, uh, bitches come <adlib>And uh bitches go Uh</adlib>
-    That's why I get my nut and I be out the fucking door <adlib>You know</adlib>
-    They might be the one to set me up
-    Want to get they little brother to wet me up
-    That's why I tote TECs and stuff, to get them off my case
-    Just in case the little fucker ends up misplaced
-    I don't give a bitch enough to catch the bus
-    And when I see the semen I'm leaving
-    Bitches be scheming, I kid you not
-   <theme topic="violence"> That's why I keep my windows locked and my Glock cocked</theme>
-    One ho said, Big, why you so hard on us?
-   <theme topic="relationship"> Why you swear all bitches are so scandalous?
-    Thug nigga 'til the end, tell a friend, bitch
-    'Cause when I like you, then you go and fuck my friend, bitch
-    And you know that ain't right</theme>
-   </verse>
-    
-    
-   <chorus artist = "Biggie  Lil' Kim"> 
-    <style type="repetition">You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine</style>
-   </chorus>
-    
-   <verse artist="Biggie  Lil' Kim"> You see, I don't sweat these hoes
-    I keep them in flavors like Timbos and Girbauds
-    Bitches just like to play the merry-go
-    Yeah we know, drop the scenario
-    It was me, Dee, the MPV
-    The blunts and brew thang, knocking some Wu-tang
-    M-E-T-H-Oh shit, look at them lips and them hips on that bitch
-    Dee hit the dip, so I can drop my mackadocious shit
-    Light the blunt clip and recognize a pimp
-    Needless to speak, the G's obsolete
-    Don't sleep, banged the skins in a week
-    On the creep up the avenue
-    I seen her on the block, who she rapping to?
-    That's my nigga Dee, damn he got G
-    Now she fucking him and fucking me, see
-    You know that ain't right</verse>
-    
+<song>
+  <intro artist="Biggie" theme = "sex">
+<line>    No, fuck the bitches, fuck all the stank-ass hoes</line>
+<line>    All my niggas know</line>
+<line>    <style type="allusion">Junior M.A.F.I.A. clique, Gucci Don,</style> you know how we play</line>
+<line>    Fuckin' scandalous-ass bitches</line>
+<line>   <sex> You know how it go, Gooch </sex></line>
+<line>   <sex> I meet a bitch, fuck a bitch </sex></line>
+<line>   <sex> Next thing you know, you fuckin' a bitch</sex></line>
+<line>    <sex>You just pass around shit, pass the shit like a cold and shit</sex></line>
+<line>    <sex> Fuck 'em</sex></line>
+</intro>
+ <verse artist= "Biggie  Lil' Kim" theme = "violence, relationship">
+<line>    Now when I'm fucking off gin I'm invincible</line>
+<line>    Don't love no ho, that's my principle</line>
+<line>    'Cause, uh, bitches come <adlib>And uh </adlib> bitches go <adlib>Uh</adlib></line>
+<line>    That's why I get my nut and I be out the fucking door <adlib>You know</adlib></line>
+<line>    They might be the one to set me up</line>
+<line>    Want to get they little brother to wet me up</line>
+<line>    That's why I tote TECs and stuff, to get them off my case</line>
+<line>    Just in case the little fucker ends up misplaced</line>
+<line>    I don't give a bitch enough to catch the bus</line>
+<line>    And when I see the semen I'm leaving</line>
+<line>    Bitches be scheming, I kid you not</line>
+<line>   <violence> That's why I keep my windows locked and my Glock cocked</violence></line>
+<line>    One ho said, Big, why you so hard on us?</line>
+<line>   <relationships> Why you swear all bitches are so scandalous? </relationships></line>
+<line>    <relationships>Thug nigga 'til the end, tell a friend, bitch</relationships></line>
+<line>    <relationships>'Cause when I like you, then you go and fuck my friend, bitch</relationships></line>
+<line>    <relationships>And you know that ain't right</relationships></line>
+  </verse>
 
-   
-  
-  <chorus artist="Biggie">  You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine, uh</chorus>
-    
+ <chorus artist = "Biggie  Lil' Kim" theme = "N/A"> 
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+</chorus>
 
-    <verse artist="Buggie">
-    <theme topic="relationship"><theme topic="sex">
-    Now I play her far like a moon play a star
-    She still sweat me hard 'cause I'm a rap star
-    I be cruising up the block, I be passing her
-    <style type="collo">Pimping hard</style> with a female passenger
-    And the only time I call her to hang
-    Is when me and Dee blunted up, pissy, scheming on a gangbang
-    She should have used her intuition
-    Then she wouldn't be classified in that position, listen
-    She's saying I dissed her 'cause I'm fucking her sister
-    A message to the fellas, that really gets 'em pissed, uh
-    But she started that fucking family
-    She fucked my man Dee, so why she mad at me? <adlib>True</adlib>
-    Plus your sister look better than you
-    Give head better than you, pussy get wetter than you
-    So break the fuck out like a rash
-    I'm glad I ain't spend no cash to hit your nasty ass
-    </theme></theme>
-    </verse>
-    
-  
-  <chorus artist="Biggie">  
-    <style type="repetition">You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    You know that ain't right with a friend of mine
-    </style> 
+ <verse artist="Biggie  Lil' Kim" theme = "N/A"> 
+<line>    You see, I don't sweat these hoes</line>
+<line>    I keep them in flavors like Timbos and Girbauds</line>
+<line>    Bitches just like to play the merry-go</line>
+<line>    Yeah we know, drop the scenario</line>
+<line>    It was me, Dee, the MPV</line>
+<line>    The blunts and brew thang, knocking some Wu-tang</line>
+<line>    M-E-T-H-Oh shit, look at them lips and them hips on that bitch</line>
+<line>    Dee hit the dip, so I can drop my mackadocious shit</line>
+<line>    Light the blunt clip and recognize a pimp</line>
+<line>    Needless to speak, the G's obsolete</line>
+<line>    Don't sleep, banged the skins in a week</line>
+<line>    On the creep up the avenue</line>
+<line>    I seen her on the block, who she rapping to?</line>
+<line>    That's my nigga Dee, damn he got G</line>
+<line>    Now she fucking him and fucking me, see</line>
+<line>    You know that ain't right</line>
+  </verse>
+
+
+  <chorus artist="Biggie" theme = "N/A">  
+<line>    You know that ain't right with a friend of mine</line>
+<line>    You know that ain't right with a friend of mine</line>
+<line>    You know that ain't right with a friend of mine</line>
+<line>    You know that ain't right with a friend of mine, uh</line>
   </chorus>
+
+
+  <verse artist="Buggie" theme = "relationships, sex">
+<line>    <relationships>Now I play her far like a moon play a star</relationships></line>
+<line>    <relationships>She still sweat me hard 'cause I'm a rap star</relationships></line>
+<line>    <relationships>I be cruising up the block, I be passing her</relationships></line>
+<line>   <relationships><style type="collo">Pimping hard</style> with a female passenger</relationships></line>
+<line>    <relationships>And the only time I call her to hang</relationships></line>
+<line>    <relationships>Is when me and Dee blunted up, pissy, scheming on a gangbang</relationships></line>
+<line>    <relationships>She should have used her intuition</relationships></line>
+<line>    <relationships>Then she wouldn't be classified in that position, listen</relationships></line>
+<line>    <relationships>She's saying I dissed her 'cause I'm fucking her sister</relationships></line>
+<line>    <relationships>A message to the fellas, that really gets 'em pissed, uh</relationships></line>
+<line>    <relationships>But she started that fucking family</relationships></line>
+<line>    <relationships>She fucked my man Dee, so why she mad at me? <adlib>True</adlib></relationships></line>
+<line>    <relationships>Plus your sister look better than you</relationships></line>
+<line>   <relationships> Give head better than you, pussy get wetter than you</relationships></line>
+<line>   <relationships> So break the fuck out like a rash</relationships></line>
+<line>    <relationships>I'm glad I ain't spend no cash to hit your nasty ass</relationships></line>
+    </verse>
+ <chorus artist="Biggie" theme = "N/A">  
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style></line>
+<line>    <style type = "repetition">You know that ain't right with a friend of mine</style> </line>
+ </chorus>
 </song>

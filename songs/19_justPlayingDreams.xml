@@ -3,63 +3,74 @@
 
 <song>
 
-  <verse artist="Biggie">
-    <theme topic="sex">As I sit back relax, steam a blunt, sip a Becks Think about the sexy singers
-      that I wanna sex I'd probably go to jail for fucking <style type="allusion">Patti
-        LaBelle</style> Ooh, <style type="allusion">Regina Belle,</style> she'd probably do me swell
-      Jasmine Guy was fly, <style type="allusion">Mariah Carey's</style> kinda scary Wait a minute,
-      what about my honey, Mary? Them jeans, they fitting like a glove I had a crush on you since
-      Real Love, huh Hold your horses I'ma show you who the boss of intercourse is Sex, I'm taking
-      no losses Even groups like <style type="allusion">SWV and TLC</style> can't see B.I.G. with
-      telepathy The recipe, a pinch of hardcore with a gun Pimpin' ain't easy, but it sure is fun
-      When I bust my nuts I bust 'em one by one So what's the 4-1-1, hun?</theme>
-  </verse>
+  <verse artist="Biggie" theme= "drugs, sex">
+<line>      <drugs>As I sit back relax, steam a blunt, sip a Becks </drugs></line>
+<line>      <sex>Think about the sexy singers that I wanna sex </sex></line>
+<line>      <sex>I'd probably go to jail for fucking <style type="allusion">Patti LaBelle</style> </sex></line>
+<line>    <sex>  Ooh, <style type="allusion">Regina Belle,</style> she'd probably do me swell</sex></line>
+<line>    <sex>  Jasmine Guy was fly, <style type="allusion">Mariah Carey's</style> kinda scary </sex></line>
+<line>    <sex>Wait a minute, what about my honey, Mary? Them jeans, they fitting like a glove </sex></line>
+<line>     <sex> I had a crush on you since Real Love, huh </sex></line>
+<line>     <sex> Hold your horses I'ma show you who the boss of intercourse is </sex></line>
+<line>     <sex> Sex, I'm taking no losses </sex></line>
+<line>      Even groups like <style type="allusion">SWV and TLC</style> can't see B.I.G. with telepathy </line>
+<line>      The recipe, a pinch of hardcore with a gun </line>
+<line>      Pimpin' ain't easy, but it sure is fun</line>
+<line>      <sex>When I bust my nuts I bust 'em one by one </sex></line>
+<line>      So what's the 4-1-1, hun?</line>
+</verse>
 
 
 
-  <chorus artist="Biggie">
-    <theme topic="sex">
-      <style type="repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin')
-        Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin') Dreams of fuckin' an
-        R&amp;B bitch (I'm just playin', but I'm sayin') Dreams of fuckin' an R&amp;B bitch (I'm
-        just playin', I'm sayin')</style></theme>
+ <chorus artist="Biggie" theme = "sex">
+<line>      <sex> <style type = "repetition"> Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin')</style></sex></line>
+<line>       <sex> <style type = "repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin') </style> </sex> </line>
+<line>       <sex> <style type = "repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin') </style> </sex></line>
+<line>      <sex> <style type = "repetition"> Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin')</style></sex></line>
   </chorus>
 
 
-  <verse artist="Biggie">
-    <theme topic="sex">I'll put <style type="allusion">Chanté Moore</style> pussy in stitches I'll
-      fuck <style type="allusion">RuPaul</style> before I fuck them ugly-ass Xscape bitches You can
-      76 the 69, try 68 Make <style type="allusion">Raven-Symoné </style>call date rape Only 'cause
-      I'm paid, I'm fucking all of Jade And my <style type="allusion">DJ Zhané</style>, he likes it
-      when they say "Everybody move your body" Got <style type="allusion">Whitney
-      Houston</style>boosting from <style type="allusion">Bobby</style> As I bust the cherry of
-        <style type="allusion">Monica and Terri</style> Back shots to <style type="allusion"
-        >Chaka</style>, I know that pussy hairy Sade, ooh, I know that pussy tight Smack <style
-        type="allusion">Tina Turner</style> give her flashbacks of <style type="allusion"
-        >Ike</style> Smoke a stoge, fuckin' En Vogue because it's four of them <style
-        type="allusion"> Jimmy hats for Patra</style>, I'm using all of them (What about <style
-        type="allusion">Toni Braxton?</style>) If that bitch give me action, guaranteed
-      satisfaction</theme>
-  </verse>
+  <verse artist="Biggie" theme = "sex">
+<line>     <sex> I'll put <style type="allusion">Chanté Moore</style> pussy in stitches </sex></line>
+<line>     <sex>I'll fuck <style type="allusion">RuPaul</style> before I fuck them ugly-ass Xscape bitches </sex></line>
+<line>     <sex>You can 76 the 69, try 68 </sex></line>
+<line>     <sex> Make <style type="allusion">Raven-Symoné </style>call date rape</sex></line>
+<line>     <sex> Only 'cause I'm paid, I'm fucking all of Jade </sex></line>
+<line>     <sex> And my <style type="allusion">DJ Zhané</style>, he likes it when they say "Everybody move your body" </sex></line>
+<line>    <sex>  Got <style type="allusion">Whitney Houston</style>boosting from <style type="allusion">Bobby</style> </sex></line>
+<line>    <sex> As I bust the cherry of <style type="allusion">Monica and Terri</style> </sex></line>
+<line>    <sex> Back shots to <style type="allusion">Chaka</style>, I know that pussy hairy </sex></line>
+<line>    <sex>Sade, ooh, I know that pussy tight </sex></line>
+<line>    <sex>Smack <style type="allusion">Tina Turner</style> give her flashbacks of <style type="allusion">Ike</style> </sex></line>
+<line>    <sex>Smoke a stoge, fuckin' En Vogue because it's four of them </sex></line>
+<line>    <sex> <style type="allusion"> Jimmy hats for Patra</style>, I'm using all of them </sex></line>
+<line>    <sex>(What about <style type="allusion">Toni Braxton?</style>) </sex></line>
+<line>      <sex>If that bitch give me action, guaranteed satisfaction</sex></line>
+ </verse> 
 
-  <chorus artist="Biggie">
-    <style type="repetition"> Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin')
-      Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin') Dreams of fuckin' an R&amp;B
-      bitch (I'm just playin', but I'm sayin') Dreams of fuckin' an R&amp;B bitch (I'm just playin',
-      but I'm sayin')</style>
-  </chorus>
+ <chorus artist="Biggie" theme = "sex">
+<line>     <sex><style type = "repetition"> Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin')</style></sex></line>
+<line>     <sex><style type = "repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', I'm sayin') </style></sex></line>
+<line>    <sex> <style type = "repetition">Dreams of fuckin' an R&amp;B bitch (I'm just playin', but I'm sayin') </style></sex></line>
+<line>    <sex> <style type = "repetition"> Dreams of fuckin' an R&amp;B bitch (I'm just playin, but I'm sayin')</style></sex></line>
+ </chorus>
 
 
 
 
-  <outro artist="Biggie"> You know what I'm sayin', Tim, man? I ain't tryna diss the honeys You know
-    what I'm sayin'?<style type="repetition">(I'm just playin', I'm sayin')</style>
-    <style type="collo"> I just be buggin'</style>, you know what I'm sayin'? I ain't tryna
-    disrespect nobody, you know? <style type="collo"> I'm just buggin' out</style>, you know? <style
-      type="repetition">(I'm just playin', but I'm sayin')</style> You know the flavor of the <style
-      type="allusion">Junior M.A.F.I.A. clique</style> Know what I'm sayin'? <style type="allusion">
-      Buttnaked Tim Dawg </style>in the motherfuckin' house <style type="allusion"> I'm just playin'
-      (I'm just playin', but I'm sayin')</style> We're just havin' a little fun Ain't no harm done,
-    B <style type="allusion">(I'm just playin', I'm sayin')</style>
-    <theme topic="sex">But I would hit all of y'all</theme></outro>
+  <outro artist="Biggie" theme = "sex"> 
+<line>    You know what I'm sayin', Tim, man? </line>
+<line>    I ain't tryna diss the honeys </line>
+<line>    You know what I'm sayin'?<style type="repetition">(I'm just playin', I'm sayin')</style></line>
+<line>    <style type="collo"> I just be buggin'</style>, you know what I'm sayin'?</line>
+<line>    I ain't tryna disrespect nobody, you know? </line>
+<line>    <style type="collo"> I'm just buggin' out</style>, you know? <style type="repetition">(I'm just playin', but I'm sayin')</style> </line>
+<line>    You know the flavor of the <style type="allusion">Junior M.A.F.I.A. clique</style> </line>
+<line>    Know what I'm sayin'? </line>
+<line>    <style type="allusion"> Buttnaked Tim Dawg </style>in the motherfuckin' house </line>
+<line>    <style type = "repetition">  I'm just playin' (I'm just playin', but I'm sayin')</style> </line>
+<line>    We're just havin' a little fun </line>
+<line>    Ain't no harm done, B  <style type="allusion">(I'm just playin', I'm sayin')</style></line>
+<line>    <sex>But I would hit all of y'all</sex> </line>
+  </outro>
 </song>
