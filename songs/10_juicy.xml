@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist="Biggie">
+    <intro artist="Biggie" theme="reflection">
         <line><adlib>"Fuck all you hoes!" Get a grip, motherfucker!</adlib></line>
         <line>Yeah, this album is dedicated</line>
         <line>To all the teachers that told me I'd never amount to nothin'</line>
-        <line>To all the people that lived above the buildings that I was hustlin' in front of</line>
+        <line><drugs>To all the people that lived above the buildings that I was hustlin' in front of</drugs></line>
         <line>Called the police on me when I was just tryin' to make some money to feed my daughter<adlib>it's all good</adlib></line>
         <line>And all the niggas in the struggle You know what I'm sayin'? It's all good, baby baby</line>
     </intro>
 
-    <verse artist="Biggie">
-        <line>It was all a dream, <theme topic="reflection">I used to read Word Up! magazine</theme></line>
+    <verse artist="Biggie" theme="reflection">
+        <line>It was all a dream, <reflection>I used to read Word Up! magazine</reflection></line>
         <line><style type="allusion">Salt-n-Pepa and Heavy D up in the limousine</style></line>
         <line>Hangin' pictures on my wall</line>
         <line>Every Saturday Rap Attack, Mr. Magic, Marley Marl</line>
         <line>I let my tape rock 'til my tape popped</line>
-        <line><theme topic="drugs">Smokin' weed in Bambú</theme>, sippin' on Private Stock</line>
+        <line><drugs>Smokin' weed in Bambú</drugs>, sippin' on Private Stock</line>
         <line>Way back, when I had the red and black lumberjack</line>
         <line>With the hat to match</line>
         <line>Remember Rappin' Duke? Duh-ha, duh-ha</line>
@@ -24,16 +24,16 @@
         <line>Now I'm in the limelight 'cause I rhyme tight</line>
         <line>Time to get paid, <style type="simile allusion">blow up like the World Trade</style></line>
         <line>Born sinner, the opposite of a winner</line>
-        <line><theme topic="reflection">Remember when I used to eat sardines for dinner</theme></line> 
+        <line><reflection>Remember when I used to eat sardines for dinner</reflection></line> 
         <line><style type="allusion">Peace to Ron G, Brucie B, Kid Capri</style></line>
-        <line>Funkmaster Flex, Lovebug Starski</line>
+        <line><style type="allusion">Funkmaster Flex, Lovebug Starski</style></line>
         <line>I'm blowin' up like you thought I would</line>
         <line>Call the crib, same number, same hood, it's all good</line>
         <line>And if you don't know, now you know, nigga</line>
     </verse>
 
 
-    <chorus artist="Total PuffDaddy">
+    <chorus artist="Total PuffDaddy" theme="none">
         <line>You know very well <adlib>Yeah</adlib></line>
         <line>Who you are <adlib>Money, hoes and clothes</adlib></line>
         <line>Don't let 'em hold you down <adlib>Bankrolls, yeah, haha</adlib></line>
@@ -45,14 +45,14 @@
     </chorus>
 
 
-    <verse artist="Biggie">
-        <line><theme topic="reflection">I made the change from a common thief</theme></line>
+    <verse artist="Biggie" theme="reflection">
+        <line><reflection>I made the change from a common thief</reflection></line>
         <line>To up close and personal with <style type="allusion">Robin Leach</style></line>
-        <line>And I'm far from cheap, <theme topic="drugs"><style type="collo">I smoke skunk with my peeps</style></theme> all day</line>
-        <line><theme topic="home">Spread love, it's the Brooklyn way</theme></line>
-        <line><theme topic="drugs">The Moët and Alizé keep me pissy,</theme> girls used to diss me</line>
+        <line>And I'm far from cheap, <drugs><style type="collo">I smoke skunk with my peeps</style></drugs> all day</line>
+        <line><home>Spread love, it's the Brooklyn way</home></line>
+        <line><drugs>The Moët and Alizé keep me pissy,</drugs> girls used to diss me</line>
         <line>Now they write letters 'cause they miss me</line>
-        <line><theme topic="reflection">I never thought it could happen, this rapping stuff</theme></line>
+        <line><reflection>I never thought it could happen, this rapping stuff</reflection></line>
         <line>I was too used to <style type="collo">packing gats</style> and stuff</line>
         <line>Now honeys play me close like butter play toast</line>
         <line>From the Mississippi down to the East Coast</line>
@@ -61,14 +61,14 @@
         <line>Living life without fear</line>
         <line>Puttin' five karats in my baby girl ear</line>
         <line>Lunches, brunches, interviews by the pool</line>
-        <line>Considered a fool 'cause I dropped out of high school</line>
+        <line><reflection>Considered a fool 'cause I dropped out of high school</reflection></line>
         <line>Stereotypes of a black male misunderstood</line>
         <line>And it's still all good</line>
         <line>And if you don't know, now you know, nigga</line>
     </verse>
 
 
-    <chorus artist="Total PuffDaddy">
+    <chorus artist="Total PuffDaddy" theme="none">
         <line>You know very well <adlib>C'mon</adlib></line> 
         <line>Who you are <adlib>Bankrolls</adlib></line>
         <line>Don't let 'em hold you down <adlib>Clothes</adlib></line>
@@ -79,30 +79,30 @@
     </chorus>
 
 
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="reflection">
         <line><style type="allusion">Super Nintendo, Sega Genesis</style></line>
-        <line><theme topic="reflection">When I was dead broke, man, I couldn't picture this</theme></line>
+        <line><reflection>When I was dead broke, man, I couldn't picture this</reflection></line>
         <line>50-inch screen, money-green leather sofa</line>
         <line>Got two rides, a limousine with a chauffeur</line>
         <line>Phone bill about two G's flat</line>
         <line>No need to worry, my accountant handles that</line>
         <line>And my whole crew is loungin'</line>
         <line>Celebrating every day, no more public housin'</line>
-        <line>Thinkin' back on my one-room shack</line>
-        <line>Now <style type="collo">my mom pimps an Ac' with minks on her back</style></line>
-        <line>And she loves to show me off of course</line>
+        <line><reflection>Thinkin' back on my one-room shack</reflection></line>
+        <line><family>Now <style type="collo">my mom pimps an Ac' with minks on her back</style></family></line>
+        <line><family>And she loves to show me off of course</family></line>
         <line>Smiles every time my face is up in The Source</line>
         <line>We used to fuss when the landlord dissed us</line>
         <line>No heat, wonder why Christmas missed us</line>
         <line>Birthdays was the worst days</line>
-        <line>Now we sip Champagne when we thirsty</line>
+        <line><drugs>Now we sip Champagne when we thirsty</drugs></line>
         <line>Uh, damn right I like the life I live</line>
         <line>'Cause I went from negative to positive and it's all <adlib>It's all good, nigga</adlib></line>
         <line>And if you don't know, now you know, nigga</line>
     </verse>
 
 
-    <chorus artist="Biggie PuffDaddy">
+    <chorus artist="Biggie PuffDaddy" theme="none">
         <line>You know very well <adlib>Money</adlib></line>
         <line>Who you are <adlib>Hoes and clothes</adlib></line>
         <line>Don't let 'em hold you down <adlib>Bankrolls</adlib></line>
@@ -116,14 +116,14 @@
     </chorus>
 
 
-    <verse artist="Biggie PuffDaddy">
+    <verse artist="Biggie PuffDaddy" theme="none">
         <line>Representin' B-Town in the house <adlib>Biggie Smalls</adlib></line>
         <line>Junior Mafia, mad flavor <adlib>Bad Boy</adlib></line>
         <line>Uh, uh, yeah, aight <adlib>I see you, Cooch</adlib></line>
     </verse>
 
 
-    <chorus artist="Total">
+    <chorus artist="Total" theme="none">
         <line>You know very well</line>
         <line>Who you are</line>
         <line>Don't let 'em hold you down</line>
@@ -135,7 +135,7 @@
     </chorus>
 
 
-    <outro artist="PuffDaddy Total">
+    <outro artist="PuffDaddy Total" theme="none">
         <line>Biggie Smalls, it's all good, nigga</line>
         <line>Junior Mafia, it's all good, nigga</line>
         <line>Bad Boy, it's all good, nigga</line>

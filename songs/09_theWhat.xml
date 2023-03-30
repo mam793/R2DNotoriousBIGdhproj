@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="none">
         <line>I used to get feels on a bitch</line>
-        <line><theme topic="sex">Now I throw shields on the dick to stop me from that HIV shit</theme></line>
+        <line><sex>Now I throw shields on the dick to stop me from that HIV shit</sex></line>
         <line><style type="simile">And niggas know they soft like a Twinkie filling</style></line>
         <line>Playing the villain, prepare for this rap killing</line>
         <line>Biggie Smalls is the illest, your style is played out</line>
@@ -11,12 +11,12 @@
         <line>The thrill is gone,<style type="allusion">the Black Frank White</style></line>
         <line>Is here to excite and throw dick to dykes</line>
         <line>Bitches I like 'em brainless, guns I like 'em stainless steel</line>
-        <line><style type=" simile allusion">I want the fucking fortune like the Wheel</style></line>
-        <line><style type="collo">I squeeze gats</style> 'til my clips is empty</line>
+        <line><style type=" simile allusion"><money>I want the fucking fortune like the Wheel</money></style></line>
+        <line><violence><style type="collo">I squeeze gats</style> 'til my clips is empty</violence></line>
         <line>Don't tempt me, you don't want to fuck with the M-E...</line>
     </verse>
 
-    <verse artist="Method Man">
+    <verse artist="Method Man" theme="none">
         <line>...T-H-O-D Man, here I am</line>
         <line>I'll be damned if this ain't some shit</line>
         <line>Come to spread the butter lyrics over hominy grit</line>
@@ -37,18 +37,18 @@
         <line>And it goes a little something like this</line>
     </verse>
 
-    <chorus artist="Method Man Biggie">
+    <chorus artist="Method Man Biggie" theme="none">
         <line>Fuck the world, don't ask me for shit</line>
         <line>Everything you get you gotta work hard for it</line>
         <line><adlib>Honeys shake your hips</adlib> You don't stop</line>
         <line><adlib>And niggas pack the clips</adlib> Keep on, bitch</line>
     </chorus>
 
-    <verse artist="Method Man">
+    <verse artist="Method Man" theme="violence">
         <line>Verse two, coming with that Olde E brew</line>
-        <line> Meth-tical, <theme topic="violence"> putting niggas back in ICU</theme></line>
+        <line> Meth-tical, putting niggas back in ICU</line>
         <line>I'm lifted, troop, you can bring your wack-ass crew</line>
-        <line>I got connections, <theme topic="violence"><style type="simile">I'll get that ass stuck like glue</style></theme></line>
+        <line>I got connections, <style type="simile">I'll get that ass stuck like glue</style></line>
         <line>Huh, no question, I be coming down and shit</line>
         <line>Yo I gets rugged as a motherfucking carpet get</line>
         <line>And niggas love it, not in the physical form but in the mental</line>
@@ -59,15 +59,15 @@
         <line>I spit on your grave then I grab my Charles Dickens, bitch</line>
     </verse>
 
-    <verse artist="Biggie">
-        <line>Welcome to my center, <theme topic="sex">honeys feel it deep in they placenta</theme></line>
+    <verse artist="Biggie" theme="none">
+        <line>Welcome to my center, <sex>honeys feel it deep in they placenta</sex></line>
         <line>Cold as the pole in the winter</line>
         <line>Far from the inventor, but I got this rap shit sewed</line>
         <line><style type="collo">And when my MAC unloads</style></line>
         <line>I'm guaranteed another video</line>
         <line>Ready to die, why I act that way?</line>
-        <line><theme topic="family">Pop duke left mom duke,</theme> the faggot took the back way</line>
-        <line><theme topic="sex">So instead of making hoes suck my dick up</theme></line>
+        <line><family>Pop duke left mom duke,</family> the faggot took the back way</line>
+        <line><sex>So instead of making hoes suck my dick up</sex></line>
         <line>I used to do stick-ups, <style type="simile">'cause hoes is irritating like the hiccups</style></line>
         <line>Excuse me, flows just grow through me</line>
         <line>Like trees to branches, cliffs to avalanches</line>
@@ -75,11 +75,11 @@
         <line>A motherfucking rap phenomenon, plus</line>
         <line><adlib>I got more Glocks and TECs than you</adlib></line>
         <line>I make it hot, <adlib>niggas won't even stand next to you</adlib></line>
-        <line><theme topic="violence">Nigga touch me you better bust me three times in the head</theme></line>
+        <line><violence>Nigga touch me you better bust me three times in the head</violence></line>
         <line>Or motherfucker's dead, you thought so</line>
     </verse>
 
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="none">
         <line>Fuck the world, don't ask me for shit</line>
         <line>And everything you get you gotta work hard for it</line>
         <line><adlib>Honeys shake your hips</adlib> You don't stop</line>
@@ -90,7 +90,7 @@
         <line><adlib>And niggas pack the clips</adlib> Keep on, bitch</line>
     </chorus>
 
-    <outro artist="Method Man Biggie">
+    <outro artist="Method Man Biggie" theme="none">
         <line>Junior M.A.F.I.A. clique in full effect <adlib>Yeah, what the fuck you want, nigga?</adlib></line>
         <line>Ah, yeah, hell yeah <adlib>Biggie Smalls and Meth-tical</adlib></line>
         <line>Bedford–Stuyvesant the livest one <adlib>9-4 coming at you raw</adlib></line>

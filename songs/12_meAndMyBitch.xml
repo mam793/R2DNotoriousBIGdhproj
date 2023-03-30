@@ -2,9 +2,9 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     
-    <intro artist="Biggie PuffDaddy Girl">
+    <intro artist="Biggie PuffDaddy Girl" theme="violence">
         <line>Yo let— let— let me ask you a question, yo</line>
-        <line>Yo, <theme topic="violence">would you kill for me?</theme></line>
+        <line>Yo, would you kill for me?</line>
         <line>Hmm, yeah</line>
         <line>Uh, the act of making love— <adlib>Haa</adlib></line>
         <line>What took you so long to answer motherfucker?</line>
@@ -12,22 +12,22 @@
         <line>The fuck wrong with you, bitch?</line>
     </intro>
     
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="relationships">
         <line>When I met you, I admit, my first thoughts was to trick</line>
         <line>You look so good, huh, I'll suck on your daddy's dick</line>
-        <line><theme topic="reflection">I never felt that way in my life</theme></line>
-        <line><theme topic="relationships">It didn't take long before I made you my wife</theme></line>
+        <line><reflection>I never felt that way in my life</reflection></line>
+        <line><relationships>It didn't take long before I made you my wife</relationships></line>
         <line>Got no rings and shit, just my main squeeze</line>
-        <line>Comin' to the crib, even had a set of keys</line>
-        <line>During the days you helped me bag up my nickels</line>
-        <line><theme topic="reflection">In the process, I admit, I tricked a little</theme></line>
+        <line><style type="collo">Comin' to the crib,</style> even had a set of keys</line>
+        <line><drugs>During the days <style type="collo">you helped me bag up my nickels</style></drugs></line>
+        <line><reflection>In the process, I admit, <style type="collo">I tricked a little</style></reflection></line>
         <line>But you was my bitch, the one who'd never snitch</line>
-        <line><theme topic="money">Love me when I'm broke or when I'm filthy fuckin' rich</theme></line>
+        <line><money>Love me when I'm broke or when I'm filthy fuckin' rich</money></line>
         <line>And I admit, when the time is right, the wine is right</line>
-        <line>I treat you right, <theme topic="violence">you talk slick, I beat you right</theme></line>
+        <line>I treat you right, <violence>you talk slick, I beat you right</violence></line>
     </verse>
     
-    <chorus artist="Biggie PuffDaddy Girl">
+    <chorus artist="Biggie PuffDaddy Girl" theme="none">
         <line>Just me and my bitch, me and my bitch</line>
         <line><adlib>But you know you love that ass, don't you?</adlib></line>
         <line>Just me and my bitch, yeah, just me and my bitch</line>
@@ -45,11 +45,11 @@
         <line>Just me and my bitch</line>
     </chorus>
       
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="relationships">
         <line>Moonlight strolls with the hoes, <style type="collo">oh, no, that's not my steelo</style></line>
-        <line>I wanna bitch that like to play ceelo and craps</line>
-        <line><style type="collo">Packin' gats in a Coach bag,</style><theme topic="drugs"><style type="collo">steamin' dime bags</style></theme></line>
-        <line><theme topic="relationships">A real bitch is all I want, all I ever had</theme></line>
+        <line><relationships><style type="simile">I wanna bitch that like to play ceelo and craps</style></relationships></line>
+        <line><style type="collo">Packin' gats in a Coach bag,</style><drugs><style type="collo">steamin' dime bags</style></drugs></line>
+        <line><relationships>A real bitch is all I want, all I ever had</relationships></line>
         <line>With a bop just as strong as me</line>
         <line>Totin' guns just as long as me, the bitch belongs with me</line>
         <line>Any plans with another bitch, my bitch'll spoil it</line>
@@ -64,7 +64,7 @@
         <line>I swear to God I hope we fuckin' die together</line>
     </verse> 
     
-    <chorus artist="Biggie PuffDaddy Girl">
+    <chorus artist="Biggie PuffDaddy Girl" theme="none">
         <line>Just me and my bitch, just me and my bitch, yeah</line>
         <line><adlib>Nigga, nigga, if I ever</adlib></line>
         <line>Just me and my bitch, yeah, just me and my bitch</line>
@@ -84,9 +84,9 @@
     </chorus>
     
     
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="relationships">
         <line>She helped me plan out my robberies on my enemies</line>
-        <line><theme topic="violence"><style type="collo">Didn't hesitate to squeeze</style> to get my life out of danger</theme></line>
+        <line><violence><style type="collo">Didn't hesitate to squeeze</style> to get my life out of danger</violence></line>
         <line>One day, she put 911 on the pager</line>
         <line>Had to call back, whether it's minor or major</line>
         <line>No response, the phone just rung</line>
@@ -96,14 +96,14 @@
         <line>Drove down the block, stashed the burner in the bushes</line>
         <line>Stepped to police with the shoves and the pushes</line>
         <line>It didn't take long before the tears start</line>
-        <line><theme topic="violence">I saw my bitch dead with the gunshot to the heart</theme></line>
+        <line><violence>I saw my bitch dead with the gunshot to the heart</violence></line>
         <line>And I know it was meant for me</line>
         <line>I guess the niggas felt they had to kill the closest one to me</line>
         <line>And when I find 'em your life is to an end</line>
         <line>They killed my best friend, me and my bitch</line>
     </verse>
         
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="none">
         <line>Just me and my bitch, me and my bitch, yeah</line>
         <line>Just me and my bitch, yeah, just me and my bitch, uh</line>
         <line>Just me and my bitch, me and my bitch, yeah</line>
@@ -114,7 +114,7 @@
         <line>Just me and my bitch</line>
     </chorus>
        
-    <skit artist="Biggie PuffDaddy Girl">
+    <skit artist="Biggie PuffDaddy Girl" theme="reflection">
         <line>Let's get started then</line>
         <line>So when did you first start rappin'?</line>
         <line>Um, I was like about 18 years old. Yeah, about 18</line>
