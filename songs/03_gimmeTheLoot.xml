@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist="biggie">
+    <intro artist="biggie" theme = "none">
         <line>Yeah, motherfuckers better know</line>
         <line>Huh, huh <adlib>I'm a bad, bad, bad</adlib></line>
         <line>Lock your windows, close your doors</line>
@@ -9,46 +9,46 @@
         <line>Huh, yeah</line>
         <line><adlib>I'm a bad, bad, bad</adlib></line>
     </intro>
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "violence">
         <line>My man Inf left a TEC and a nine at my crib</line>
         <line>Turned him self in, he had to do a bid</line>
         <line>A one-to-three, he be home the end of '93</line>
-        <line><theme topic="wealth">I'm ready to get this paper, G, you with me?</theme></line>
-        <line><theme topic = "wealth">Motherfuckin' right, my pockets lookin' kinda tight</theme></line>
+        <line><money>I'm ready to get this paper, G, you with me?</money></line>
+        <line><money>Motherfuckin' right, my pockets lookin' kinda tight</money></line>
         <line>And I'm stressed</line>
-        <line><theme topic = "violence"><style type="dialogue">Yo, Biggie let me get the vest</style></theme></line>
-        <line><theme topic = "violence">No need for that, just grab the fuckin' gat</theme></line>
-        <line><theme topic = "violence">The first pocket that's fat, the TEC is to his back</theme></line>
-        <line><theme topic = "violence">Word is bond, I'ma smoke him, yo, don't fake no moves</theme> <adlib>What?</adlib></line>
-        <line><theme topic = "violence"><style type = "metaphor">Treat it like boxin', stick and move, stick and move</style></theme></line>
+        <line><style type="dialogue">Yo, Biggie let me get the vest</style></line>
+        <line>No need for that, just grab the fuckin' gat</line>
+        <line>The first pocket that's fat, the TEC is to his back</line>
+        <line>Word is bond, I'ma smoke him, yo, don't fake no moves <adlib>What?</adlib></line>
+        <line><style type = "metaphor">Treat it like boxin', stick and move, stick and move</style></line>
         <line>Nigga, you ain't got to explain shit</line>
-        <line><theme topic = "violence wealth"><style type = "hyperbole">I've been robbin' motherfuckers since the slave ships</style></theme></line>
-        <line><theme topic = "violence wealth">With the same clip and the same four-five</theme></line>
-        <line><theme topic = "violence">Two point blank, a motherfucker sure to die</theme></line>
+        <line><money><style type = "hyperbole">I've been robbin' motherfuckers since the slave ships</style></money></line>
+        <line><money>With the same clip and the same four-five</money></line>
+        <line>Two point blank, a motherfucker sure to die</line>
         <line>That's my word, nigga even try to bogard</line>
         <line>Have his mother singin', "It's so hard"</line>
         <line>Yes, love, love your fuckin' attitude</line>
         <line>Because the nigga play pussy</line>
         <line>That's the nigga that's gettin' screwed</line>
-        <line>And <theme topic = "violence"><style type = "imagery">bruised up from the pistol whippin'</style></theme></line>
-        <line><theme topic = "violence"><style type = "imagery">Welts on the neck from the necklace strippin'</style></theme></line>
-        <line><theme topic="wealth">Then I'm dippin' up the block and I'm robbin' bitches, too</theme></line>
+        <line>And <style type = "imagery">bruised up from the pistol whippin'</style></line>
+        <line><style type = "imagery">Welts on the neck from the necklace strippin'</style></line>
+        <line><money>Then I'm dippin' up the block and I'm robbin' bitches, too</money></line>
         <line>Up the herringbones and bamboos</line>
         <line>I wouldn't give a fuck if you're tnangerp</line>
-        <line><theme topic = "wealth">Give me the baby rings and the #1 Mom pendant</theme></line>
+        <line><money>Give me the baby rings and the #1 Mom pendant</money></line>
         <line><style type="simile">I'm slammin' niggas like Shaquille</style>, shit is real</line>
-        <line><theme topic = "wealth">When it's time to eat a meal I rob and steal</theme></line>
+        <line><money>When it's time to eat a meal I rob and steal</money></line>
         <line>'Cause mom duke ain't givin' me shit</line>
-        <line><theme topic = "wealth violence"><style type="doubleEntendre">So for the bread and butter, I leave niggas in the gutter</style></theme></line>
+        <line><money><style type="doubleEntendre">So for the bread and butter, I leave niggas in the gutter</style></money></line>
         <line>Huh, word to mother, I'm dangerous</line>
         <line><style type="simile">Crazier than a bag of fuckin' angel dust</style></line>
-        <line><theme topic = "violence">When I bust my gat, <style type="metaphor">motherfuckers take dirt naps</theme></style></line>
+        <line>When I bust my gat, <style type="metaphor">motherfuckers take dirt naps</style></line>
         <line>I'm all that and a dime sack, where the paper at?</line>
     </verse>
-    <interlude artist="biggie">
-        <line><theme topic="wealth">When he's stickin' you and takin' all of your money</theme></line>
+    <interlude artist="biggie" theme = "money">
+        <line>When he's stickin' you and takin' all of your money</line>
     </interlude>
-    <chorus artist = "biggie">
+    <chorus artist = "biggie" theme = "money">
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
@@ -60,32 +60,32 @@
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
         <line><adlib>What's mines is mines and what's yours is mine</adlib></line>
     </chorus>
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "violence">
         <line><style type="repetition">Big up! Big up! It's a stick up! Stick up!</style></line>
-        <line><theme topic = "violence">And I'm shootin' niggas quick if ya hiccup</theme></line>
-        <line><theme topic = "violence">Don't let me fill my clip up in ya back and headpiece</theme></line>
-        <line><theme topic = "violence">The opposite of peace, sendin' mom duke a wreath</theme></line>
-        <line><theme topic = "violence">You're talkin' to the robbery expert</theme></line>
-        <line><theme topic = "violence">Step into your wake with your blood on my shirt</theme></line>
-        <line><theme topic = "violence">Don't be a jerk and get smoked over bein' resistant</theme></line>
-        <line><theme topic = "violence">'Cause when I lick shots them shits is persistent</theme></line>
-        <line><theme topic="wealth">Goodness gracious, the papers</theme></line>
-        <line><theme topic="wealth">Where the cash at? Where the stash at?</theme></line>
+        <line>And I'm shootin' niggas quick if ya hiccup</line>
+        <line>Don't let me fill my clip up in ya back and headpiece</line>
+        <line>The opposite of peace, sendin' mom duke a wreath</line>
+        <line>You're talkin' to the robbery expert</line>
+        <line>Step into your wake with your blood on my shirt</line>
+        <line>Don't be a jerk and get smoked over bein' resistant</line>
+        <line>'Cause when I lick shots them shits is persistent</line>
+        <line><money>Goodness gracious, the papers</money></line>
+        <line><money>Where the cash at? Where the stash at?</money></line>
         <line>Nigga, pass that</line>
         <line>Before you get your grave dug from the main thug</line>
         <line>Three fifty-seven slug</line>
         <line>And my nigga Biggie got a <style type="collo">itchy one grip</style></line>
         <line>One in the chamber, thirty-two in the clip</line>
         <line>Motherfuckers better strip, <adlib>Yeah, nigga, peel!</adlib></line>
-        <line><theme topic = "violence">Before you find out how <style type = "collo">blue steel</style> feel</theme></line>
-        <line><theme topic = "violence">From the Beretta, puttin' all the holes in ya sweater</theme></line>
+        <line>Before you find out how <style type = "collo">blue steel</style> feel</line>
+        <line>From the Beretta, puttin' all the holes in ya sweater</line>
         <line>The money-getter, motherfuckers know the pedi'</line>
         <line>Rolex watches and colorful Swatches</line>
-        <line><theme topic = "wealth">I'm diggin' in pockets, motherfuckers can't stop it</theme></line>
-        <line><theme topic = "wealth">Man, niggas come through, I'm takin' high school rings too</theme></line>
-        <line><theme topic = "wealth">Bitches get delgnarts for their earrings and bangles</theme></line>
-        <line><theme topic = "violence wealth">And when I rock her and drop her, I'm taking her door knockers</theme></line>
-        <line><theme topic = "violence">And if she's resistant: <style type = "onomatopoeia">blakka, blakka, blakka</style></theme></line>
+        <line><money>I'm diggin' in pockets, motherfuckers can't stop it</money></line>
+        <line><money>Man, niggas come through, I'm takin' high school rings too</money></line>
+        <line><money>Bitches get delgnarts for their earrings and bangles</money></line>
+        <line><money>And when I rock her and drop her, I'm taking her door knockers</money></line>
+        <line><money>And if she's resistant: <style type = "onomatopoeia">blakka, blakka, blakka</style></money></line>
         <line>So go get your man, bitch, he can get robbed, too</line>
         <line>Tell him <style type="thirdPerson">Biggie</style> took it, what the fuck he gonna do?</line>
         <line>Man I hope apologetic or I'm a have to set it</line>
@@ -93,7 +93,7 @@
         
         <line>Hey bitch, hey bitch, gimme your money bitch <adlib>When he's stickin' you and takin' all your money</adlib></line>
     </verse>
-    <chorus artist="biggie">
+    <chorus artist="biggie" theme = "money">
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
         <line>Gimme the loot, gimme the loot <adlib>I'm a bad, bad, bad</adlib></line>
@@ -106,31 +106,31 @@
         <line><adlib>What's mines is mines and what's yours is mine</adlib></line>
     </chorus>
     <!-- the whole verse is a conversation/dialogue -->
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "violence">
         <line>Man listen, all this walkin' is hurtin' my feet</line>
-        <line><theme topic = "wealth">Ooh, money looks sweet</theme></line>
+        <line><money>Ooh, money looks sweet</money></line>
         <line>Where at? In the Isuzu Jeep</line>
         <line>Man, I throw him in the fiend you grab the fucking cream</line>
-        <line><theme topic = "violence">And if he start to scream, bom-bom, have a nice dream</theme></line>
+        <line>And if he start to scream, bom-bom, have a nice dream</line>
         <line>Hold up, he got a fucking bitch in the car</line>
-        <line><theme topic = "wealth">Fur coats and diamonds, she think she a superstar</theme></line>
+        <line><money>Fur coats and diamonds, she think she a superstar</money></line>
         <line>Ooh, Biggie let me jack her, I'll kick her in the back</line>
         <line>Hit her with the gat</line>
         <line>Yo, chill, shorty, let me do that</line>
         <line>Just get the fucking car keys and cruise up the block</line>
-        <line><theme topic = "violence">The bitch act shocked getting shot on the spot</theme></line>
+        <line>The bitch act shocked getting shot on the spot</line>
         <line>Oh shit, the cops</line>
         <line>Be cool, fool</line>
         <line>They ain't gonna roll up, all they want is fucking doughnuts</line>
         <line>So why the fuck he keep looking?</line>
-        <line><theme topic = "violence">I guess to get his life tooken</theme></line>
+        <line>I guess to get his life tooken</line>
         <line>I just came home, ain't trying to see Central Booking</line>
         <line>Oh shit, now he looking in my face</line>
         <line>You better haul ass 'cause I ain't with no fucking chase</line>
-        <line><theme topic = "violence">So lace up your boots, 'cause I'm about to shoot</theme></line>
-        <line><theme topic = "wealth">A true motherfucker going out for the loot</theme></line>
+        <line>So lace up your boots, 'cause I'm about to shoot</line>
+        <line><money>A true motherfucker going out for the loot</money></line>
     </verse>
-    <outro artist="biggie">
+    <outro artist="biggie" theme = "none">
         <line>Take that motherfuckers</line>
     </outro>
 </song>

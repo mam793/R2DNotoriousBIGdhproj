@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist = "puffDaddy">
+    <intro artist = "puffDaddy" theme = "violence">
         <line>Yeah, yeah, you ready, motherfucker?</line>
         <line>We gonna kill your ass, kill your ass</line>
         <line>I'm ready</line>
     </intro>
     
-    <verse artist = "biggie">
-        <line><theme topic = "violence"><style type = "imagery">As I grab the Glock, put it to your headpiece</style></theme></line>
+    <verse artist = "biggie" theme = "violence">
+        <line><style type = "imagery">As I grab the Glock, put it to your headpiece</style></line>
         <line>One in the chamber, the safety is off, release</line>
-        <line><theme topic = "violence">Straight at your dome, holmes, <style type = "metaphor">I wanna see cabbage</style></theme></line>
+        <line>Straight at your dome, holmes, <style type = "metaphor">I wanna see cabbage</style></line>
         <line><style type = "thirdPerson">Biggie Smalls the savage</style>, doin' your brain cells much damage</line>
         <line>Teflon is the material for the imperial</line>
         <line>Mic ripper, girl stripper, the Henny sipper</line>
         <line><style type = "simile">I drop lyrics off and on like a light switch</style></line>
         <line>Quick to grab the right bitch and make her drive the Q-45</line>
-        <line><theme topic = "violence">Glocks and TEC's are expected when I wreck shit</theme></line>
+        <line>Glocks and TEC's are expected when I wreck shit</line>
         <line>Respect is collected, so check it!</line>
         <line><style type = "metaphor">I got techniques drippin' out my butt cheeks</style></line>
         <line>Sleep on my stomach so I don't fuck up my sheets, huh</line>
         <line><style type = "simile">My shit is deep, deeper than my grave, G</style></line>
         <line>I'm ready to die, and nobody can save me</line>
-        <line><theme topic = "relationship">Fuck the world, fuck my moms and my girl</theme></line>
+        <line><relationships>Fuck the world, fuck my moms and my girl</relationships></line>
         <line>My life is played out like a <style type = "allusion">Jheri curl</style></line>
         <line>I'm ready to die!</line>
     </verse>
     
-    <chorus artist = "biggie">
+    <chorus artist = "biggie" theme = "violence">
         <line>Yes, I'm ready</line>
         <line>Yes, I'm ready</line>
         <line>Yes, I'm ready</line>
         <line>So die, motherfuckers, die, motherfuckers, die</line>
     </chorus>
     
-    <verse artist = "biggie">
-        <line><theme topic = "wealth">As I sit back and look when I used to be a crook</theme></line>
-        <line><theme topic = "wealth">Doin' whatever it took, from snatchin' chains to pocketbooks</theme></line>
+    <verse artist = "biggie" theme = "money">
+        <line>As I sit back and look when I used to be a crook</line>
+        <line>Doin' whatever it took, from snatchin' chains to pocketbooks</line>
         <line>A big bad motherfucker on the wrong road</line>
-        <line><theme topic = "wealth">I got some drugs, tried to get the avenue sold</theme></line>
-        <line><theme topic = "wealth">I want it all from the Rolexes to the Lexus</theme></line>
-        <line><theme topic = "wealth">Gettin' paid is all I expected</theme></line>
+        <line>I got some drugs, tried to get the avenue sold</line>
+        <line>I want it all from the Rolexes to the Lexus</line>
+        <line>Gettin' paid is all I expected</line>
         <line>My mother didn't give me what I want, what the fuck?!</line>
         <line>Now I've got a Glock makin' motherfuckers duck</line>
         <line>Shit is real and hungry's how I feel</line>
-        <line><theme topic="wealth violence">I rob and steal because that money got that whip appeal</theme></line>
+        <line><violence>I rob and steal because that money got that whip appeal</violence></line>
         <line>Kickin' niggas down the steps just for rep</line>
         <line>Any repercussion lead to niggas gettin' wet</line>
         <line><style type = "imagery">The infrared's at your head real steady</style></line>
         <line>You better grab your guns 'cause I'm ready</line>
     </verse>
     
-    <chorus artist = "biggie puffDaddy">
+    <chorus artist = "biggie puffDaddy" theme = "violence">
         <line>Yes, I'm ready</line>
         <line>Yes, I'm ready</line>
         <line>I'm ready to die</line>
@@ -60,17 +60,17 @@
         <line>Nah, we ain't gonna kill your ass yet, we gonna make you suffer</line>
     </chorus>
     
-    <verse artist = "biggie">
-        <line><theme topic = "lifestyle">In a sec, I throw the TEC to your fuckin' neck</theme></line>
+    <verse artist = "biggie" theme = "violence">
+        <line>In a sec, I throw the TEC to your fuckin' neck</line>
         <line>Everybody hit the deck, <style type = "thirdPerson">Biggie 'bout to get some wreck</style></line>
         <line>Quick to leave you in a coffin for slick talkin'</line>
         <line><style type = "simile allusion">You better act like CeCe</style>, and keep on walkin'</line>
-        <line><theme topic = "violence"><style type = "imagery">When I hit ya, I split ya to the white meat</style></theme></line>
-        <line><theme topic = "violence"><style type = "imagery">You swung a left, you swung a right, you fell to the concrete</style></theme></line>
-        <line><theme topic = "violence"><style type = "imagery">Your face, my feet, they meet with stompin'</style></theme></line>
+        <line><style type = "imagery">When I hit ya, I split ya to the white meat</style></line>
+        <line><style type = "imagery">You swung a left, you swung a right, you fell to the concrete</style></line>
+        <line><style type = "imagery">Your face, my feet, they meet with stompin'</style></line>
         <line>I'm rippin' MC's from Tallahassee to Compton</line>
         <line><style type = "thirdPerson">Biggie Smalls on a higher plane</style></line>
-        <line><theme topic = "violence">Niggas say I'm strange, deranged because I put the 12 gauge to your brain</theme></line>
+        <line>Niggas say I'm strange, deranged because I put the 12 gauge to your brain</line>
         <line><style type = "imagery">Make your shit splatter</style></line>
         <line><style type = "simile">Mix the blood like batter then my pocket gets fatter</style></line>
         <line><style type = "imagery">After the hit, leave you on the street with your neck slit</style></line>
@@ -80,7 +80,7 @@
         <line>I'm ready to die!</line>
     </verse>
     
-    <chorus artist = "biggie puffDaddy">
+    <chorus artist = "biggie puffDaddy" theme = "violence">
         <line>Yes, I'm ready</line>
         <line>Yes, I'm ready</line>
         <line>I'm ready</line>
@@ -95,7 +95,7 @@
         <line>So die, motherfuckers, die, motherfuckers, die</line>
     </chorus>
     
-    <outro artist = "puffDaddy">
+    <outro artist = "puffDaddy" theme = "none">
         <line>Now I lay me down to sleep <adlib>Yeah</adlib></line>
         <line>Pray the Lord my soul to keep</line>
         <line>If I should die before I wake</line>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <skit artist="puffDaddy">
+    <skit artist="puffDaddy" theme = "none">
         <line>Push</line>
         <line>C'mon, shorty, stay push, c'mon</line>
         <line>C'mon, c'mon, push it's almost there</line>
@@ -16,7 +16,7 @@
         <line>You did it, baby, yeah!</line>
     </skit>
 
-    <interlude artist="biggie">
+    <interlude artist="biggie" theme = "none">
         <line>But if you lose, don't ask no questions why</line> 
         <line><style type = "hyperbole">The only game you know is do or die</style></line>
         <line>Ah-ha-ha</line> 
@@ -28,7 +28,7 @@
         <line>Now, what you hear is not a test...</line>
     </interlude>
 
-    <skit artist="princeCharlesAlexander">
+    <skit artist="princeCharlesAlexander" theme = "none">
         <line>God damn it, Voletta, what the fuck are you doin'?</line> 
         <line>You can't control that God damn boy? What?</line> 
         <line>I just saw Mr. Johnson, he told me he caught the motherfucking boy shoplifting</line> 
@@ -46,13 +46,13 @@
         <line>I'ma fuck you up</line>
     </skit>
 
-    <interlude artist="biggie">
+    <interlude artist="biggie" theme = "none">
         <line>When I'm bustin' up a party I feel no guilt</line>
         <line>Gizmo's cuttin' up for thee</line> 
         <line>Suckers that's down with nei—</line>
     </interlude>
     
-    <skit artist="biggie">
+    <skit artist="biggie" theme = "wealth">
         <line>What, nigga, you wanna rob them motherfuckin' trains, you crazy?</line>
         <line>Yes, yes, motherfucker, motherfuckin' right, nigga, yes</line>
         <line>Nigga, what the fuck, nigga? We gonna get—</line> 
@@ -78,12 +78,12 @@
         <line>What the fuck you holding on to that shit for, bitch?</line>
     </skit>
 
-    <interlude artist="biggie">
+    <interlude artist="biggie" theme = "none">
         <line>I get money, money I got</line> 
         <line>Stunts call me honey if they feel real hot</line>
     </interlude>
 
-    <skit artist="biggie">
+    <skit artist="biggie" theme = "none">
         <line>Open C-74, Smalls</line> 
         <line>Mr. Smalls, let me walk you to the door</line> 
         <line>So how does it feel leaving us?</line>

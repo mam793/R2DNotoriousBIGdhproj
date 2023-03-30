@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <verse artist = "biggie pop">
+    <verse artist = "biggie pop" theme = "none">
         <line>Who the fuck is this, pagin' me at 5:46 in the morning?</line>
         <line>Crack of dawn and now I'm yawnin'</line>
         <line>Wipe the cold out my eye</line>
@@ -18,12 +18,12 @@
         <line>They schooled me to some niggas that you knew from back when</line>
         <line>When you was clockin' minor figures</line>
         <line>Now they heard <style type="simile">you're blowin' up like nitro</style></line>
-        <line><theme topic = "violence">And they wanna <style type="imagery">stick the knife through your windpipe slow</style></theme></line>
+        <line><violence>And they wanna <style type="imagery">stick the knife through your windpipe slow</style></violence></line>
         <line>So, thank Fame for warnin' me, 'cause now I'm warnin' you</line>
         <line>I got the MAC, nigga, tell me what you gonna do</line>
     </verse>
     
-    <chorus artist = "biggie">
+    <chorus artist = "biggie" theme = "money">
         <line>Damn, niggas wanna stick me for my paper</line>
         <line>Damn, niggas wanna stick me for my paper</line>
         <line>Damn, niggas wanna stick me for my paper</line>
@@ -31,11 +31,11 @@
     </chorus>
     
     <!-- repetition in the first few lines -->
-    <verse artist = "biggie pop">
-        <line><theme topic = "wealth">They heard about the Rolexes and the Lexus</theme></line>
+    <verse artist = "biggie pop" theme = "violence">
+        <line><money>They heard about the Rolexes and the Lexus</money></line>
         <line>With the Texas license plates out of state</line>
-        <line><theme topic = "wealth">They heard about the pounds you got down in Georgetown</theme></line>
-        <line><theme topic = "wealth">And they heard you got half of Virginia locked down</theme></line>
+        <line><money>They heard about the pounds you got down in Georgetown</money></line>
+        <line><money>And they heard you got half of Virginia locked down</money></line>
         <line>They even heard about the crib</line>
         <line>You bought your moms out in Florida, the Fifth Corridor</line>
         <line>Call the coroner!</line>
@@ -47,14 +47,14 @@
         <line>The criminals tryin' to drop my decimals</line>
         <line>Damn, niggas wanna stick me for my <style type = "collo">cream</style></line>
         <line>And it ain't a dream, things ain't always what it seem</line>
-        <line><theme topic = "relationship">It's the ones that smoke blunts with ya, see your picture</theme></line>
-        <line><theme topic = "relationship">Now they wanna grab they guns and come and get ya</theme></line>
+        <line><relationships>It's the ones that smoke blunts with ya, see your picture</relationships></line>
+        <line><relationships>Now they wanna grab they guns and come and get ya</relationships></line>
         <line><style type="thirdPerson">Bet ya Biggie won't slip</style></line>
         <line><style type="imagery">I got the Calico with the black talons loaded in the clip</style></line>
         <line>So I can rip through the ligaments</line>
         <line>Put the fuckers in a bad predicament</line>
         <line>Where all the foul niggas went</line>
-        <line><theme topic="violence"><style type = "collo">Touch my cheddar, feel my Beretta</style></theme></line>
+        <line><style type = "collo">Touch my cheddar, feel my Beretta</style></line>
         <line>Buck what I'ma hit you with, you motherfuckers better duck</line>
         <line><style type="imagery">I bring pain, bloodstains on what remains</style></line>
         <line>Of his jacket, he had a gun, he shoulda packed it</line>
@@ -70,7 +70,7 @@
         <line>Hold on, I hear somebody comin'</line>
     </verse>
     
-    <skit artist = "unknown">
+    <skit artist = "unknown" theme = "violence">
         <line>C'mon, motherfucker</line>
         <line>Man, I'm comin' as fast as I can</line>
         <line>Just g— bring your motherfuckin' ass on, come on</line>

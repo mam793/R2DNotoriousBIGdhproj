@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <chorus artist="biggie">
+    <chorus artist="biggie" theme = "none">
         <line>Back in the day</line> 
         <line>Things done changed on this side</line> 
         <line>Remember they used to thump, but now they blast, right? <adlib>Uh</adlib></line> 
@@ -16,28 +16,28 @@
         <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "violence">
         <line>Remember back in the days when niggas had waves</line> 
         <line>Cazal shades and corn braids?</line> 
-        <line><theme topic = "wealth">Pitching pennies, honeys had the high-top jellies</theme></line> 
+        <line><money>Pitching pennies, honeys had the high-top jellies</money></line> 
         <line>Shooting skelly, motherfuckers was all friendly</line> 
         <line>Lounging at the barbecues, drinking brews</line> 
         <line>With the neighborhood crews hanging on the avenues</line> 
         <line>Turn your pages to 1993</line> 
-        <line><theme topic = "violence"><style type="collo">Niggas is getting smoked, G, believe me</style></theme></line> 
-        <line><theme topic = "violence">Talk slick, you get your neck slit quick</theme></line> 
+        <line><style type="collo">Niggas is getting smoked, G, believe me</style></line> 
+        <line>Talk slick, you get your neck slit quick</line> 
         <line>'Cause real street niggas ain't having that shit</line> 
-        <line><theme topic="violence">Totin' TECs for rep</theme></line> 
-        <line><theme topic = "drugs">Smoking blunts in the project hallways</theme></line> 
+        <line>Totin' TECs for rep</line> 
+        <line><drugs>Smoking blunts in the project hallways</drugs></line> 
         <line>Shooting dice all day</line> 
-        <line><theme topic="violence">Waitin' for niggas to step up on some fightin' shit</theme></line> 
-        <line><theme topic="violence">We get hype and shit and start lightin' shit</theme></line>
+        <line>Waitin' for niggas to step up on some fightin' shit</line> 
+        <line>We get hype and shit and start lightin' shit</line>
         <line>So step away with your fistfight ways</line> 
         <line>Motherfucker, this ain't back in the days</line>
         <line>But you don't hear me though</line>
     </verse>
 
-    <chorus artist="biggie">
+    <chorus artist="biggie" theme = "none">
         <line>Back in the day</line> 
         <line>Things done changed on this side</line> 
         <line>Remember they used to thump, but now they blast, right?</line> 
@@ -52,26 +52,26 @@
         <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "violence">
         <line>No more coco-levio one, two, three</line> 
         <line>One, two, three, all it is to me is a mystery</line>
         <line>I hear you motherfuckers talk about it</line> 
-        <line><theme topic = "violence">But I stay seeing bodies with the motherfuckin' chalk around it</theme></line> 
+        <line>But I stay seeing bodies with the motherfuckin' chalk around it</line> 
         <line>And I'm down with the shit, too</line> 
-        <line><theme topic="violence">For the stupid motherfuckers want to try to use Kung-Fu</theme></line> 
-        <line><theme topic="violence">Instead of a MAC-10, he tried scrappin'</theme></line> 
-        <line><theme topic="violence">Slugs in his back and that's what the fuck happens</theme></line> 
+        <line>For the stupid motherfuckers want to try to use Kung-Fu</line> 
+        <line>Instead of a MAC-10, he tried scrappin'</line> 
+        <line>Slugs in his back and that's what the fuck happens</line> 
         <line>When you sleep on the street</line> 
-        <line><theme topic="violence">Little motherfuckers with heat wanna leave a nigga six feet deep</theme></line> 
+        <line>Little motherfuckers with heat wanna leave a nigga six feet deep</line> 
         <line>And we coming to the wake</line> 
         <line>To make sure the crying and commotion ain't a motherfucking fake</line>
-        <line><theme topic = "relationship">Back in the days our parents used to take care of us</theme></line>
+        <line><relationships>Back in the days our parents used to take care of us</relationships></line>
         <line>Look at 'em now, they even fuckin' scared of us</line> 
         <line>Calling the city for help because they can't maintain</line> 
         <line>Damn, shit done changed</line>
     </verse>
 
-    <chorus artist="biggie">
+    <chorus artist="biggie" theme = "none">
         <line>Back in the day</line> 
         <line>Things done changed on this side</line> 
         <line>Remember they used to thump, but now they blast, right?</line> 
@@ -86,13 +86,13 @@
         <line>Remember they used to thump, but now they blast, right?</line>
     </chorus>
 
-    <verse artist="biggie">
+    <verse artist="biggie" theme = "money">
         <line>If I wasn't in the rap game</line> 
-        <line><theme topic = "drugs wealth">I'd probably have a ki, knee-deep in the crack game</theme></line> 
+        <line><drugs>I'd probably have a ki, knee-deep in the crack game</drugs></line> 
         <line><style type="alliteration">Because the streets is a short stop</style></line> 
-        <line><theme topic = "drugs wealth">Either you're slingin' crack rock or you got a wicked jump shot</theme></line> 
-        <line><theme topic="wealth">Shit, it's hard being young from the slums</theme></line> 
-        <line><theme topic = "wealth">Eatin' five cent gums, not knowing where your meal's coming from</theme></line> 
+        <line><drugs>Either you're slingin' crack rock or you got a wicked jump shot</drugs></line> 
+        <line>Shit, it's hard being young from the slums</line> 
+        <line>Eatin' five cent gums, not knowing where your meal's coming from</line> 
         <line>And now the shit's getting crazier and major</line> 
         <line>Kids younger than me, they got the <style type="collo">Sky brand pagers</style></line> 
         <line>Goin' out of town, blowing up</line>
@@ -101,11 +101,11 @@
         <line>But I gotta go identify the body</line> 
         <line>Damn, what happened to the summertime cookouts?</line> 
         <line>Every time I turn around, a nigga gettin' took out</line> 
-        <line><theme topic = "relationship">Shit, my mama got cancer in her breast</theme></line> 
+        <line><family>Shit, my mama got cancer in her breast</family></line> 
         <line>Don't ask me why I'm motherfucking stressed, things done changed</line>
     </verse>
 
-    <chorus artist="biggie">
+    <chorus artist="biggie" theme = "none">
         <line>Back in the day</line> 
         <line>Things done changed on this side</line>
         <line>Remember they used to thump, but now they blast, right?</line> 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <intro artist = "biggie">
-        <line><theme topic = "sex">All you hoes calling here for my daddy, get off his dick</theme></line>
+    <intro artist = "biggie" theme = "sex">
+        <line>All you hoes calling here for my daddy, get off his dick</line>
         <!-- dialoge style and same theme throughout-->
         <line>Like that, mommy? *Beep*</line>
         <line>Hi, daddy, how you doing? This is Tyiest</line>
@@ -27,7 +27,7 @@
         <line>When you get in give me a fucking call, alright?</line>
     </intro>
     
-    <verse artist = "biggie">
+    <verse artist = "biggie" theme = "sex">
         <!-- same theme throughout -->
         <line>When it comes to sex, I'm similar to the <style type = "allusion">Thrilla in Manila</style></line>
         <line>Honeys call me "Bigga the Condom Filler"</line>
@@ -62,7 +62,7 @@
        <line> You'll get that H-Town in ya, you want that old thing back</line>
     </verse>
     
-    <chorus artist = "total biggie">
+    <chorus artist = "total biggie" theme = "relationship">
         <line>Oh, Biggie, give me one more chance</line>
         <line>I got that good dick, girl, you didn't know?</line>
         <line>Oh, Biggie, give me one more chance</line>
@@ -72,7 +72,7 @@
         <line>Oh, Biggie, give me one more chance</line>
     </chorus>
     
-    <verse artist = "biggie">
+    <verse artist = "biggie" theme = "sex">
         <!-- same theme throughout -->
         <line>s my mind playing tricks, like <style type="allusion">Scarface and Bushwick</style></line>
         <line><style type = "allusion">Willie D</style>, having nightmares of girls killing me?</line>
@@ -103,7 +103,7 @@
         <line>They don't call me big for nuttin' all of a sudden</line>
     </verse>
     
-    <chorus artist = "total">
+    <chorus artist = "total" theme = "relationship">
         <line>Oh, Biggie, give me one more chance</line>
         <line>Oh, Biggie, give me one more chance</line>
         <line>Oh, Biggie, give me one more chance</line>
