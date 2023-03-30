@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="reflection">
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
-        <line>I'm livin' every day like a hustle, another drug to juggle</line>
+        <line><drugs>I'm livin' every day like a hustle, another drug to juggle</drugs></line>
         <line>Another day, another struggle <adlib>Right</adlib></line>
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
@@ -12,26 +12,26 @@
         <line>Another day, another struggle <adlib>Right</adlib></line>
     </chorus>
 
-    <verse artist="Biggie">
-        <line><theme topic="reflection">I know how it feel to wake up fucked up</theme></line>
-        <line><theme topic="money">Pockets broke as hell,</theme> <style type="collo">another rock to sell</style></line>
+    <verse artist="Biggie" theme="reflecttion">
+        <line><reflection>I know how it feel to wake up fucked up</reflection></line>
+        <line><money>Pockets broke as hell,</money><drugs><style type="collo">another rock to sell</style></drugs></line>
         <line>People look at you like you's the user</line>
-        <line><theme topic="drugs">Sellin' drugs to all the losers,</theme> mad buddha abuser</line>
+        <line><drugs>Sellin' drugs to all the losers,</drugs> mad buddha abuser</line>
         <line>But they don't know about your stress-filled day</line>
-        <line>Baby on the way, <theme topic="money"><style type="collo">mad bills to pay</style></theme></line>
+        <line>Baby on the way, <money><style type="collo">mad bills to pay</style></money></line>
         <line>That's why you drink Tanqueray, so you can reminisce</line>
         <line>And wish you wasn't livin' so devilish, shit</line>
-        <line><theme topic="reflection">I remember I was just like you</theme></line>
-        <line><theme topic="drugs">Smokin' blunts with my crew,</theme> flippin' over 62's</line>
+        <line><reflection>I remember I was just like you</reflection></line>
+        <line><drugs>Smokin' blunts with my crew,</drugs> flippin' over 62's</line>
         <line>'Cause G-E-D wasn't B-I-G</line>
-        <line>I got P-A-I-D, <theme topic="family">that's why my moms hate me</theme></line>
-        <line>She was forced to kick me out, no doubt</line>
+        <line>I got P-A-I-D, <family>that's why my moms hate me</family></line>
+        <line><family>She was forced to kick me out, no doubt</family></line>
         <line>Then I figured out nicks went for 20s down South</line>
         <line>Packed up my tools for my raw power move</line>
         <line>Glock 19 for casket and flower moves</line>
         <line>For chumps tryin' to stop my flow</line>
-        <line><theme topic="violence">And what they don't know will show on the autopsy</theme></line>
-        <line><theme topic="drugs">Went to see Papi to <style type="collo">cop me a brick</style></theme></line>
+        <line><violence>And what they don't know will show on the autopsy</violence></line>
+        <line><drugs>Went to see Papi to <style type="collo">cop me a brick</style></drugs></line>
         <line>Asked for some consignment, he wasn't tryin' to hear it</line>
         <line>Smokin' mad Newports 'cause I'm due in court</line>
         <line>For an assault that I caught in Bridgeport, New York</line>
@@ -39,10 +39,10 @@
         <line><style type="collo">You better have your gat in hand</style>, 'cause man</line>
     </verse>
 
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="reflection">
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
-        <line>I'm livin' every day like a hustle, another drug to juggle</line>
+        <line><drugs>I'm livin' every day like a hustle, another drug to juggle</drugs></line>
         <line>Another day, another struggle <adlib>Right</adlib></line>
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
@@ -50,24 +50,24 @@
         <line>Another day, another struggle <adlib>Right</adlib></line>
     </chorus>
 
-    <verse artist="Biggie">
+    <verse artist="Biggie" theme="reflection">
         <line>I had the master plan, I'm in the caravan on my way to Maryland</line>
         <line>With my man Two-TECs to take over this projects</line>
         <line>They call him Two-TECs, he tote two TECs</line>
         <line>And when he start to bust, he like to ask, "Who's next?"</line>
         <line>I got my honey on the Amtrak with the crack</line>
-        <line><theme topic="drugs">In the crack of her ass, <style type="collo">two pounds of hash in the stash</style></theme></line>
+        <line><drugs>In the crack of her ass, <style type="collo">two pounds of hash in the stash</style></drugs></line>
         <line>I wait for hon to make some quick cash</line>
         <line>I told her she could be lieutenant, <style type="collo">bitch got gassed</style></line>
         <line>At last, I'm literally loungin', black</line>
-        <line><theme topic="money">Sittin' back, countin' double digit thousand stacks</theme></line>
+        <line><money>Sittin' back, countin' double digit thousand stacks</money></line>
         <line>Had to re-up, see what's up with my peeps</line>
         <line>Toyota deal-athon had it cheap on the Jeeps</line>
-        <line>See who got smoked, what rumors was spread</line>
+        <line><style type="collo">See who got smoked,</style> what rumors was spread</line>
         <line>Last I heard I was dead, with six to the head</line>
         <line>Then I got the phone call, it couldn't hit me harder</line>
-        <line>We got infiltrated, like Nino at the Carter</line>
-        <line><theme topic="violence">Heard TEC got murdered in a town I never heard of</theme></line>
+        <line><style type="simile allusion">We got infiltrated, like Nino at the Carter</style></line>
+        <line><violence>Heard TEC got murdered in a town I never heard of</violence></line>
         <line>By some bitch named Alberta over nickel-plated burners</line>
         <line>And my bitch swear to God she won't snitch</line>
         <line>I told her when she hit the bricks I'll make the hooker rich</line>
@@ -77,10 +77,10 @@
         <line>In the everyday struggle</line>
     </verse>
 
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="reflection">
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
-        <line>I'm livin' every day like a hustle, another drug to juggle</line>
+        <line><drugs>I'm livin' every day like a hustle, another drug to juggle</drugs></line>
         <line>Another day, another struggle <adlib>Right</adlib></line>
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
@@ -88,17 +88,17 @@
         <line>Another day, another struggle <adlib>Right</adlib></line>
     </chorus>
 
-    <verse artist="Biggie">
-        <line><theme topic="reflection">I'm seein' body after body <style type="allusion">and our mayor Giuliani</style></theme></line>
+    <verse artist="Biggie" theme="reflection">
+        <line><violence>I'm seein' body after body <style type="allusion">and our mayor Giuliani</style></violence></line>
         <line><style type="metaphor allusion">Ain't tryin' to see no black man turn to John Gotti</style></line>
         <line>My daughter use a potty so she's older now</line>
         <line>Educated street knowledge, I'ma mold her now</line>
         <line>Trick a little dough buyin' young girls fringes</line>
-        <line>Dealin' with the dope fiend binges, seein' syringes</line>
+        <line><drugs>Dealin' with the dope fiend binges, seein' syringes</drugs></line>
         <line>In the veins, hard to explain how I maintain</line>
-        <line>The crack smoke make my brain feel so strange</line>
+        <line><drugs>The crack smoke make my brain feel so strange</drugs></line>
         <line>Breakin' days on the set, no sweat </line>
-        <line><theme topic="drugs">Drunk off Moët,</theme> can't bag yet because it's still wet</line>
+        <line><drugs>Drunk off Moët,</drugs> can't bag yet because it's still wet</line>
         <line>But when that dry, baggin' five at a time</line>
         <line>I can clock about nine on the check cashin' line</line>
         <line>I had the first and the third, rehearse, that's my word</line>
@@ -107,12 +107,12 @@
         <line>Yo, they got a eight, I got a TEC with air holes</line>
     </verse>
 
-    <interlude artist="Biggie PuffDaddy">
+    <interlude artist="Biggie PuffDaddy" theme="none">
         <line>And that's just how the shit go in the struggle, motherfucker</line>
         <line>Hah, come on, what you say?</line>
     </interlude>
 
-    <chorus artist="Biggie">
+    <chorus artist="Biggie" theme="reflection">
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>
         <line>I'm livin' every day like a hustle, another drug to juggle</line>
@@ -132,7 +132,7 @@
     </chorus>
 
 
-    <outro artist="Biggie PuffDaddy">
+    <outro artist="Biggie PuffDaddy" theme="none">
         <line>Junior M.A.F.I.A. right</line>
         <line>Yeah, rock on, woo!</line>
         <line>Biggie Smalls, right</line>
