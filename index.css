@@ -2,12 +2,25 @@ body {
     background-color: #3e3d3e;
     color: white;
     text-align: center;
+    background-image: url("black-wall-texture_1194-6486.jpg");
 }
 h1 {
     font-family: didot;
     font-size: 50px;
     color: #ba2828;
 }
+
+span.highlight {
+      
+        color: #ba2828;
+}
+span.mark {
+    background-color: black;
+    color: #ba2828;
+}
+    
+
+
 h2 {
     font-family: arial, black;
     font-size: 40px;
