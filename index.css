@@ -26,6 +26,13 @@ h2 {
     font-size: 40px;
     letter-spacing: 10px;
 }
+
+h3 { 
+font-family: didot;
+font-size: 40px;
+color: #ba2828;   
+}
+
 img {
     height: 350px;
     width: 400px;
@@ -37,4 +44,10 @@ ol {
     letter-spacing: 5px;
     font-size: 40px;
     color: #ba2828
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 80px;
+    line-height: 1.8;
 }
