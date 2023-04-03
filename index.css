@@ -34,8 +34,8 @@ color: #ba2828;
 }
 
 img {
-    height: 350px;
-    width: 400px;
+    height: 800px;
+    width: 600px;
     opacity: 0.8;
 }
 ol {
@@ -43,11 +43,22 @@ ol {
     font-family: arial, black;
     letter-spacing: 5px;
     font-size: 40px;
-    color: #ba2828
+    color: #ba2828;
 }
 
 p {
     margin-right: 150px;
     margin-left: 80px;
     line-height: 1.8;
+}
+
+a:link {
+    color: #ba2828;
+}
+
+a:hover {
+    color: #b3ea97;
+}
+a:visited {
+    color:#ba2828;
 }
