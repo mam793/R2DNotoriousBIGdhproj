@@ -2,20 +2,40 @@ body {
     background-color: #3e3d3e;
     color: white;
     text-align: center;
+    background-image: url("black-wall-texture_1194-6486.jpg");
 }
 h1 {
     font-family: didot;
     font-size: 50px;
     color: #ba2828;
 }
+
+span.highlight {
+      
+        color: #ba2828;
+}
+span.mark {
+    background-color: black;
+    color: #ba2828;
+}
+    
+
+
 h2 {
     font-family: arial, black;
     font-size: 40px;
     letter-spacing: 10px;
 }
+
+h3 { 
+font-family: didot;
+font-size: 40px;
+color: #ba2828;   
+}
+
 img {
-    height: 350px;
-    width: 400px;
+    height: 800px;
+    width: 600px;
     opacity: 0.8;
 }
 ol {
@@ -23,5 +43,22 @@ ol {
     font-family: arial, black;
     letter-spacing: 5px;
     font-size: 40px;
-    color: #ba2828
+    color: #ba2828;
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 80px;
+    line-height: 1.8;
+}
+
+a:link {
+    color: #ba2828;
+}
+
+a:hover {
+    color: #b3ea97;
+}
+a:visited {
+    color:#ba2828;
 }
