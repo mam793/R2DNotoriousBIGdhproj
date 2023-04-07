@@ -2,61 +2,61 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <song>
-
+  <title>Suicidal Thoughts</title>
   <intro artist="Puff Daddy" theme = "N/A"> 
-<line>    Hello? </line>
-<line>    Aw shit, nigga! The fuck time is it, man? </line>
-<line>    Oh, God damn </line>
-<line>    Nigga, do you know what time it is? </line>
-<line>    Aw shit, what the fuck's goin' on? </line>
-<line>    You aight? </line>
-<line>    Ah, nigga, what the fuck is wrong with you?</line>
-</intro>
+   <line>Hello?</line>
+   <line>Aw shit, nigga! The fuck time is it, man?</line>
+   <line>Oh, God damn</line>
+   <line>Nigga, do you know what time it is?</line>
+   <line>Aw shit, what the fuck's goin' on?</line>
+   <line>You aight?</line>
+   <line>Ah, nigga, what the fuck is wrong with you?</line>
+  </intro>
 
 
  <verse artist="Biggie  Puff Daddy" theme = "violence, family, reflection">
-<line>      <style type = "reflection">When I die, fuck it, I wanna go to hell </style></line>
-<line>     <style type = "reflection"> Cause I'm a piece of shit, it ain't hard to fuckin' tell </style> <adlib>What you talkin' 'bout, man?</adlib> </line>
-<line>    It don't make sense, goin' to heaven with the goodie-goodies </line>
-<line>    Dressed in white, I like black Timbs and black hoodies <adlib>Aw, man</adlib> </line>
-<line>    God'll probably have me on some real strict shit </line>
-<line>    No sleepin' all day, <sex>no gettin' my dick licked</sex> </line>
-<line>    Hangin' with the goodie-goodies, loungin' in paradise </line>
-<line>   <violence>Fuck that shit, I wanna tote guns and shoot dice</violence> <adlib>You talkin' some crazy shit now, nigga</adlib></line>
-<line>    All my life I been considered as the worst</line>
-<line>    Lyin' to my mother, even stealin' out her purse <adlib>Ah</adlib> </line>
-<line>    Crime after crime, from drugs to extortion </line>
-<line>   <family>I know my mother wish she got a fuckin' abortion </family></line>
-<line>    <family> She don't even love me like she did when I was younger</family> <adlib>Yo, get a hold of yourself, nigga</adlib></line>
-<line>    <family> Suckin' on her chest just to stop my fuckin' hunger</family> </line>
-<line>    <reflection> I wonder; if I died, would tears come to her eyes?</reflection></line>
-<line>     Forgive me for my disrespect, forgive me for my lies <adlib>You're buggin', B</adlib></line>
-<line>    <family>My baby mother's eight months, her little sister's two</family> </line>
-<line>      Who's to blame for both of them? <adlib>Nah, nigga, not you</adlib> </line>
-<line>      <violence>I swear to God I want to just slit my wrists and end this bullshit </violence></line>
-<line>     <violence> Throw the Magnum to my head, threaten to pull shit</violence> <adlib>Nigga, what the fuck?</adlib> </line>
-<line>      <violence>And squeeze until the bed's completely red</violence> <adlib>It's too late for this shit, man</adlib> </line>
-<line>      <reflection>I'm glad I'm dead, a worthless fuckin' buddha head</reflection> </line>
-<line>      The stress is buildin' up, I can't— I can't believe <adlib>Ayo, I'm on my way over there, man</adlib></line>
-<line>      <violence> Suicide's on my fuckin' mind, I wanna leave</violence> </line>
-<line>      <reflection>I swear to God I feel like death is fuckin' callin' me </reflection></line>
-<line>      But nah, you wouldn't understand <adlib>Nigga, talk to me please, man!</adlib> </line>
-<line>      You see, <style type="allusion">it's kinda like the crack did to Pookie in New Jack</style> </line>
-<line>      Except when I cross over, there ain't no comin' back <adlib>Ayo, ayo, man, I'm out</adlib> </line>
-<line>      Should I die on the train track like <style type="allusion">Ramo in Beat Street? </style><adlib>I'ma call you when I get in the car</adlib> </line>
-<line>      People at the funeral frontin' like they miss me <adlib>Ayo, where your girl at, man?</adlib> </line>
-<line>      My baby mama kiss me, but she glad I'm gone <adlib>Yo, put your girl on the phone, nigga!</adlib> </line>
-<line>      She know me and her sisterhad somethin' goin' on </line>
-<line>      I reach my peak, I can't speak <adlib>Ayo, you listenin' to me, motherfucker?</adlib> </line>
-<line>      Call my nigga Chic, tell him that my will is weak <adlib>Ayo, c'mon, nigga</adlib> </line>
-<line>      I'm sick of niggas lyin' <adlib>Cut that, I'm sick of bitches hawkin'</adlib> </line>
-<line>       <adlib> Ayo</adlib> Matter of fact, I'm sick of talkin' <adlib>Nigga, yo, yo, Big! Ayo, chill!</adlib></line>
-<line>      <style type="onomatopeia">*Gunshot*</style> </line>
-<line>      <adlib>Ayo, Big! Ayo, Big!</adlib></line>
+    <line><style type = "reflection">When I die, fuck it, I wanna go to hell </style></line>
+    <line><style type = "reflection"> Cause I'm a piece of shit, it ain't hard to fuckin' tell </style> <adlib>What you talkin' 'bout, man?</adlib> </line>
+    <line>It don't make sense, goin' to heaven with the goodie-goodies </line>
+    <line>Dressed in white, I like black Timbs and black hoodies <adlib>Aw, man</adlib> </line>
+    <line>God'll probably have me on some real strict shit </line>
+    <line>No sleepin' all day, <sex>no gettin' my dick licked</sex> </line>
+    <line>Hangin' with the goodie-goodies, loungin' in paradise </line>
+    <line><violence>Fuck that shit, I wanna tote guns and shoot dice</violence> <adlib>You talkin' some crazy shit now, nigga</adlib></line>
+    <line>All my life I been considered as the worst</line>
+    <line>Lyin' to my mother, even stealin' out her purse <adlib>Ah</adlib> </line>
+    <line>Crime after crime, from drugs to extortion </line>
+    <line><family>I know my mother wish she got a fuckin' abortion </family></line>
+    <line><family> She don't even love me like she did when I was younger</family> <adlib>Yo, get a hold of yourself, nigga</adlib></line>
+    <line><family> Suckin' on her chest just to stop my fuckin' hunger</family> </line>
+    <line><reflection> I wonder; if I died, would tears come to her eyes?</reflection></line>
+    <line>Forgive me for my disrespect, forgive me for my lies <adlib>You're buggin', B</adlib></line>
+    <line><family>My baby mother's eight months, her little sister's two</family> </line>
+    <line>Who's to blame for both of them? <adlib>Nah, nigga, not you</adlib> </line>
+    <line><violence>I swear to God I want to just slit my wrists and end this bullshit </violence></line>
+    <line><violence> Throw the Magnum to my head, threaten to pull shit</violence> <adlib>Nigga, what the fuck?</adlib> </line>
+    <line><violence>And squeeze until the bed's completely red</violence> <adlib>It's too late for this shit, man</adlib> </line>
+    <line><reflection>I'm glad I'm dead, a worthless fuckin' buddha head</reflection> </line>
+    <line>The stress is buildin' up, I can't— I can't believe <adlib>Ayo, I'm on my way over there, man</adlib></line>
+    <line><violence> Suicide's on my fuckin' mind, I wanna leave</violence> </line>
+    <line><reflection>I swear to God I feel like death is fuckin' callin' me </reflection></line>
+    <line>But nah, you wouldn't understand <adlib>Nigga, talk to me please, man!</adlib> </line>
+    <line>You see, <style type="allusion">it's kinda like the crack did to Pookie in New Jack</style> </line>
+    <line>Except when I cross over, there ain't no comin' back <adlib>Ayo, ayo, man, I'm out</adlib> </line>
+    <line>Should I die on the train track like <style type="allusion">Ramo in Beat Street? </style><adlib>I'ma call you when I get in the car</adlib> </line>
+    <line>People at the funeral frontin' like they miss me <adlib>Ayo, where your girl at, man?</adlib> </line>
+    <line>My baby mama kiss me, but she glad I'm gone <adlib>Yo, put your girl on the phone, nigga!</adlib> </line>
+    <line>She know me and her sisterhad somethin' goin' on </line>
+    <line>I reach my peak, I can't speak <adlib>Ayo, you listenin' to me, motherfucker?</adlib> </line>
+    <line>Call my nigga Chic, tell him that my will is weak <adlib>Ayo, c'mon, nigga</adlib> </line>
+    <line>I'm sick of niggas lyin' <adlib>Cut that, I'm sick of bitches hawkin'</adlib> </line>
+    <line><adlib> Ayo</adlib> Matter of fact, I'm sick of talkin' <adlib>Nigga, yo, yo, Big! Ayo, chill!</adlib></line>
+    <line><style type="onomatopeia">*Gunshot*</style> </line>
+    <line><adlib>Ayo, Big! Ayo, Big!</adlib></line>
  </verse>
 
- <outro artist="Biggie" theme = "N/A">
-<line>      <style type = "repetition">Please hang up and try your call again </style></line>
-<line>      <style type = "repetition">Please hang up - Is a recording</style></line>
-</outro>
+  <outro artist="Biggie" theme = "N/A">
+    <line><style type = "repetition">Please hang up and try your call again </style></line>
+    <line><style type = "repetition">Please hang up - Is a recording</style></line>
+  </outro>
 </song>

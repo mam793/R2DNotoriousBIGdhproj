@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Gimme the Loot</title>
     <intro artist="biggie" theme = "none">
         <line>Yeah, motherfuckers better know</line>
         <line>Huh, huh <adlib>I'm a bad, bad, bad</adlib></line>

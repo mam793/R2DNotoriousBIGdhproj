@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Everyday Struggle</title>
     <chorus artist="Biggie" theme="reflection">
         <line>I don't wanna live no more</line>
         <line>Sometimes I hear death knockin' at my front door</line>

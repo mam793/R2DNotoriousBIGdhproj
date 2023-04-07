@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Machine Gun Funk</title>
     <intro artist="biggie" theme = "none">
         <line>Yeah</line>
     </intro>

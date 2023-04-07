@@ -13,14 +13,14 @@
       </head>
       <body>
         <h1>All songs</h1>
-        <xsl:apply-templates select="$all-songs"/>
+        <ol>
+          <xsl:apply-templates select="$all-songs"/>
+        </ol>
       </body>
     </html>
   </xsl:template>
   <xsl:template match="song">
     <xsl:message select="position()"/>
-    <section>
-      <h2>Song title could go here</h2>
-    </section>
+    <li><xsl:value-of select="title"/></li>
   </xsl:template>
 </xsl:stylesheet>

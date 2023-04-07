@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Intro</title>
     <skit artist="puffDaddy" theme = "none">
         <line>Push</line>
         <line>C'mon, shorty, stay push, c'mon</line>

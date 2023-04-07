@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Ready to Die</title>
     <intro artist = "puffDaddy" theme = "violence">
         <line>Yeah, yeah, you ready, motherfucker?</line>
         <line>We gonna kill your ass, kill your ass</line>

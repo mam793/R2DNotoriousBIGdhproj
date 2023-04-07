@@ -2,131 +2,131 @@
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <song>
-
-  <intro artist="Puffy  Biggie" theme = "N/A">
-<line>    As we proceed to give you what you need <adlib>Uh</adlib></line>
-<line>    <style type="repetition">9-5, motherfuckers</style> </line>
-<line>    Get live, motherfuckers </line>
-<line>    As we proceed to give you what you need </line>
-<line>    <style type="repetition"> 9-5, motherfuckers</style> </line>
-<line>    Get live, motherfuckers <adlib>Now turn the mics up</adlib> </line>
-<line>    As we proceed to give you what you need <adlib>Turn that mic up</adlib></line>
-<line>    <adlib>Yeah, that beat is knocking, I need that mic up, though</adlib></line>
-<line>    <adlib>Turn that shit the fuck up</adlib> </line>
-<line>    East Coast, motherfuckers <adlib>Uh, what?</adlib> Bad</line>
-<line>    Boy, motherfuckers <adlib>Turn it up louder, yeah, uh</adlib> </line>
-<line>    As we proceed to give you what you need </line>
-<line>    <style type = "repetition">  J.M., motherfuckers </style></line>
-<line>     <style type = "repetition"> J.M., motherfuckers</style> <adlib>Uh</adlib> </line>
-<line>      <style type = "repetition"> 9-5, motherfuckers</style> <adlib>Uh</adlib></line>
+  <title>Who Shot Ya?</title>
+  <intro artist="Puffys Biggie" theme = "N/A">
+    <line>As we proceed to give you what you need <adlib>Uh</adlib></line>
+    <line><style type="repetition">9-5, motherfuckers</style> </line>
+    <line>Get live, motherfuckers </line>
+    <line>As we proceed to give you what you need </line>
+    <line><style type="repetition"> 9-5, motherfuckers</style> </line>
+    <line>Get live, motherfuckers <adlib>Now turn the mics up</adlib> </line>
+    <line>As we proceed to give you what you need <adlib>Turn that mic up</adlib></line>
+    <line><adlib>Yeah, that beat is knocking, I need that mic up, though</adlib></line>
+    <line><adlib>Turn that shit the fuck up</adlib> </line>
+    <line>East Coast, motherfuckers <adlib>Uh, what?</adlib> Bad</line>
+    <line>Boy, motherfuckers <adlib>Turn it up louder, yeah, uh</adlib> </line>
+    <line>As we proceed to give you what you need </line>
+    <line><style type = "repetition">  J.M., motherfuckers </style></line>
+    <line><style type = "repetition"> J.M., motherfuckers</style> <adlib>Uh</adlib> </line>
+    <line><style type = "repetition"> 9-5, motherfuckers</style> <adlib>Uh</adlib></line>
   </intro>
 
 
 
   <verse artist="Biggie" theme = "home, violence, money"> 
-<line>    Who shot ya? Separate the weak from the obsolete </line>
-<line>    Hard to creep them <home>Brooklyn streets</home></line>
-<line>    It's on, nigga, fuck all that bickerin' beef </line>
-<line>    I can hear sweat tricklin' down your cheek </line>
-<line>    Your heartbeat sound like Sasquatch feet </line>
-<line>    Thunderin', shakin' the concrete </line>
-<line>    Then the shit stop when I foil the plot </line>
-<line>    <violence>Neighbors call the cops, said they heard mad shots</violence></line>
-<line>     <violence>Saw me in the drop, three and a quarter</violence> </line>
-<line>    <violence> Slaughter, electrical tape around your daughter</violence></line>
-<line>     Old school, new school need to learn though </line>
-<line>    <style type="allusion">I burn, baby, burn, like "Disco Inferno"</style> </line>
-<line>    Burn slow like blunts with yayo </line>
-<line>    Peel more skins than Idaho Potato </line>
-<line>    Niggas know; the lyrical molesting is taking place </line>
-<line>    <violence>Fucking with B.I.G., it ain't safe </violence></line>
-<line>    <violence> I make your skin chafe, rashes on them asses </violence></line>
-<line>     <violence>Bumps and bruises, blunts and Land Cruisers </violence></line>
-<line>    <violence> Big Poppa smash fools, bash fools</violence> </line>
-<line>    <money>Niggas mad because I know that cash rules </money></line>
-<line>    <money>Everything around me, two Glock nines</money> </line>
-<line>    Any motherfucker whispering about mines <adlib>And I'm</adlib></line>
-<line> <home>And I'm Crooklyn's finest <adlib>Crooklyn's finest</adlib></home></line>
-<line>    You rewind this, Bad Boy's behind this <adlib>Bad Boy's behind this</adlib></line>
+    <line>Who shot ya? Separate the weak from the obsolete </line>
+    <line>Hard to creep them <home>Brooklyn streets</home></line>
+    <line>It's on, nigga, fuck all that bickerin' beef </line>
+    <line>I can hear sweat tricklin' down your cheek </line>
+    <line>Your heartbeat sound like Sasquatch feet </line>
+    <line>Thunderin', shakin' the concrete </line>
+    <line>Then the shit stop when I foil the plot </line>
+    <line><violence>Neighbors call the cops, said they heard mad shots</violence></line>
+    <line><violence>Saw me in the drop, three and a quarter</violence> </line>
+    <line><violence> Slaughter, electrical tape around your daughter</violence></line>
+    <line>Old school, new school need to learn though </line>
+    <line><style type="allusion">I burn, baby, burn, like "Disco Inferno"</style> </line>
+    <line>Burn slow like blunts with yayo </line>
+    <line>Peel more skins than Idaho Potato </line>
+    <line>Niggas know; the lyrical molesting is taking place </line>
+    <line><violence>Fucking with B.I.G., it ain't safe </violence></line>
+    <line><violence> I make your skin chafe, rashes on them asses </violence></line>
+    <line><violence>Bumps and bruises, blunts and Land Cruisers </violence></line>
+    <line><violence> Big Poppa smash fools, bash fools</violence> </line>
+    <line><money>Niggas mad because I know that cash rules </money></line>
+    <line><money>Everything around me, two Glock nines</money> </line>
+    <line>Any motherfucker whispering about mines <adlib>And I'm</adlib></line>
+    <line> <home>And I'm Crooklyn's finest <adlib>Crooklyn's finest</adlib></home></line>
+    <line>You rewind this, Bad Boy's behind this <adlib>Bad Boy's behind this</adlib></line>
   </verse>
 
 
 
   <interlude artist="Puff and Biggie" theme = "home, drugs"> 
-<line>    As we proceed to give you what you need <adlib>What?</adlib></line>
-<line>    <style type="repetition">9-5, motherfuckers <adlib>What?</adlib></style> </line>
-<line>    Get live, motherfuckers</line>
-<line>    As we proceed to give you what you need <adlib>What?</adlib></line>
-<line>    <home> East Coast, motherfuckers</home> </line>
-<line>    Bad Boy, motherfuckers </line>
-<line>    <style type="repetition"> Get high, motherfuckers </style> </line>
-<line>    <style type = "repetition"> Get high, motherfuckers <adlib>Uh uh</adlib></style></line>
-<line>    <drugs>Smoke blunts, motherfuckers</drugs><adlib>Uh</adlib></line>
-<line>    <style type="repetition">Get high, motherfuckers <adlib>9-5, uh</adlib></style> </line>
-<line>    Ready to die, motherfuckers <adlib>Uh</adlib></line>
-<line>    <style type="repetition"> 9-5, motherfuckers <adlib>Uh</adlib></style></line>
-</interlude>
+    <line>As we proceed to give you what you need <adlib>What?</adlib></line>
+    <line><style type="repetition">9-5, motherfuckers <adlib>What?</adlib></style> </line>
+    <line>Get live, motherfuckers</line>
+    <line>As we proceed to give you what you need <adlib>What?</adlib></line>
+    <line><home> East Coast, motherfuckers</home> </line>
+    <line>Bad Boy, motherfuckers </line>
+    <line><style type="repetition"> Get high, motherfuckers </style> </line>
+    <line><style type = "repetition"> Get high, motherfuckers <adlib>Uh uh</adlib></style></line>
+    <line><drugs>Smoke blunts, motherfuckers</drugs><adlib>Uh</adlib></line>
+    <line><style type="repetition">Get high, motherfuckers <adlib>9-5, uh</adlib></style> </line>
+    <line>Ready to die, motherfuckers <adlib>Uh</adlib></line>
+    <line><style type="repetition"> 9-5, motherfuckers <adlib>Uh</adlib></style></line>
+  </interlude>
 
 
- <verse artist="Biggie" theme = "sex, money, drugs, violence"> 
-<line>    I seen the light excite all the freaks </line>
-<line>    Stack mad chips, spread love with my peeps </line>
-<line>    Niggas wanna creep, gotta watch my back </line>
-<line>    Think the Cognac and indo sack make me slack? </line>
-<line>    I switches all that, cocksucker, <style type="collo">G's up</style></line>
-<line>    <style type="collo">One false move, get Swiss cheesed up</style> </line>
-<line>    Clip to TEC, respect, I demand it </line>
-<line>    Slip and break the 11th Commandment </line>
-<line>    Thou shalt not fuck with nor see Poppa </line>
-<line>    Feel a thousand deaths when I drop you </line>
-<line>    I feel for you, like Chaka Khan, I'm the don </line>
-<line>    <sex>Pussy when I want</sex>, <money>Rolex on the arm</money> </line>
-<line>    You'll die slow but calm</line>
-<line>    Recognize my face so there won't be no mistake </line>
-<line>    So you know where to tell Jake, lame nigga </line>
-<line>    Brave nigga, turned front page nigga </line>
-<line>    <style type="allusion">Puff Daddy</style> flips daily </line>
-<line>    <drugs> I smoke the blunts he sips on the Baileys </drugs></line>
-<line>    <drugs>On the rocks</drugs>, <violence>tote Glocks at christenings </violence></line>
-<line>    <violence>Hammer cock, in the fire position and -</violence></line>
- </verse>
+  <verse artist="Biggie" theme = "sex, money, drugs, violence"> 
+    <line>I seen the light excite all the freaks </line>
+    <line>Stack mad chips, spread love with my peeps </line>
+    <line>Niggas wanna creep, gotta watch my back </line>
+    <line>Think the Cognac and indo sack make me slack? </line>
+    <line>I switches all that, cocksucker, <style type="collo">G's up</style></line>
+    <line><style type="collo">One false move, get Swiss cheesed up</style> </line>
+    <line>Clip to TEC, respect, I demand it </line>
+    <line>Slip and break the 11th Commandment </line>
+    <line>Thou shalt not fuck with nor see Poppa </line>
+    <line>Feel a thousand deaths when I drop you </line>
+    <line>I feel for you, like Chaka Khan, I'm the don </line>
+    <line><sex>Pussy when I want</sex>, <money>Rolex on the arm</money> </line>
+    <line>You'll die slow but calm</line>
+    <line>Recognize my face so there won't be no mistake </line>
+    <line>So you know where to tell Jake, lame nigga </line>
+    <line>Brave nigga, turned front page nigga </line>
+    <line><style type="allusion">Puff Daddy</style> flips daily </line>
+    <line><drugs> I smoke the blunts he sips on the Baileys </drugs></line>
+    <line><drugs>On the rocks</drugs>, <violence>tote Glocks at christenings </violence></line>
+    <line><violence>Hammer cock, in the fire position and -</violence></line>
+  </verse>
 
 
   <interlude artist="Biggie" theme = "violence">
-<line>    <style type="dialogue"> </style></line>
-<line>     Come here, come here <adlib>It ain't gotta be like that, B.I.G.</adlib></line>
-<line>     Open your fucking mouth, open your— </line>
-<line>     <style type = "repetition">Didn't I tell you don't fuck with me? <adlib>Come on, man</adlib> Huh?</style></line>
-<line>     <style type = "repetition">Didn't I tell you not to fuck with me? <adlib>Come on, man</adlib> Huh?</style> </line>
-<line>    <style type = "repetition"> <adlib>Come on, man Look at you now, huh? Come on, man</adlib></style></line>
-<line>    <violence> Can't talk with a gun in your mouth, huh?</violence> </line>
-<line>    Bitch-ass nigga, what? Who shot ya?</line>
+    <line><style type="dialogue"> </style></line>
+    <line>Come here, come here <adlib>It ain't gotta be like that, B.I.G.</adlib></line>
+    <line>Open your fucking mouth, open your— </line>
+    <line><style type = "repetition">Didn't I tell you don't fuck with me? <adlib>Come on, man</adlib> Huh?</style></line>
+    <line><style type = "repetition">Didn't I tell you not to fuck with me? <adlib>Come on, man</adlib> Huh?</style> </line>
+    <line><style type = "repetition"> <adlib>Come on, man Look at you now, huh? Come on, man</adlib></style></line>
+    <line><violence> Can't talk with a gun in your mouth, huh?</violence> </line>
+    <line>Bitch-ass nigga, what? Who shot ya?</line>
   </interlude>
 
   <outro artist="Puffy Biggie" theme = "N/A"> 
-<line>    To give you what you need </line>
-<line>    <style type="repetition">9-5, motherfuckers</style> </line>
-<line>    Get live, motherfuckers </line>
-<line>    <drugs>Get high, motherfuckers</drugs> <adlib>Who shot ya?</adlib> </line>
-<line>    Ready to die, motherfuckers, hah! </line>
-<line>    As we proceed <adlib>Who shot ya?</adlib> </line>
-<line>    To give you what you need </line>
-<line>    <style type="repetition">9-5, motherfuckers</style> </line>
-<line>    East Coast, motherfucker <adlib>Who shot ya?</adlib></line>
-<line>    <style type="repetition">West Coast, motherfuckers <adlib>Uh</adlib> </style></line>
-<line>    <style type = "repetition"> West Coast, motherfuckers, hah!</style></line>
-<line>    <style type="repetition"> As we proceed to give you what you need </style></line>
-<line>    <style type = "repetition"> As we proceed to give you what you need</style> <adlib>As we proceed to give you what you need</adlib></line>
-<line>    <style type="repetition"> Get live, motherfuckers </style></line>
-<line>      <style type = "repetition">Get live, motherfuckers <adlib>Get live, motherfuckers</adlib></style> </line>
-<line>      <style type = "repetition"> 9-5, motherfuckers <adlib>9-5, motherfuckers</adlib></style></line>
-<line>      <money> Get money, motherfuckers</money> </line>
-<line>     <style type = "repetition">As we proceed to give you what you need <adlib>As we proceed to give you what you need</adlib> </style></line>
-<line>    <style type = "repetition"> Get live, motherfuckers <adlib>Get live, motherfuckers</adlib> </style></line>
-<line>     <style type = "repetition">9-5, motherfuckers </style></line>
-<line>     <style type = "repetition">J.M., motherfuckers </style></line>
-<line>    <style type = "repetition"> J.M., motherfuckers</style> </line>
-<line>   <style type = "repetition"> As we proceed </style></line>
-<line>   <style type = "repetition"> To give you what you need 9-5</style></line>
- </outro>
+    <line>To give you what you need </line>
+    <line><style type="repetition">9-5, motherfuckers</style> </line>
+    <line>Get live, motherfuckers </line>
+    <line><drugs>Get high, motherfuckers</drugs> <adlib>Who shot ya?</adlib> </line>
+    <line>Ready to die, motherfuckers, hah! </line>
+    <line>As we proceed <adlib>Who shot ya?</adlib> </line>
+    <line>To give you what you need </line>
+    <line><style type="repetition">9-5, motherfuckers</style> </line>
+    <line>East Coast, motherfucker <adlib>Who shot ya?</adlib></line>
+    <line><style type="repetition">West Coast, motherfuckers <adlib>Uh</adlib> </style></line>
+    <line><style type = "repetition"> West Coast, motherfuckers, hah!</style></line>
+    <line><style type="repetition"> As we proceed to give you what you need </style></line>
+    <line><style type = "repetition"> As we proceed to give you what you need</style> <adlib>As we proceed to give you what you need</adlib></line>
+    <line><style type="repetition"> Get live, motherfuckers </style></line>
+    <line><style type = "repetition">Get live, motherfuckers <adlib>Get live, motherfuckers</adlib></style> </line>
+    <line><style type = "repetition"> 9-5, motherfuckers <adlib>9-5, motherfuckers</adlib></style></line>
+    <line><money> Get money, motherfuckers</money> </line>
+    <line><style type = "repetition">As we proceed to give you what you need <adlib>As we proceed to give you what you need</adlib> </style></line>
+    <line><style type = "repetition"> Get live, motherfuckers <adlib>Get live, motherfuckers</adlib> </style></line>
+    <line><style type = "repetition">9-5, motherfuckers </style></line>
+    <line><style type = "repetition">J.M., motherfuckers </style></line>
+    <line><style type = "repetition"> J.M., motherfuckers</style> </line>
+    <line><style type = "repetition"> As we proceed </style></line>
+    <line><style type = "repetition"> To give you what you need 9-5</style></line>
+  </outro>
 </song>

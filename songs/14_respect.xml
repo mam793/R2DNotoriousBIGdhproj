@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    
+    <title>Respect (Ft. Diana King)</title>
     <intro artist="Biggie DianaKing" theme="none">
         <line>No big up our gun men, seen? <adlib>Big up, big up</adlib></line>
         <line>Cuh dis ah '94 when ah RAA fi kill people and kyaan dun</line>

@@ -1,115 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
-
 <song>
+  <title>Unbelievable</title>
   <intro artist="Biggie" theme = "N/A">
-<line>    <style type = "repitition"> Biggie Smalls is the illest </style> <adlib>Uh</adlib> </line>
-<line>      What? <adlib>Uh</adlib> </line>
-<line>      <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style> </line>
-<line>      <adlib>Uh</adlib> </line>
-<line>      <style type = "repitition">Biggie Smalls, Biggie— Biggie— Biggie Smalls</style> </line>
-<line>      <style type = "repetition">Biggie— Biggie— Biggie Smalls is the illest</style> </line>
-<line>      Uh, yeah </line>
-<line>     <style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest</style> </line>
+    <line><style type = "repitition"> Biggie Smalls is the illest </style> <adlib>Uh</adlib></line>
+    <line>What? <adlib>Uh</adlib></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+    <line><adlib>Uh</adlib></line>
+    <line><style type = "repitition">Biggie Smalls, Biggie— Biggie— Biggie Smalls</style></line>
+    <line><style type = "repetition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+    <line>Uh, yeah</line>
+    <line><style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest</style></line>
   </intro>
- <verse artist="Biggie" theme = "home, violence, allusion, drugs"> 
-<line>    <home>Live from Bedford-Stuyvesant</home>, the livest one </line>
-<line>    <home>Representing BK to the fullest</home> </line>
-<line>    Gats, I pull it </line>
-<line>    Bastards ducking when B.I.G. be bucking </line>
-<line>    Chickenheads be clucking, in my back room fucking </line>
-<line>    It ain't nothing </line>
-<line>    They know B.I.G. be handling </line>
-<line>    With the MAC in the Ac' door paneling </line>
-<line>    Bandaging MC's, oxygen, they can't breathe </line>
-<line>    Mad tricks up the sleeve </line>
-<line>    Wear boxers so my dick can breathe </line>
-<line>    Breeze through in the Q </line>
-<line>    Forty-five by my side, lyrical high </line>
-<line>    And those that rushes my clutches get put on crutches </line>
-<line>    <violence>Get smoked like Dutches from the master</violence> </line>
-<line>    <violence>Hate to blast ya but I have to</violence></line>
-<line>    <violence>You see I smoke a lot</violence></line>
-<line>    <style type="allusion">Your life is played out like Kwame</style> </line>
-<line>    And them fucking polka dots</line>
-<line>    Who rock the spot? Biggie </line>
-<line>   <drugs>You know how the weed go, unbelievable</drugs></line>
- </verse> 
-  <chorus artist="Biggie" theme = "N/A">
-<line>      <style type= "repetition">It's unbelievable</style> </line>
-<line>      <style type = "repetition">Biggie Smalls is the illest </style></line>
-<line>     <style type = "repetition"> It's unbelievable </style></line>
-<line>     <style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest</style> </line>
-<line>      <style type = "repetition">It's unbelievable </style></line>
-<line>     <style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>      <style type = "repetition">It's unbelievable </style></line>
-<line>      <style type = "repetition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
-  </chorus>
-  <verse artist="Biggie" theme = "violence, drugs"> 
-<line>    B-I-G, G-I-E </line>
-<line>    A-K-A., B-I-G </line>
-<line>    Get it? Biggie </line>
-<line>    Also known as the bon appétit</line>
-<line>    Rappers can't sleep need sleeping </line>
-<line>    B.I.G. keep creeping </line>
-<line>   <violence>Bullets heat-seeking, casualties need treating</violence> </line>
-<line>    Dumb rappers need teaching Lesson A: Don't fuck with B-I </line>
-<line>    That's that "Oh I, thought he was wack" </line>
-<line>    Oh, come, come now, why y'all so dumb now </line>
-<line>    Hunt me or be hunted </line>
-<line>    I got three hundred and fifty-seven ways </line>
-<line>    To simmer sauté, I'm the winner all day</line>
-<line>    Lights get dimmer down Biggie's hallway </line>
-<line>    My forte causes Caucasians to say </line>
-<line>    "He sounds demented"</line>
-<line>   <drugs>Car weed scented, if I said it, I meant it</drugs> </line>
-<line>    Bite my tongue for no one </line>
-<line>    Call me evil, or unbelievable </line>
- </verse> 
-  <chorus artist="Biggie" theme = "N/A">
-<line>     <style type = "repetition"> It's unbelievable </style></line>
-<line>     <style type = "repetition">Biggie Smalls is the illest </style></line>
-<line>     <style type = "repetition">It's unbelievable </style></line>
-<line>     <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition">It's unbelievable </style></line>
-<line>     <style type = "repitition"> Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition">It's unbelievable </style></line>
-<line>     <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
-  </chorus>
-  <verse artist="Biggie" theme = "violence, death">
-<line>   <violence>Buck shots out the sun roof of Lexus coupes</violence> </line>
-<line>      Leave no witnesses, what you think this is? </line>
-<line>      Ain't no amateurs here </line>
-<line>    I damage and tear, MC's fear me </line>
-<line>    They too near not to hear me </line>
-<line>    Clearly, I'm the triple beam dream </line>
-<line>    One thousand grams of uncut to the gut </line>
-<line>    It seems fucked up, the way I touched up the grill </line>
-<line>    Trying to play gorilla when you ain't no killer</line>
-<line>    The gat's by your liver, your upper lip quiver </line>
-<line>   <violence>Get ready to die, tell God I said hi</violence> </line>
-<line>    And throw down some ice for the nicest MC </line>
-<line>    Niggas know the steelo, unbelievable</line>
+  
+  <verse artist="Biggie" theme = "home, violence, allusion, drugs">
+    <line><home>Live from Bedford-Stuyvesant</home>, the livest one </line>
+    <line><home>Representing BK to the fullest</home></line>
+    <line>Gats, I pull it</line>
+    <line>Bastards ducking when B.I.G. be bucking</line>
+    <line>Chickenheads be clucking, in my back room fucking</line>
+    <line>It ain't nothing</line>
+    <line>They know B.I.G. be handling</line>
+    <line>With the MAC in the Ac' door paneling</line>
+    <line>Bandaging MC's, oxygen, they can't breathe</line>
+    <line>Mad tricks up the sleeve </line>
+    <line>Wear boxers so my dick can breathe</line>
+    <line>Breeze through in the Q</line>
+    <line>Forty-five by my side, lyrical high</line>
+    <line>And those that rushes my clutches get put on crutches</line>
+    <line><violence>Get smoked like Dutches from the master</violence></line>
+    <line><violence>Hate to blast ya but I have to</violence></line>
+    <line><violence>You see I smoke a lot</violence></line>
+    <line><style type="allusion">Your life is played out like Kwame</style></line>
+    <line>And them fucking polka dots</line>
+    <line>Who rock the spot? Biggie </line>
+    <line><drugs>You know how the weed go, unbelievable</drugs></line>
   </verse>
+  
   <chorus artist="Biggie" theme = "N/A">
-<line>      <style type = "repitition">It's unbelievable </style></line>
-<line>      <style type = "repitition">Biggie Smalls is the illest </style></line>
-<line>      <style type = "repitition">It's unbelievable </style></line>
-<line>      <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition"> It's unbelievable </style></line>
-<line>     <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition">It's unbelievable</style> </line>
-<line>     <style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest</style></line>
- </chorus>
+    <line><style type= "repetition">It's unbelievable</style> </line>
+    <line><style type = "repetition">Biggie Smalls is the illest </style></line>
+    <line><style type = "repetition"> It's unbelievable </style></line>
+    <line><style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest</style> </line>
+    <line><style type = "repetition">It's unbelievable </style></line>
+    <line><style type = "repetition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repetition">It's unbelievable </style></line>
+    <line><style type = "repetition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+  </chorus>
+  
+  <verse artist="Biggie" theme = "violence, drugs"><line>B-I-G, G-I-E </line>
+    <line>A-K-A., B-I-G </line>
+    <line>Get it? Biggie </line>
+    <line>Also known as the bon appétit</line>
+    <line>Rappers can't sleep need sleeping </line>
+    <line>B.I.G. keep creeping </line>
+    <line><violence>Bullets heat-seeking, casualties need treating</violence> </line>
+    <line>Dumb rappers need teaching Lesson A: Don't fuck with B-I </line>
+    <line>That's that "Oh I, thought he was wack" </line>
+    <line>Oh, come, come now, why y'all so dumb now </line>
+    <line>Hunt me or be hunted </line>
+    <line>I got three hundred and fifty-seven ways </line>
+    <line>To simmer sauté, I'm the winner all day</line>
+    <line>Lights get dimmer down Biggie's hallway </line>
+    <line>My forte causes Caucasians to say </line>
+    <line>"He sounds demented"</line>
+    <line><drugs>Car weed scented, if I said it, I meant it</drugs> </line>
+    <line>Bite my tongue for no one </line>
+    <line>Call me evil, or unbelievable </line>
+  </verse>
+  
+  <chorus artist="Biggie" theme = "N/A">
+    <line><style type = "repetition"> It's unbelievable </style></line>
+    <line><style type = "repetition">Biggie Smalls is the illest </style></line>
+    <line><style type = "repetition">It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition">It's unbelievable </style></line>
+    <line><style type = "repitition"> Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition">It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+  </chorus>
+  
+  <verse artist="Biggie" theme = "violence, death">
+    <line><violence>Buck shots out the sun roof of Lexus coupes</violence> </line>
+    <line>Leave no witnesses, what you think this is? </line>
+    <line>Ain't no amateurs here </line>
+    <line>I damage and tear, MC's fear me </line>
+    <line>They too near not to hear me </line>
+    <line>Clearly, I'm the triple beam dream </line>
+    <line>One thousand grams of uncut to the gut </line>
+    <line>It seems fucked up, the way I touched up the grill </line>
+    <line>Trying to play gorilla when you ain't no killer</line>
+    <line>The gat's by your liver, your upper lip quiver </line>
+    <line><violence>Get ready to die, tell God I said hi</violence> </line>
+    <line>And throw down some ice for the nicest MC </line>
+    <line>Niggas know the steelo, unbelievable</line>
+  </verse>
+  
+  <chorus artist="Biggie" theme = "N/A">
+    <line><style type = "repitition">It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition">It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition"> It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition">It's unbelievable</style> </line>
+    <line><style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest</style></line>
+  </chorus>
+  
   <outro artist="Biggie" theme = "N/A">
-<line>      <style type = "repitition">It's unbelievable </style></line>
-<line>      <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
-<line>      <style type = "repitition">'Believable </style></line>
-<line>     <style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition"> 'Believable </style></line>
-<line>     <style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
-<line>     <style type = "repitition"> Biggie Smalls— Biggie— Biggie— Biggie Smalls </style></line>
-<line>     <style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
- </outro> 
+    <line><style type = "repitition">It's unbelievable </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+    <line><style type = "repitition">'Believable </style></line>
+    <line><style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition"> 'Believable </style></line>
+    <line><style type = "repitition"> Biggie— Biggie— Biggie Smalls is the illest </style></line>
+    <line><style type = "repitition"> Biggie Smalls— Biggie— Biggie— Biggie Smalls </style></line>
+    <line><style type = "repitition">Biggie— Biggie— Biggie Smalls is the illest</style></line>
+  </outro>
 </song>

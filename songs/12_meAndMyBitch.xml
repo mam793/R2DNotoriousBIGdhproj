@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-    
+    <title>Me and My Bitch</title>
     <intro artist="Biggie PuffDaddy Girl" theme="violence">
         <line>Yo let— let— let me ask you a question, yo</line>
         <line>Yo, would you kill for me?</line>

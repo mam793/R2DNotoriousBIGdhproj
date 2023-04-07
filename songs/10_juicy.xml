@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Juicy</title>
     <intro artist="Biggie" theme="reflection">
         <line><adlib>"Fuck all you hoes!" Get a grip, motherfucker!</adlib></line>
         <line>Yeah, this album is dedicated</line>

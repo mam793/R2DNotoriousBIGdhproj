@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Warning</title>
     <verse artist = "biggie pop" theme = "none">
         <line>Who the fuck is this, pagin' me at 5:46 in the morning?</line>
         <line>Crack of dawn and now I'm yawnin'</line>

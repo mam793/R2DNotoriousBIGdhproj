@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>One More Chance</title>
     <intro artist = "biggie" theme = "sex">
         <line>All you hoes calling here for my daddy, get off his dick</line>
         <!-- dialoge style and same theme throughout-->

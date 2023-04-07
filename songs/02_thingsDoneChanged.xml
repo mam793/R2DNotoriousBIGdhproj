@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>Things Done Changed</title>
     <chorus artist="biggie" theme = "none">
         <line>Back in the day</line> 
         <line>Things done changed on this side</line> 

@@ -1,5 +1,9 @@
 start = song
-song = element song { intro?, (chorus | skit | interlude | verse)+, outro?, skit?}
+song = element song { title, intro?, (chorus | skit | interlude | verse)+, outro?, skit?}
+
+# element that contains the title of the song (to be used when making the reading view)
+title = element title { text }
+
 # 
 # Named pattern for (mixed) content of song components
 #

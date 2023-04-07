@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
+    <title>The What (Ft. Method Man)</title>
     <verse artist="Biggie" theme="none">
         <line>I used to get feels on a bitch</line>
         <line><sex>Now I throw shields on the dick to stop me from that HIV shit</sex></line>

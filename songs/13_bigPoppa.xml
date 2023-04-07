@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-
+    <title>Big Poppa</title>
     <intro artist="Biggie PuffDaddy" theme="none">
         <line>Uh, uh, check it out <adlib>Yeah</adlib>, uh </line>
         <line>Junior M.A.F.I.A., uh <adlib>He-he</adlib></line>
