@@ -33,11 +33,6 @@ font-size: 40px;
 color: #ba2828;   
 }
 
-img {
-    height: 800px;
-    width: 600px;
-    opacity: 0.8;
-}
 ol {
     list-style-position: inside;
     font-family: arial, black;
