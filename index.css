@@ -41,6 +41,7 @@ ol {
     font-size: 40px;
     color: #ba2828;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,16 +54,15 @@ p {
     line-height: 1.8;
 }
 
-/* Navbar styling */
 .sidenav {
   height: 100%;
-  width: 300px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
   left: 0;
   background-color: #696767;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden; 
   padding-top: 20px;
 }
 .sidenav a {
