@@ -53,6 +53,8 @@ p {
     margin-right: 150px;
     margin-left: 80px;
     line-height: 1.8;
+    font-family: arial;
+    font-size: 20px;
 }
 
 .sidenav {
@@ -120,3 +122,19 @@ ol.song-list {
     color: #ba2828;
 }
 
+ul.spacing {
+    text-align: left;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+}
+
+li.space {
+    text-align: left;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
