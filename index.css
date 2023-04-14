@@ -120,3 +120,15 @@ ol.song-list {
     color: #ba2828;
 }
 
+ul.spacing {
+    text-align: left;
+    font-family: arial;
+    font-size: 20px;
+    
+}
+
+li.space {
+    text-align: left;
+    font-family: arial;
+    font-size: 20px;
+}
