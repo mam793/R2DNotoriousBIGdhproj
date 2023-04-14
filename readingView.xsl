@@ -9,17 +9,66 @@
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <title>Sample output</title>
+                <link rel="stylesheet" type="text/css" href="index.css"/>
+                <title>Reading View</title>
             </head>
             <body>
-                <h1>All songs</h1>
-                <ol>
-                    <xsl:apply-templates select="$all-songs"/>
-                </ol>
+                <h2>Songs</h2>
+                <div class = "row">
+                    <div class = "column">
+                        <ol class = "song-list">
+                            <xsl:apply-templates select="$all-songs" mode = "list"/>
+                        </ol>
+                    </div>
+                    <div class = "column">
+                        <xsl:apply-templates select="$all-songs"/>
+                    </div>
+                </div>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="song">
+    
+    <xsl:template match="song" mode = "list">
         <li><xsl:value-of select="title"/></li>
     </xsl:template>
+    
+    <xsl:template match="song">
+        <h3 class = "rv"><xsl:value-of select="title"/></h3>
+        <xsl:apply-templates select="child::*[position() &gt; 1]"/>
+    </xsl:template>
+    
+    <xsl:template match="intro">
+        <h4 class = "rv">Intro</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="chorus">
+        <h4 class = "rv">Chorus</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="skit">
+        <h4 class = "rv">Skit</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="interlude">
+        <h4 class = "rv">Interlude</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="verse">
+        <h4 class = "rv">Verse</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="outro">
+        <h4 class = "rv">Outro</h4>
+        <xsl:apply-templates select="line"/>
+    </xsl:template>
+    
+    <xsl:template match="line">
+        <p class = "rv"><xsl:value-of select="."/></p>
+    </xsl:template>
+    
 </xsl:stylesheet>

@@ -14,6 +14,7 @@ span.highlight {
       
         color: #ba2828;
 }
+
 span.mark {
     background-color: black;
     color: #ba2828;
@@ -28,9 +29,9 @@ h2 {
 }
 
 h3 { 
-font-family: didot;
-font-size: 40px;
-color: #ba2828;   
+    font-family: didot;
+    font-size: 40px;
+    color: #ba2828;   
 }
 
 ol {
