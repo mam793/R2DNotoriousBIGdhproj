@@ -24,17 +24,34 @@
                         <xsl:apply-templates select="$all-songs"/>
                     </div>
                 </div>
+                
+                <!-- code credit goes to W3Schools -->
+                <script>
+                    function myFunction(id) {
+                        var x = document.getElementById(id);
+                        if (x.style.display === "none") {
+                        x.style.display = "block";
+                        } else {
+                        x.style.display = "none";
+                        }
+                    }
+                </script>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="song" mode = "list">
-        <li><xsl:value-of select="title"/></li>
+        <li onclick="myFunction('{title}')">
+            <a href="#"><xsl:value-of select="title"/></a>
+        </li>
     </xsl:template>
     
     <xsl:template match="song">
-        <h3 class = "rv"><xsl:value-of select="title"/></h3>
-        <xsl:apply-templates select="child::*[position() &gt; 1]"/>
+        <span id = "{title}">
+            <h3 class = "rv"><xsl:value-of select="title"/></h3>
+            <xsl:apply-templates select="child::*[position() &gt; 1]"/>
+        </span>
+        
     </xsl:template>
     
     <xsl:template match="intro">

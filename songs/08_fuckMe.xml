@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <title>Fuck Me (Interlude) ft. Lil Kim</title>
+    <skit artist = "biggie lilKim" theme = "sex">
+        <line>(Jodeci song playing in the background and sound of Biggie and Lil Kim having sex on a bed.)</line>
+    
+        <line>[Lil Kim]</line>
+        <line>Uuh, yeah, uh, oooh, oh yeah, mmm, yeah</line>
+        <line>Oh fuck me you black mothafucka, oooohh yeah!!! MMMMMM, Aaahhh</line>
+        <line>Oh fuck me you black Kentucky Fried Chicken eatin'</line>
+        <line>Ohhh, ooohhh, yeah</line>
+        <line>You mothafuckin' gangsta killin', mutha fuckin black mafia ass</line>
+        <line>Muthafuckin, you, ohhhhh my god</line>
+        <line>You chronic smokin', Oreo cookie eatin', pickle juice drinkin'</line>
+        <line>Chicken gristle eatin', biscuit suckin', MUTHAfucka</line>
+        <line>V8 juice drinkin', slim fast, blendin' black greasy muthafucka</line>
+        <line>OOOHHHHH</line>
+        
+        
+        <line>[Biggie]</line>
+        <line>What's my name?</line>
+        
+        <line>[Lil Kim]</line>
+        <line>Biggie!</line>
+        
+        <line>[Biggie]</line>
+        <line>What's my name?</line>
+        
+        <line>[Lil Kim]</line>
+        <line>Biggie!</line>
+        <line>Oh yeah</line>
+        
+        <line>(Sound of Biggie and Lil Kim falling off the bed)</line>
+        
+        <line>[Biggie] I'm sorry</line>
+        <line>[Lil Kim] Ahhhh....</line>
+        <line>[Biggie] Oh shit. Damn</line>
+        <line>[Lil Kim] (laughing) Jenny Craig eatin' muthafucka</line>
+        <line>[Biggie] (laughing) Fuck you bitch...</line>
+    </skit>
+</song>
