@@ -16,11 +16,13 @@
             <li><a href="#meetTeam">MEET THE TEAM</a></li>
         </ol>
         <div class="main">
+            <section class="topOfPage">
             <h1>READY TO <span class = "mark">DIE</span></h1>
             <img src="BIGFBABY.png" alt="Ready To Die Cover" height="400" width="300"/>
             <h2>the notorious <span class = "highlight">BIG</span></h2>
             <img src="explicitcontent.png" alt="Explicit Content Notice" height="300" width="500"/>
-            <section>
+            </section>
+            <section class="about">
                 <h3 id="about">ABOUT</h3>
             <p> In 1994 Notorious B.I.G. released the album Ready to Die which to some is considered one of the best Rap albums of all time.
              The album tells the story of Christopher Wallace (aka Notorious BIG) and his life growing up on the streets of Brooklyn NY, the hardships he endured, and how he used rap as an outlet, ultimately leading to his fame.
@@ -28,50 +30,23 @@
              by examining the different stylistic features and themes he utilizes throughout the album that help facilitate its narrative style. We used these findings to draw conclusions about Biggie's strategy as an
              an artist and how his legacy may have contributed to the state of the rap game today.</span> </p>
             </section>
-            <section>
+            <section class="methodology">
                 <h3 id="methodology">METHODOLOGY</h3>
-                <p>In 1994 Notorious B.I.G. released the album Ready to Die which to some is considered one of the best Rap albums of all time. The album tells the story of Christopher Wallace (aka Biggie) growing up on the streets of Brooklyn selling drugs, the hardships it had brought upon him, and using rap as an outlet which ultimately led to his fame. Containing a total of 19 songs, this album has undoubtedly had a large impact on the rap industry. </p>
-                   <p>To better understand the nuances in Biggie’s storytelling style, we first came up with a list of elements we wanted to markup with XML in his songs. These categories were theme, structural elements, and stylistic elements. 
+                <p>In 1994 Notorious B.I.G. released the album Ready to Die which to some is considered one of the best Rap albums of all time. The album tells the story of Christopher Wallace (aka Biggie) growing up on the streets of Brooklyn selling drugs, the hardships it had brought upon him, and using rap as an outlet which ultimately led to his fame. 
+                    Containing a total of 19 songs, this album has undoubtedly had a large impact on the rap industry. To better understand the nuances in Biggie’s storytelling style, we first brainstormed what excatly we wanted to look for in his songs. 
+                    We decided to markup the songs for <span class="mark">structural elements, themes, and stylistic elements.</span> 
                     </p>
+                
+                <p>We first marked up the structural elements of the songs including: <span class="mark">title, intro, verse, chorus, outro, features, adlibs, outro, features, adlibs, interludes, and artist.</span>
+                    We selected these because these are the typical structural elements found in most songs. We used regex to remove the brackets from all the adlibs and wrapped them in adlib tags.</p>
                    
-                <p> "But I would hit all of y'all" 
-                     This is how Biggie ends his renowned album, last talking with his listeners about themes of <span class = "mark">sex and relationships</span>. 
-                     In our analysis, we found that sex and relationships are far from the only themes present in this album.
-                     Looking at tracks alone and seeing titles like "Who Shot Ya?" and "Gimme the Loot" it is evident that themes of <span class = "mark">money and violence</span> are also prominent in the album. 
-                     Upon analyzing the actual lyrics, we also found that <span class = "mark">home, reflection, family, and drugs</span> were also common themes, rounding out our list of themes we marked in the text.     
+                <p> Any of you who are already familiar with Biggie's lyricism are probably aware of the common themes of <span class = "mark">money and drugs</span>. 
+                    Upon further analysis, we found additonal prevalent themes such as <span class = "mark">violence, home, reflection, family, sex, and relationships</span> and decided
+                    those were worth marking up as well. After combing a bit more through the album, we found the most prominent stylistic techniques to be <span class="mark">repetition, 
+                    allusiion, colloquialism, repitition, onomatopoeia, dialogue, hyperbole.</span> For instances of allusions and colloquialism we specified what was being alluded or referred to
+                    using attributes.
                 </p>
                 
-                
-                
-                
-                    
-                   <p>Structural Elements: When marking up the text, we looked for: </p>
-                
-                   <ul class = "spacing">
-                   <li class = "space">Title</li>
-                   <li class = "space">Intro</li>
-                   <li class = "space">Verse</li>
-                   <li class = "space">Chorus</li>
-                   <li class = "space">Outro</li>
-                   <li class = "space">Features</li>
-                   <li class = "space">Adlibs</li>
-                  <li class = "space"> Talking and narration vs rapping</li>
-                  <li class = "space">Interlude/Intro Songs</li>
-                  <li> Speaker</li>
-                   </ul>
-                    
-                    <p>Stylistic Elements: After looking through the corpus of songs, we found it important to mark  these stylistic elements: </p>
-                    
-                    <ul class = "spacing">
-                   <li class = "space"> Repetition</li>
-                   <li class = "space">Allusion</li>
-                   <li class = "space"> Type, Person</li>
-                   <li class = "space">Slang/Colloquial Terms (which we marked as “collo”)</li>
-                   <li class = "space">Repetition</li>
-                   <li class = "space">Onomatopoeia</li>
-                   <li class = "space">Dialogue</li>
-                   <li class = "space">Hyperbole</li>
-                    </ul>
                     
                     <p>In our schema, for title and artist, we included attribute elements to further define these markups. 
                     For the title, we included a theme attribute which we defined by any of the themes we listed above. 
@@ -82,16 +57,17 @@
                 
                     <p>
                         *Disclaimer* 
-                        Song number 8, "Fuck Me (Interlude)" is included but is not marked up because we didn't feel it was substantial enough to mark up. But, for the sake of being able to view the albmum conhesively, we wanted to include it, unmarked, in the reading view.
+                        Song number 8, "Fuck Me (Interlude)" is included but is not marked up because we didn't feel it was substantial enough to mark up. 
+                        But, for the sake of being able to view the albmum cohesively, we wanted to include it, unmarked, in the reading view.
                     </p>
              
             </section>
             
-            <section>
+            <section class="findings">
                 <h3 id="findings">FINDINGS</h3>
                 <p>Watch this space</p>
             </section>
-            <section>
+            <section class="allAboutBig">
                 <h3 id="allaboutbig">ALL ABOUT BIGGIE</h3>
                 <img src="BiggiePortrait.png" alt="Biggie Portrait" height="250" width="170"/>
                 <p>Christopher Wallace was born May 21, 1972 in Brooklyn New York. His mother, Voletta Wallace, raised him on her own; his father left them when Christopher was 2 years old. 
@@ -102,7 +78,7 @@
                 This album was certified gold within two months, double-platinum the following year, and eventually quadruple-platinum. "Big Poppa," the second of the album's four singles, was nominated for a Grammy
                 for best rap solo performance.</p>
             </section>
-            <section>
+            <section class="meetTheTeam">
                 <h3 id="meetTeam">MEET THE TEAM</h3>
                 <h4>"What was your favorite song on the album?"</h4>
                 <h5>Mayah Mbangah</h5>
