@@ -175,3 +175,15 @@ section.meetTheTeam {
     border-radius: 5px;
     padding: 0px 0px 0px 0px;  
 }
+
+h4.TeamInfo {
+    font-size: 25px;
+}
+
+p.TeamInfo {
+    font-size: 20px;
+}
+
+ul.TeamInfo {
+    font-family: arial;
+}
