@@ -81,7 +81,7 @@ p {
 }
 .sidenav a:hover {
     color: white;
-    }
+}
 
 /* Style page content */
 .main {
@@ -89,46 +89,103 @@ p {
   padding: 0px 10px;
 }
 
+/* beginning of reading view */
+
 .row {
-  display: flex;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
 }
 
-.column {
-  flex: 50%;
+.row div.sidenav {
+    height: 100%;
+    width: 500px; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    background-color: #696767;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    font-size: 27px;
+  }
+  
+.row div.sidenav a {
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ba2828;
+    display: block;
 }
+
+.row div.sidenav a:hover {
+  color: white;
+}
+
+.row .main {
+  margin-left: 500px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
 
 h3.rv {
     font-family: didot;
     margin: 5px;
+    font-size: 30px;
+    color: #ba2828; 
+    background-color: black;
 }
 
 h4.rv {
     margin: 10px;
     font-family: didot;
-    font-size: 32px;
+    font-size: 25px;
     color: #ba2828; 
     line-height: 1;
 }
 
 p.rv {
     font-family: didot;
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
     text-align: left;
     line-height: 0.9;
 }
 
-ol.song-list {
-    list-style-position: inside;
-    font-family: arial, black;
-    letter-spacing: 5px;
-    font-size: 35px;
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .display {
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  background-color: #3e3d3e;
+ 
+  /* Position the tooltip text - see examples below! */
+  top: -5px;
+  left: 90%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .display {
+  visibility: visible;
+  background-color: black;
+}
+
+#style{
     color: #ba2828;
 }
 
-span.song {
-    display: none;
+#theme{
+    background-color: black;
 }
+
+/* end of reading view */
 
 ul.spacing {
     text-align: left;

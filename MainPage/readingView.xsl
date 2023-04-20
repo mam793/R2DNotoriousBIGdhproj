@@ -5,7 +5,7 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-    <xsl:variable name="all-songs" as="document-node()+" select="collection('songs/?select=*.xml')"/>
+    <xsl:variable name="all-songs" as="document-node()+" select="collection('/C:/Users/raini/Documents/Pitt/spring 22-23/comp methods/R2DNotoriousBIGdhproj/songs/?select=*.xml')"/>
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
@@ -15,12 +15,12 @@
             <body>
                 <h2>Songs</h2>
                 <div class = "row">
-                    <div class = "column">
+                    <div class = "sidenav">
                         <ol class = "song-list">
                             <xsl:apply-templates select="$all-songs" mode = "list"/>
                         </ol>
                     </div>
-                    <div class = "column">
+                    <div class = "main">
                         <xsl:apply-templates select="$all-songs"/>
                     </div>
                 </div>
@@ -47,45 +47,34 @@
     </xsl:template>
     
     <xsl:template match="song">
-        <span id = "{title}">
+        <section id = "{title}">
             <h3 class = "rv"><xsl:value-of select="title"/></h3>
             <xsl:apply-templates select="child::*[position() &gt; 1]"/>
-        </span>
+        </section>
         
     </xsl:template>
     
-    <xsl:template match="intro">
-        <h4 class = "rv">Intro</h4>
-        <xsl:apply-templates select="line"/>
-    </xsl:template>
-    
-    <xsl:template match="chorus">
-        <h4 class = "rv">Chorus</h4>
-        <xsl:apply-templates select="line"/>
-    </xsl:template>
-    
-    <xsl:template match="skit">
-        <h4 class = "rv">Skit</h4>
-        <xsl:apply-templates select="line"/>
-    </xsl:template>
-    
-    <xsl:template match="interlude">
-        <h4 class = "rv">Interlude</h4>
-        <xsl:apply-templates select="line"/>
-    </xsl:template>
-    
-    <xsl:template match="verse">
-        <h4 class = "rv">Verse</h4>
-        <xsl:apply-templates select="line"/>
-    </xsl:template>
-    
-    <xsl:template match="outro">
-        <h4 class = "rv">Outro</h4>
-        <xsl:apply-templates select="line"/>
+    <xsl:template match = "song/child::*[position() &gt; 1]">
+        <section id = "{name(.)}">
+            <h4 class = "rv"><xsl:value-of select="name(.)"/> (theme: <xsl:value-of select="@theme"/>)</h4>
+            <xsl:apply-templates select="line"/>
+        </section>
     </xsl:template>
     
     <xsl:template match="line">
-        <p class = "rv"><xsl:value-of select="."/></p>
+        <p class = "rv"><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match = "style">
+        <span id = "style" class = "tooltip"><xsl:apply-templates/><span class = "display">style: <xsl:value-of select="@type"/></span></span>
+    </xsl:template>
+    
+    <xsl:template match = "adlib">
+        (<xsl:value-of select="."/>)
+    </xsl:template>
+    
+    <xsl:template match = "line/child::*[not(self::adlib) and not(self::style)]">
+        <span id = "theme" class = "tooltip"><xsl:apply-templates/><span class = "display">theme: <xsl:value-of select="name(.)"/></span></span>
     </xsl:template>
     
 </xsl:stylesheet>
