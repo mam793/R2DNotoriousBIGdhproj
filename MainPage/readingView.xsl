@@ -11,7 +11,7 @@
     <xsl:variable name="all-songs" as="document-node()+"
         select="collection('../songs/?select=*.xml')"/>
     <!-- ================================================================ -->
-    <!-- Functions                                                        -->
+    <!-- Functions kk                                                       -->
     <!-- ================================================================ -->
     <xsl:function name="big:string-spaces" as="xs:string">
         <!-- ============================================================ -->
@@ -110,8 +110,7 @@
         <xsl:apply-templates/>
         <xsl:text>) </xsl:text>
     </xsl:template>
-    <xsl:template match="*[parent::line]">
-        <!-- Will not apply to line/adlib and line/style because of template precedence -->
+    <xsl:template match="line/*[not(self::adlib or self::style)]">        
         <span class="theme tooltip">
             <xsl:apply-templates/>
             <span class="display">
