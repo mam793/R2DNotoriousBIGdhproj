@@ -4,9 +4,15 @@
  */
 function init() {
     var titleLinks = document.querySelectorAll('nav li');
-    for (var i = 0, len = titleLinks.length; i < len; i++) {
+    for (var i = 1, len = titleLinks.length; i < len; i++) {
         titleLinks[i].addEventListener('click', toggleView, false);
     }
+    
+    var allSongs = document.getElementsByClassName('song');
+    for (var i = 0, len = allSongs.length; i < len; i++) {
+      allSongs[i].style.display = 'none';
+    }
+    document.getElementById("Intro").style.display = 'block';
 }
 /* 
  * Hide all songs and then show the one that was selected

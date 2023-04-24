@@ -42,6 +42,7 @@
                 <div id="content">
                     <nav>
                         <ul>
+                            <li><a href="index.xhtml">Home Page</a></li>
                             <xsl:apply-templates select="$all-songs" mode="list">
                                 <xsl:sort select="base-uri()"/>
                             </xsl:apply-templates>

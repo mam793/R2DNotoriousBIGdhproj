@@ -100,21 +100,33 @@ p {
 }
 
 nav {
-  margin: 1rem 0;
+  margin-left: 50px;
+  top: 75px;
   bottom: 0;
   width: 500px;
   left: 0;
-  background-color: #696767;
   overflow-x: hidden;
   font-size: 25px;
+  position: fixed;
 }
 
 nav li:hover {
   color: red;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ba2828;
+    text-decoration: none;
+}
+
 main {
-  padding: 10px;
+  margin-left: 550px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
 
 #rv {
@@ -160,7 +172,6 @@ main {
   display: inline-block;
 }
 
-/* Tooltip text */
 .tooltip .display {
   display: none;
   width: 120px;
@@ -171,17 +182,23 @@ main {
   border-radius: 6px;
   background-color: #3e3d3e;
 
-  /* Position the tooltip text - see examples below! */
   top: -5px;
-  left: 90%;
+  left: 103%;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .display {
+.theme.tooltip:hover .display {
   display: block;
   background-color: black;
   position: absolute;
-  top: -1.5em;
+  top: -1.3em;
+  z-index: 1;
+}
+
+.style.tooltip:hover .display {
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 1.3em;
   z-index: 1;
 }
 
@@ -191,6 +208,14 @@ main {
 
 .theme {
   background-color: black;
+}
+
+.style:hover {
+  color: #b73e3e;
+}
+
+.theme:hover {
+  background-color: #1c1c1c;
 }
 
 /* end of reading view */
