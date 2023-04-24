@@ -10,9 +10,10 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="index.css"/>
+                <script src = "readingView.js"></script>
                 <title>Reading View</title>
             </head>
-            <body>
+            <body id = "rv">
                 <h2>Songs</h2>
                 <div class = "row">
                     <div class = "sidenav">
@@ -24,45 +25,33 @@
                         <xsl:apply-templates select="$all-songs"/>
                     </div>
                 </div>
-                
-                <!-- code credit goes to W3Schools -->
-                <script>
-                    function myFunction(id) {
-                        var x = document.getElementById(id);
-                        if (x.style.display === "none") {
-                        x.style.display = "block";
-                        } else {
-                        x.style.display = "none";
-                        }
-                    }
-                </script>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="song" mode = "list">
-        <li onclick="myFunction('{title}')">
-            <a href="#"><xsl:value-of select="title"/></a>
+        <li id = "{translate(title, ' ', '')}">
+            <xsl:value-of select="title"/>
         </li>
     </xsl:template>
     
     <xsl:template match="song">
-        <section id = "{title}">
-            <h3 class = "rv"><xsl:value-of select="title"/></h3>
+        <section class = "song" id = "{translate(title, ' ', '')}">
+            <h3><xsl:value-of select="title"/></h3>
             <xsl:apply-templates select="child::*[position() &gt; 1]"/>
         </section>
         
     </xsl:template>
     
     <xsl:template match = "song/child::*[position() &gt; 1]">
-        <section id = "{name(.)}">
-            <h4 class = "rv"><xsl:value-of select="name(.)"/> (theme: <xsl:value-of select="@theme"/>)</h4>
+        <section>
+            <h4><xsl:value-of select="name(.)"/> (theme: <xsl:value-of select="@theme"/>)</h4>
             <xsl:apply-templates select="line"/>
         </section>
     </xsl:template>
     
     <xsl:template match="line">
-        <p class = "rv"><xsl:apply-templates/></p>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match = "style">

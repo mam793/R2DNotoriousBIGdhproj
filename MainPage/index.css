@@ -127,16 +127,37 @@ p {
   padding: 0px 10px;
 }
 
+/*  section.hide {
+    display: none
+}
 
-h3.rv {
+section.show {
+    display: block;
+}*/
+
+body#rv {
+    text-align: left;
+}
+
+body#rv li {
+    font-family: arial, black;
+    font-size: 30px;
+}
+
+body#rv h2 {
+    font-family: arial, black;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+body#rv h3 {
     font-family: didot;
     margin: 5px;
     font-size: 30px;
     color: #ba2828; 
-    background-color: black;
 }
 
-h4.rv {
+body#rv h4 {
     margin: 10px;
     font-family: didot;
     font-size: 25px;
@@ -144,9 +165,9 @@ h4.rv {
     line-height: 1;
 }
 
-p.rv {
+body#rv p {
     font-family: didot;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     line-height: 0.9;
 }
