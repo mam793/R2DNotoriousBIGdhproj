@@ -107,18 +107,10 @@ p {
     background-color: #696767;
     overflow-x: hidden; 
     padding-top: 20px;
-    font-size: 27px;
-  }
-  
-.row div.sidenav a {
-    padding: 0px 0px 0px 0px;
-    text-decoration: none;
-    font-size: 30px;
-    color: #ba2828;
-    display: block;
-}
+    font-size: 25px;
+ }
 
-.row div.sidenav a:hover {
+.row div.sidenav li:hover {
   color: white;
 }
 
@@ -148,6 +140,7 @@ body#rv h2 {
     font-family: arial, black;
     font-size: 40px;
     letter-spacing: 10px;
+    text-align: center;
 }
 
 body#rv h3 {
@@ -198,11 +191,11 @@ body#rv p {
   background-color: black;
 }
 
-#style{
+.style{
     color: #ba2828;
 }
 
-#theme{
+.theme{
     background-color: black;
 }
 

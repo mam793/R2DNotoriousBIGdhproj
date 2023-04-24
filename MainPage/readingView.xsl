@@ -10,7 +10,6 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="index.css"/>
-                <script src = "readingView.js"></script>
                 <title>Reading View</title>
             </head>
             <body id = "rv">
@@ -18,6 +17,7 @@
                 <div class = "row">
                     <div class = "sidenav">
                         <ol class = "song-list">
+                            <li><a href = "index.xhtml"></a></li>
                             <xsl:apply-templates select="$all-songs" mode = "list"/>
                         </ol>
                     </div>
@@ -30,7 +30,7 @@
     </xsl:template>
     
     <xsl:template match="song" mode = "list">
-        <li id = "{translate(title, ' ', '')}">
+        <li class = "{translate(title, ' ', '')}">
             <xsl:value-of select="title"/>
         </li>
     </xsl:template>
@@ -55,7 +55,7 @@
     </xsl:template>
     
     <xsl:template match = "style">
-        <span id = "style" class = "tooltip"><xsl:apply-templates/><span class = "display">style: <xsl:value-of select="@type"/></span></span>
+        <span class = "style tooltip"><xsl:apply-templates/><span class = "display">style: <xsl:value-of select="@type"/></span></span>
     </xsl:template>
     
     <xsl:template match = "adlib">
@@ -63,7 +63,7 @@
     </xsl:template>
     
     <xsl:template match = "line/child::*[not(self::adlib) and not(self::style)]">
-        <span id = "theme" class = "tooltip"><xsl:apply-templates/><span class = "display">theme: <xsl:value-of select="name(.)"/></span></span>
+        <span class = "theme tooltip"><xsl:apply-templates/><span class = "display">theme: <xsl:value-of select="name(.)"/></span></span>
     </xsl:template>
     
 </xsl:stylesheet>
