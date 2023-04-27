@@ -49,21 +49,21 @@
 
 
             <rect x="{0 + $xPos}" y="-{$sex * $yScale}" width="{$barWidth}" height="{$sex * $yScale}" fill="#ba2828"/>
-            <text x="{10 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Sex</text>
+            <text x="{10 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Sex</text>
             <rect x="{100 + $xPos} " y="-{$violence * $yScale}" width="{$barWidth}" height="{$violence * $yScale}" fill="#ba2828"/>
-            <text x="{110 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Violence</text>
+            <text x="{110 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Violence</text>
             <rect x="{200 + $xPos} " y="-{$drugs * $yScale}" width="{$barWidth}" height="{$drugs * $yScale}" fill="#ba2828"/>
-            <text x="{210 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Drugs</text>
+            <text x="{210 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Drugs</text>
             <rect x="{300 + $xPos} " y="-{$family * $yScale}" width="{$barWidth}" height="{$family * $yScale}" fill="#ba2828"/>
-            <text x="{310 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Family</text>
+            <text x="{310 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Family</text>
             <rect x="{400 + $xPos} " y="-{$reflection * $yScale}" width="{$barWidth}" height="{$reflection * $yScale}" fill="#ba2828"/>
-            <text x="{410 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Reflection</text>
+            <text x="{410 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Reflection</text>
             <rect x="{500 + $xPos} " y="-{$relationships * $yScale}" width="{$barWidth}" height="{$relationships * $yScale}" fill="#ba2828"/>
-            <text x="{510 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Relationships</text>
+            <text x="{510 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Relationships</text>
             <rect x="{600 + $xPos} " y="-{$money * $yScale}" width="{$barWidth}" height="{$money * $yScale}" fill="#ba2828"/>
-            <text x="{610 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Money</text>
+            <text x="{610 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Money</text>
             <rect x="{700 + $xPos} " y="-{$home * $yScale}" width="{$barWidth}" height="{$home * $yScale}" fill="#ba2828"/>
-            <text x="{710 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Home</text>
+            <text x="{710 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Home</text>
         </svg>
     </xsl:template>
 </xsl:stylesheet>

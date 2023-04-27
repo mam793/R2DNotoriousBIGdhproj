@@ -52,25 +52,25 @@
             
             
             <rect x="{$xPos}" y="-{$collo * $yScale}" width="{$barWidth}" height="{$collo * $yScale}" fill="#ba2828"/>
-            <text x="{10 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Allusion</text>
+            <text x="{10 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Allusion</text>
             <rect x="{100 + $xPos} " y="-{$repetition * $yScale}" width="{$barWidth}" height="{$repetition * $yScale}" fill="#ba2828"/>
-            <text x="{110 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Repetition</text>
+            <text x="{110 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Repetition</text>
             <rect x="{200 + $xPos} " y="-{$collo * $yScale}" width="{$barWidth}" height="{$collo * $yScale}" fill="#ba2828"/>
-            <text x="{210 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Colloquialism</text>
+            <text x="{210 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Colloquialism</text>
             <rect x="{300 + $xPos} " y="-{$metaphor * $yScale}" width="{$barWidth}" height="{$metaphor * $yScale}" fill="#ba2828"/>
-            <text x="{310 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Metaphor</text>
+            <text x="{310 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Metaphor</text>
             <rect x="{400 + $xPos} " y="-{$similie * $yScale}" width="{$barWidth}" height="{$similie * $yScale}" fill="#ba2828"/>
-            <text x="{410 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Similie</text>
+            <text x="{410 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Similie</text>
             <rect x="{500 + $xPos} " y="-{$hyperbole * $yScale}" width="{$barWidth}" height="{$hyperbole * $yScale}" fill="#ba2828"/>
-            <text x="{510 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Hyperbole</text>
+            <text x="{510 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14">Hyperbole</text>
             <rect x="{600 + $xPos} " y="-{$imagery * $yScale}" width="{$barWidth}" height="{$imagery * $yScale}" fill="#ba2828"/>
-            <text x="{610 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Imagery</text>
+            <text x="{610 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14">Imagery</text>
             <rect x="{700 + $xPos} " y="-{$doubleEntendre * $yScale}" width="{$barWidth}" height="{$doubleEntendre * $yScale}" fill="#ba2828"/>
-            <text x="{710 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Double-Entendre</text>
+            <text x="{710 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14">Double-Entendre</text>
             <rect x="{800 + $xPos} " y="-{$dialogue * $yScale}" width="{$barWidth}" height="{$dialogue * $yScale}" fill="#ba2828"/>
-            <text x="{810 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Dialogue</text>
+            <text x="{810 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Dialogue</text>
             <rect x="{900 + $xPos} " y="-{$onomatopoeia * $yScale}" width="{$barWidth}" height="{$onomatopoeia * $yScale}" fill = "#ba2828"/>
-            <text x="{910 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial">Onomatopoeia</text>/>
+            <text x="{910 + $xPos}" y="14" fill="white" text-anchor = "middle" font-family = "arial" font-size = "14px">Onomatopoeia</text>/>
         </svg>
     </xsl:template>
 </xsl:stylesheet>
