@@ -13,7 +13,7 @@
     <xsl:template name="xsl:initial-template">
         <!-- setting global variables -->
         <svg viewBox="-50 -250 1050 350" width="100%">
-            <rect x = "-150" y = "-350" width = "1200" height = "450" fill="#3e3d3e" />
+            <rect x = "-150" y = "-350" width = "1200" height = "500" fill="#3e3d3e" />
             <!-- Setting the background -->
             <line x1="0" x2="0" y1="0" y2="-{70 * $yScale}" stroke="white" stroke-linecap="square"/>
             <line x1="0" x2="1050" y1="0" y2="0" stroke="white" stroke-linecap="square"/>

@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="-50 -250 1050 350"
      width="100%">
-   <rect x="-150" y="-350" width="1200" height="450" fill="#3e3d3e"/>
+   <rect x="-150" y="-350" width="1200" height="500" fill="#3e3d3e"/>
    <line x1="0"
          x2="0"
          y1="0"
@@ -151,5 +151,5 @@
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="14px">Onomatopoeia</text>/&gt;
+         font-size="14px">Onomatopoeia</text>
         </svg>
