@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="-1050 -350 1150 450"
+     viewBox="-100 -300 1100 400"
      width="100%">
    <rect x="-100" y="-300" width="1200" height="400" fill="#3e3d3e"/>
    <line x1="0"
@@ -30,7 +30,7 @@
    <line x1="0"
          x2="0"
          y1="0"
-         y2="-480"
+         y2="-240"
          stroke="white"
          stroke-linecap="square"/>
    <line x1="0"
@@ -89,49 +89,49 @@
          stroke-dasharray="8 4"
          stroke="gray"/>
    <text x="-20" y="-240" fill="white" font-family="arial">80</text>
-   <rect x="20" y="-352" width="20" height="352" fill="#ba2828"/>
+   <rect x="20" y="-176" width="20" height="176" fill="#ba2828"/>
    <text x="30"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Sex</text>
-   <rect x="120 " y="-312" width="20" height="312" fill="#ba2828"/>
+   <rect x="120 " y="-156" width="20" height="156" fill="#ba2828"/>
    <text x="130"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Violence</text>
-   <rect x="220 " y="-320" width="20" height="320" fill="#ba2828"/>
+   <rect x="220 " y="-160" width="20" height="160" fill="#ba2828"/>
    <text x="230"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Drugs</text>
-   <rect x="320 " y="-120" width="20" height="120" fill="#ba2828"/>
+   <rect x="320 " y="-60" width="20" height="60" fill="#ba2828"/>
    <text x="330"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Family</text>
-   <rect x="420 " y="-120" width="20" height="120" fill="#ba2828"/>
+   <rect x="420 " y="-60" width="20" height="60" fill="#ba2828"/>
    <text x="430"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Reflection</text>
-   <rect x="520 " y="-216" width="20" height="216" fill="#ba2828"/>
+   <rect x="520 " y="-108" width="20" height="108" fill="#ba2828"/>
    <text x="530"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Relationships</text>
-   <rect x="620 " y="-280" width="20" height="280" fill="#ba2828"/>
+   <rect x="620 " y="-140" width="20" height="140" fill="#ba2828"/>
    <text x="630"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial">Money</text>
-   <rect x="720 " y="-56" width="20" height="56" fill="#ba2828"/>
+   <rect x="720 " y="-28" width="20" height="28" fill="#ba2828"/>
    <text x="730"
          y="14"
          fill="white"
