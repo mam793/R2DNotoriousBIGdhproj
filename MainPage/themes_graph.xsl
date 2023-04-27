@@ -6,12 +6,12 @@
     <xsl:variable name="all-songs" as="element()+"
         select="collection('../songs/?recurse=yes;select=*.xml')//song"/>
     <xsl:variable name="barWidth" as="xs:integer" select="20"/>
-    <xsl:variable name = "yScale" as="xs:integer" select = "4"/>
+    <xsl:variable name = "yScale" as="xs:integer" select = "8"/>
     <xsl:variable name="xPos" as="xs:integer" select = "20"/>
     <xsl:variable name = "yPos" as = "xs:integer" select = "-30"/>
     <xsl:template name="xsl:initial-template">
      <!-- setting global variables -->
-        <svg viewBox="-100 -300 1100 400" width="100%">
+        <svg viewBox="-1050 -350 1150 450" width="100%">
         <rect x = "-100" y = "-300" width = "1200" height = "400" fill="#3e3d3e" />
         <!-- Setting the background -->
             <line x1="0" x2="750" y1="0" y2="0" stroke="white" stroke-linecap="square"/>

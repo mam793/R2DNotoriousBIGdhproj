@@ -7,19 +7,19 @@
         select="collection('../songs/?recurse=yes;select=*.xml')//song"/>
     <xsl:variable name="barWidth" as="xs:integer" select="20"/>
     <xsl:variable name = "yScale" as="xs:integer" select = "4"/>
-    <xsl:variable name="xPos" as="xs:integer" select = "20"/>
+    <xsl:variable name="xPos" as="xs:integer" select = "35"/>
     <xsl:variable name = "yPos" as = "xs:integer" select = "-40"/>
     <xsl:variable name="barHeight" as = "xs:integer" select = "40"/>
     <xsl:template name="xsl:initial-template">
         <!-- setting global variables -->
-        <svg viewBox="-100 -300 1100 400" width="100%">
-            <rect x = "-100" y = "-300" width = "1200" height = "400" fill="#3e3d3e" />
+        <svg viewBox="-50 -250 1050 350" width="100%">
+            <rect x = "-150" y = "-350" width = "1200" height = "450" fill="#3e3d3e" />
             <!-- Setting the background -->
             <line x1="0" x2="0" y1="0" y2="-{70 * $yScale}" stroke="white" stroke-linecap="square"/>
             <line x1="0" x2="1050" y1="0" y2="0" stroke="white" stroke-linecap="square"/>
-            <text x="375" y="60" fill = "white" font-size = "18px" font-family="arial">Themes</text>
-            <text x="375" y="-350" fill = "white" font-size = "18px" font-family="arial" text-anchor = "middle">Occurences of Themes in "Ready to Die"</text>
-            <text x="-60" y="-120" text-anchor="middle" writing-mode="tb"
+            <text x="375" y="60" fill = "white" font-size = "18px" font-family="arial">Stylistic Techniques</text>
+            <text x="455" y="-300" fill = "white" font-size = "18px" font-family="arial" text-anchor = "middle" >Occurences of Stylistic Technqiues in "Ready to Die"</text>
+            <text x="-40" y="-120" text-anchor="middle" writing-mode="tb"
                 font-size="18px" font-family = "arial" fill = "white"># of Times Present in the Album</text>
             <line x1 = "0" x2 = "1050" y1 = "{$yPos}" y2 = "{$yPos}" stroke-dasharray="8 4" stroke = "gray"/>
             <line x1 = "0" x2 = "1050" y1 = "{2 * $yPos}" y2 = "{2 * $yPos}" stroke-dasharray="8 4" stroke = "gray"/>
