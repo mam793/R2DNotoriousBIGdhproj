@@ -2,20 +2,21 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="-150 -350 1250 500"
      width="100%">
-   <rect x="-150" y="-350" width="1200" height="400" fill="#3e3d3e"/>
+   <rect x="-150" y="-320" width="1250" height="410" fill="#3e3d3e"/>
    <line x1="0"
          x2="1050"
          y1="0"
          y2="0"
          stroke="white"
          stroke-linecap="square"/>
-   <text x="375"
+   <text x="520"
          y="60"
          fill="white"
          font-size="18px"
-         font-family="arial">Themes</text>
-   <text x="375"
-         y="-250"
+         font-family="arial"
+         text-anchor="middle">Themes</text>
+   <text x="520"
+         y="-270"
          fill="white"
          font-size="18px"
          font-family="arial"
@@ -30,7 +31,7 @@
    <line x1="0"
          x2="0"
          y1="0"
-         y2="-280"
+         y2="-240"
          stroke="white"
          stroke-linecap="square"/>
    <line x1="0"
@@ -89,60 +90,68 @@
          stroke-dasharray="8 4"
          stroke="gray"/>
    <text x="-20" y="-240" fill="white" font-family="arial">80</text>
-   <rect x="35" y="-176" width="20" height="176" fill="#ba2828"/>
-   <text x="45"
+   <rect x="30" y="-176" width="20" height="176" fill="#ba2828"/>
+   <text x="40"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Sex</text>
-   <rect x="135 " y="-156" width="20" height="156" fill="#ba2828"/>
-   <text x="155"
+         font-size="16px"
+         font-weight="bold">Sex</text>
+   <rect x="160 " y="-156" width="20" height="156" fill="#ba2828"/>
+   <text x="170"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Violence</text>
-   <rect x="235 " y="-160" width="20" height="160" fill="#ba2828"/>
-   <text x="265"
+         font-size="16px"
+         font-weight="bold">Violence</text>
+   <rect x="290 " y="-160" width="20" height="160" fill="#ba2828"/>
+   <text x="300"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Drugs</text>
-   <rect x="335 " y="-60" width="20" height="60" fill="#ba2828"/>
-   <text x="375"
+         font-size="16px"
+         font-weight="bold">Drugs</text>
+   <rect x="420 " y="-60" width="20" height="60" fill="#ba2828"/>
+   <text x="430"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Family</text>
-   <rect x="435 " y="-60" width="20" height="60" fill="#ba2828"/>
-   <text x="485"
+         font-size="16px"
+         font-weight="bold">Family</text>
+   <rect x="550 " y="-60" width="20" height="60" fill="#ba2828"/>
+   <text x="560"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Reflection</text>
-   <rect x="535 " y="-108" width="20" height="108" fill="#ba2828"/>
-   <text x="595"
+         font-size="16px"
+         font-weight="bold">Reflection</text>
+   <rect x="680 " y="-108" width="20" height="108" fill="#ba2828"/>
+   <text x="690"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Relationships</text>
-   <rect x="635 " y="-140" width="20" height="140" fill="#ba2828"/>
-   <text x="705"
+         font-size="16px"
+         font-weight="bold">Relationships</text>
+   <rect x="810 " y="-140" width="20" height="140" fill="#ba2828"/>
+   <text x="820"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Money</text>
-   <rect x="735 " y="-28" width="20" height="28" fill="#ba2828"/>
-   <text x="815"
+         font-size="16px"
+         font-weight="bold">Money</text>
+   <rect x="940 " y="-28" width="20" height="28" fill="#ba2828"/>
+   <text x="950"
          y="14"
          fill="white"
          text-anchor="middle"
          font-family="arial"
-         font-size="10px">Home</text>
+         font-size="16px"
+         font-weight="bold">Home</text>
 </svg>
